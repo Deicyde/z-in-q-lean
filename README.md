@@ -1,6 +1,6 @@
 # A Diophantine definition of the integers in the rationals
 
-Which rational numbers can occur as the first coordinate of a rational zero of an integer polynomial? Glazer’s proposed definition seeks one polynomial whose rational image is exactly $\mathbb Z$. This repository contains Lean sources for the argument, a mathematical blueprint, and a dashboard of the deductions and hypotheses.
+Which rational numbers can occur as the first coordinate of a rational zero of an integer polynomial? Glazer’s proposed definition seeks one polynomial whose rational image is exactly $`\mathbb Z`$. This repository contains Lean sources for the argument, a mathematical blueprint, and a dashboard of the deductions and hypotheses.
 
 **The main theorem available here is conditional.** One Lake project proves the bounded assertion from four named hypotheses. These include a uniform genus-two height bound and arithmetic statements about congruent-number elliptic curves. The conclusion covers *every* rational input and includes the bounds on the variables, degree and coefficients. [Buildable theorem](bounded/BoundedFromGenus.lean#L42) · [Four hypotheses](bounded/README.md) · [Mathematical blueprint](docs/theorem-blueprint.md)
 
@@ -64,8 +64,8 @@ Arrows join a mathematical input to a result that uses it. The bounded theorem h
 | Topic | What the repository proves | Remaining mathematical obligation |
 | --- | --- | --- |
 | Genus-two family | Computes the five weighted Igusa coordinates of a signed sextic. | Identify the polarized Jacobian and the marked endomorphism at the same moduli point. [Invariants](Lean/Lemmas/six-raw-jacobian/igusa/algebraic-class/SixPolarizedIgusa.lean) |
-| Heights and reduction | Derives $h(j)<30h_F+150$ from the local discriminant and global height hypotheses. | Match the stable height and reduction data required by both the formula and the effective bound. [Exact inequality](Lean/Topics/marked-moduli/quaternion-marking/theta-class/minimal-discriminant/GlobalHeight.lean#L35) |
-| Rank of elliptic twists | Reduces the required positive rank to a parity criterion and the simple-zero implication. | Instantiate the literature statements for the specified twists and their normalized $L$-functions. [Buildable rank argument](bounded/README.md) |
+| Heights and reduction | Derives $`h(j)\lt 30h_F+150`$ from the local discriminant and global height hypotheses. | Match the stable height and reduction data required by both the formula and the effective bound. [Exact inequality](Lean/Topics/marked-moduli/quaternion-marking/theta-class/minimal-discriminant/GlobalHeight.lean#L35) |
+| Rank of elliptic twists | Reduces the required positive rank to a parity criterion and the simple-zero implication. | Instantiate the literature statements for the specified twists and their normalized $`L`$-functions. [Buildable rank argument](bounded/README.md) |
 | Fewer variables | Encodes finite systems of monic equations by one additional rational witness. This yields the 85-variable projection comparison for the 222-coordinate family with its written source identifications. | Formalize those identifications and supply the family’s separate arithmetic assertion to obtain an integer definition. [Counts and proof](docs/variable-bound.md) |
 | Sun’s first version | Gives a conditional equivalence for a fixed polynomial with 28 witnesses, or 29 total variables. | Prove the remaining height, simultaneous-prime and simultaneous-point statements. [The two implications](docs/sun-28.md) |
 

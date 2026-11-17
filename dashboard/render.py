@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 import re
 from urllib.parse import unquote
+from math_markdown import protect
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -163,6 +164,8 @@ def main(write):
     verify_links(output)
     for p, value in output.items():
         value = value.rstrip() + "\n"
+        if p.suffix == ".md" and protect(value)[0] != value:
+            raise ValueError(f"Unprotected TeX in {p.relative_to(ROOT)}")
         if write:
             p.parent.mkdir(parents=True, exist_ok=True)
             p.write_text(value)
