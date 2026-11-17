@@ -1,11 +1,13 @@
 """Rebuild the proof dashboard from its mathematical statements and dependencies."""
 import argparse
-from collections import Counter
+from collections import Counter, defaultdict
+from graphlib import CycleError, TopologicalSorter
 from html import escape
 import json
 from pathlib import Path
 import re
 from urllib.parse import unquote
+from lean_source import project_sources, unique_locations
 from math_markdown import protect
 
 HERE = Path(__file__).resolve().parent
@@ -21,7 +23,7 @@ NODES = {
     "signed-shimura-representative": ("marked", "Marked Jacobian"),
     "signed-printed-field": ("field", "Field of the marked action"),
     "signed-global-stable-height": ("formula", "Global stable-height formula"),
-    "signed-period-formula": ("height", "Six-contact height bound"),
+    "signed-period-formula": ("height", "Height bound from the global formula"),
     "rational-jacobian-conductor": ("local", "Local reduction"),
     "two-printed-rank-results": ("rank", "Selected elliptic twists"),
     "signed-jacobian-original-endpoint": ("target", "Bounded polynomial theorem"),
@@ -93,33 +95,77 @@ def section(s, key, body):
 
 
 def verify_links(files):
+    anchors = {}
+    lengths = {}
     for path, data in files.items():
         if path.suffix != ".md":
             continue
         for link in re.findall(r"\]\(([^)\n]+)\)", data):
-            rel = unquote(link.split("#")[0].split("?")[0])
-            if not rel or "://" in rel or rel.startswith("mailto:"):
+            address, _, fragment = link.partition("#")
+            rel = unquote(address.split("?")[0])
+            fragment = unquote(fragment)
+            if "://" in rel or rel.startswith("mailto:"):
                 continue
-            target = (path.parent / rel).resolve()
+            target = (path.parent / rel).resolve() if rel else path
             if not target.is_relative_to(ROOT) or (target not in files and not target.exists()):
                 raise ValueError(f"{path.relative_to(ROOT)} links to a missing file: {link}")
+            if not fragment:
+                continue
+            if target.suffix == ".lean":
+                if target not in lengths:
+                    lengths[target] = len(target.read_text().splitlines())
+                match = re.fullmatch(r"L([1-9]\d*)(?:-L([1-9]\d*))?", fragment)
+                if not match or not (int(match[1]) <= int(match[2] or match[1]) <= lengths[target]):
+                    raise ValueError(f"{path.relative_to(ROOT)} links to a missing Lean line: {link}")
+            elif target.suffix == ".md":
+                if target not in anchors:
+                    text = files[target] if target in files else target.read_text()
+                    ids = set(re.findall(r'<a\s+(?:id|name)="([^"]+)"', text))
+                    used = defaultdict(int)
+                    for heading in re.findall(r"^#{1,6}\s+(.+)$", text, re.M):
+                        slug = re.sub(r"[^\w -]", "", heading.lower()).replace(" ", "-")
+                        ids.add(slug if not used[slug] else f"{slug}-{used[slug]}")
+                        used[slug] += 1
+                    anchors[target] = ids
+                if fragment not in anchors[target]:
+                    raise ValueError(f"{path.relative_to(ROOT)} links to a missing heading: {link}")
+
+
+def validate_packages(data):
+    rows = data["packages"]
+    by_id = {r["id"]: r for r in rows}
+    chapters, routes = data["chapters"], data["routes"]
+    if len(by_id) != len(rows) or len(set(chapters)) != len(chapters) or len(set(routes)) != len(routes):
+        raise ValueError("Duplicate package, chapter or construction")
+    for r in rows:
+        if (r["state"] not in STATES or r["chapter"] not in chapters or not r["routes"]
+                or set(r["routes"]) - set(routes) or set(r["needs"]) - by_id.keys()
+                or len(set(r["needs"])) != len(r["needs"]) or len(set(r["routes"])) != len(r["routes"])):
+            raise ValueError("Invalid package " + r["id"])
+    try:
+        tuple(TopologicalSorter({r["id"]: r["needs"] for r in rows}).static_order())
+    except CycleError as exc:
+        raise ValueError("Circular proof dependency: " + " → ".join(exc.args[1])) from exc
+    return by_id
+
+
+def validate_locations(data, root):
+    wanted = {h for row in data["packages"] for h in row["headers"]}
+    # Installed Lake dependencies are outside the edition, even after a local build.
+    sources = project_sources(root)
+    expected = unique_locations(((p.relative_to(root).as_posix(), p.read_text()) for p in sources), wanted)
+    actual = data["declarations"]
+    if actual != expected:
+        different = sorted(k for k in actual.keys() | expected.keys() if actual.get(k) != expected.get(k))
+        raise ValueError("A declaration is missing, ambiguous or linked to the wrong definition: " + different[0])
 
 
 def main(write):
     data = json.loads((HERE / "packages.json").read_bytes())
     rows, links = data["packages"], data["declarations"]
-    by_id = {r["id"]: r for r in rows}
+    by_id = validate_packages(data)
+    validate_locations(data, ROOT)
     groups = {name: [r for r in rows if r["chapter"] == name] for name in data["chapters"]}
-    if len(by_id) != len(rows) or sum(map(len, groups.values())) != len(rows):
-        raise ValueError("Invalid package identifiers or chapter membership")
-    for r in rows:
-        if r["state"] not in STATES or set(r["needs"]) - by_id.keys() or set(r["routes"]) - set(data["routes"]):
-            raise ValueError("Invalid package " + r["id"])
-    for name, loc in links.items():
-        base, n = loc.rsplit("#L", 1)
-        p = ROOT / base
-        if not p.is_file() or name.split(".")[-1] not in p.read_text().splitlines()[int(n)-1]:
-            raise ValueError("Invalid declaration link for " + name)
     c = tally(rows)
     summary = (f"**{c['kernel']}/{len(rows)} packages have a locally kernel-checked deduction.** "
                f"{c['public']} are classified from pinned upstream proofs, {c['typed']} have only a formal header, "
@@ -132,7 +178,7 @@ def main(write):
                 ("Header only", "Lean expresses the proposed statement with its hypotheses and conclusion. Its proof remains to be supplied."),
                 ("Open application", "A proof still needs an identification or a specialization to the objects of the construction."),
                 ("Needs a header", "The mathematical task has been identified and still needs a Lean statement.")]
-    deck = ["# Proof dashboard", "", summary, "", "[Search the interactive explorer](index.html?raw=1) · [Mathematical blueprint](../docs/theorem-blueprint.md)", "",
+    deck = ["# Proof dashboard", "", summary, "", "[Download the interactive explorer](index.html?raw=1) · [Mathematical blueprint](../docs/theorem-blueprint.md)", "",
             "## Completion by chapter", "", table(groups, ""), "", "## Reading the states", ""]
     for label, definition in meanings:
         deck.append(f"- **{label}.** {definition}")

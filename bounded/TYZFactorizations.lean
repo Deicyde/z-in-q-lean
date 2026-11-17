@@ -11,8 +11,9 @@ namespace ZInQBlueprint.TYZ
 
 abbrev PrimePartition (d : ℕ) := Finpartition (univ : Finset d.primeFactors)
 
-/-- All unordered factorizations into integers greater than one.  The empty
-factorization is admitted precisely for the integer one. -/
+/-- Unordered factorizations into distinct integers greater than one. For a
+squarefree product this includes every unordered factorization. The empty
+factorization represents one. -/
 def factorizations (d : ℕ) : Finset (Finset ℕ) :=
   d.divisors.powerset.filter fun F => (∀ a ∈ F, 1 < a) ∧ ∏ a ∈ F, a = d
 

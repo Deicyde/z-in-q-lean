@@ -38,7 +38,7 @@ def inline(line, expressions):
                 raise ValueError("Invalid inline equation: " + line.rstrip()[:120])
             # GitHub HTML-escapes a literal comparison sign twice inside an inline
             # code span. Use the equivalent TeX relation before protecting the span.
-            tex = tex.replace("<", r"\lt ").replace(">", r"\gt ")
+            tex = re.sub(r"([<>])[ \t]*", lambda m: r"\lt " if m[1] == "<" else r"\gt ", tex)
             expressions.append(("inline", tex))
             result.append("$`" + tex + "`$")
             i = end + len(close)
@@ -67,6 +67,8 @@ def protect(source):
                     out.append(line)
                 state, display = "prose", []
             elif state in ("math", "dollars"):
+                if line.rstrip().endswith(r"\\"):
+                    line = line.rstrip() + "[0pt]\n"
                 display.append(line)
             else:
                 out.append(line)
@@ -125,7 +127,8 @@ def verify(source, html=None):
     if html:
         actual = Rendered()
         actual.feed(html.read_text())
-        if equations != actual.equations:
+        actual.close()
+        if actual.buffer is not None or equations != actual.equations:
             raise ValueError(f"GitHub changed a TeX expression in {source.name}")
     return len(equations)
 

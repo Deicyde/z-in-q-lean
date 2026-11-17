@@ -229,8 +229,8 @@ def Tian47 (Lcal : ℕ → ℤ) (rho : ℕ → ℕ) : Prop :=
   ∀ d : ℕ, d % 8 = 5 → Squarefree d → (Odd (rowSum d FirstRow) ∨ Odd (rowSum d TianSecond)) →
     ∃ k : ℤ, (Lcal d : ℚ) / (2 : ℚ) ^ rho d = 2 * (k : ℚ) + 1
 
-/-- The genus criterion is a consequence of one explicitly stated published
-theorem. Its lower-order values and index exponent are existential data. -/
+/-- The consequence of Tian's Theorem 4.7 needed here. Only the higher-order
+branch is fixed. The lower-order values and index exponent are existential data. -/
 def PublishedTian47 : Prop :=
   ∃ (lower : ℕ → ℤ) (rho : ℕ → ℕ), Tian47 (normalized lower) rho
 

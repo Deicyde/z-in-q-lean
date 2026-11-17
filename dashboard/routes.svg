@@ -6,12 +6,12 @@
 <text x="20" y="32" font-size="20" font-weight="700">Formalization by construction</text>
 <text x="858" y="31" text-anchor="end" font-size="13">Kernel checked / packages</text>
 <text x="20" y="67" font-size="14">Bounded existence</text>
-<rect x="217.00" y="54" width="445.36" height="15" fill="#15786d"><title>Kernel checked · 149</title></rect>
-<rect x="662.36" y="54" width="29.89" height="15" fill="#4e70a9"><title>Upstream proof · 10</title></rect>
-<rect x="692.25" y="54" width="32.88" height="15" fill="#dda946"><title>Header only · 11</title></rect>
-<rect x="725.13" y="54" width="32.88" height="15" fill="#bd7152"><title>Open application · 11</title></rect>
-<rect x="758.01" y="54" width="2.99" height="15" fill="#8e9caa"><title>Needs a header · 1</title></rect>
-<text x="858" y="67" text-anchor="end" font-size="15" font-weight="650">149 / 182</text>
+<rect x="217.00" y="54" width="447.67" height="15" fill="#15786d"><title>Kernel checked · 158</title></rect>
+<rect x="664.67" y="54" width="28.33" height="15" fill="#4e70a9"><title>Upstream proof · 10</title></rect>
+<rect x="693.00" y="54" width="31.17" height="15" fill="#dda946"><title>Header only · 11</title></rect>
+<rect x="724.17" y="54" width="34.00" height="15" fill="#bd7152"><title>Open application · 12</title></rect>
+<rect x="758.17" y="54" width="2.83" height="15" fill="#8e9caa"><title>Needs a header · 1</title></rect>
+<text x="858" y="67" text-anchor="end" font-size="15" font-weight="650">158 / 192</text>
 <text x="20" y="102" font-size="14">Fixed construction</text>
 <rect x="217.00" y="89" width="430.47" height="15" fill="#15786d"><title>Kernel checked · 91</title></rect>
 <rect x="647.47" y="89" width="4.73" height="15" fill="#4e70a9"><title>Upstream proof · 1</title></rect>

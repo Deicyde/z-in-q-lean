@@ -12423,13 +12423,13 @@
     },
     {
       "id": "signed-rational-cm-exclusion",
-      "title": "Exclusion of every rational CM parameter",
+      "title": "Exclusion of the 27 tabulated CM values",
       "chapter": "Six-contact height",
       "routes": [
         "Bounded existence"
       ],
       "state": "kernel",
-      "claim": "The off-contact rational parameter satisfies 0<t<1, with t/3 and 1−t rational squares. None of the 27 entries in Errthum’s rational CM table satisfies these conditions.",
+      "claim": "At every rational parameter outside the six contacts, both t/3 and 1−t are rational squares and 0<t<1. None of the 27 tabulated coordinates satisfies these tests. Applying this finite exclusion to a geometric CM point requires the coordinate comparison and the completeness of the rational CM table.",
       "needs": [
         "signed-polarized-comparison"
       ],
@@ -12850,6 +12850,234 @@
         "ZInQBlueprint.ShimuraAtlas.OrdinaryQMPoint.rosatiPresentation",
         "ZInQBlueprint.ShimuraAtlas.rationalForgetful_iff_locus",
         "ZInQBlueprint.ShimuraAtlas.rationalRosati_of_locus"
+      ]
+    },
+    {
+      "id": "ordinary-mestre-domain",
+      "title": "The Mestre conic on the represented rational locus",
+      "chapter": "Six-contact height",
+      "routes": [
+        "Bounded existence"
+      ],
+      "state": "kernel",
+      "claim": "The conic splits at every signed parameter outside the contacts. At the rational slope giving j = −4/7 the conic has no rational point. The published necessity of conic splitting would therefore exclude this slope from the represented rational locus.",
+      "needs": [
+        "signed-modular-jacobian"
+      ],
+      "headers": [
+        "ZInQBlueprint.ShimuraAtlas.classifier_change_unrealized",
+        "ZInQBlueprint.ShimuraAtlas.mestre_nonsplit_at_unit_slope",
+        "ZInQBlueprint.ShimuraAtlas.six_contact_mestre_split",
+        "ZInQBlueprint.ShimuraAtlas.unit_slope_coordinate",
+        "ZInQBlueprint.ShimuraAtlas.unit_slope_unrealized",
+        "ZInQBlueprint.MinimalDiscriminant.original_of_marked_igusa",
+        "ZInQBlueprint.ShimuraAtlas.actions_of_marked_igusa",
+        "ZInQBlueprint.ShimuraAtlas.printedField_of_marked_igusa",
+        "ZInQBlueprint.ShimuraAtlas.signed_realizes"
+      ]
+    },
+    {
+      "id": "ordinary-cm-center-fields",
+      "title": "Two elliptic quotients and their CM fields",
+      "chapter": "Six-contact height",
+      "routes": [
+        "Bounded existence"
+      ],
+      "state": "kernel",
+      "claim": "The explicit quotient maps and the rational square tests distinguish the rows of discriminants −19 and −24 once their CM centers are identified. The rational normalization argument gives the lift on a finite birational model of the smooth coordinate chart.",
+      "needs": [],
+      "headers": [
+        "ZInQBlueprint.CMRepair.no_reciprocal_row",
+        "ZInQBlueprint.CMRepair.normalized_of_rational_cm",
+        "ZInQBlueprint.CMRepair.row_of_cm19_center",
+        "ZInQBlueprint.CMRepair.row_of_cm24_center",
+        "ZInQBlueprint.CMRepair.squareclass_of_negative_root",
+        "ZInQBlueprint.CMRepair.two_center_tables",
+        "ZInQBlueprint.CMRepair.independent_coefficients",
+        "ZInQBlueprint.CMRepair.quotient_coordinates",
+        "ZInQBlueprint.CMRepair.quotient_covers_injective",
+        "ZInQBlueprint.CMRepair.quotient_differentials",
+        "ZInQBlueprint.CMRepair.cubic_change",
+        "ZInQBlueprint.CMRepair.four_elliptic_quotients",
+        "ZInQBlueprint.CMRepair.quartic_reciprocal",
+        "ZInQBlueprint.CMRepair.coordinate_at_rational_unit",
+        "ZInQBlueprint.CMRepair.normalization_bijective",
+        "ZInQBlueprint.CMRepair.openRing_normal",
+        "ZInQBlueprint.CMRepair.rational_point_of_normalization",
+        "ZInQBlueprint.CMRepair.rational_scheme_lift"
+      ]
+    },
+    {
+      "id": "geometric-cm-table",
+      "title": "Interpret the CM table on the arithmetic moduli curve",
+      "chapter": "Six-contact height",
+      "routes": [
+        "Bounded existence"
+      ],
+      "state": "binding",
+      "claim": "Identify the CM point of the actual marked Jacobian with a row of the complete rational table in the same arithmetic coordinate. The numerical exclusion and the comparison of the two distinguished center fields are formalized.",
+      "needs": [
+        "ordinary-cm-center-fields",
+        "signed-cm-normalization",
+        "signed-rational-cm-exclusion"
+      ],
+      "headers": [
+        "ZInQBlueprint.CMRepair.normalized_of_rational_cm"
+      ]
+    },
+    {
+      "id": "signed-quaternion-torus",
+      "title": "Quaternion action on the torus after semistable reduction",
+      "chapter": "Six-contact height",
+      "routes": [
+        "Bounded existence"
+      ],
+      "state": "kernel",
+      "claim": "A nonzero rational representation of the specified quaternion order has dimension at least four. A torus in the reduction of an abelian surface has rank at most two. Given the general semistable torus action on its character space, the signed order action therefore implies potential good reduction.",
+      "needs": [],
+      "headers": [
+        "ZInQBlueprint.TorsionHeight.potential_of_semistable_torus_action",
+        "ZInQBlueprint.LevelThree.IntegralOrder.rational_quaternion_inclusion",
+        "ZInQBlueprint.LevelThree.IntegralOrder.isUnit_of_quaternion_ne_zero",
+        "ZInQBlueprint.LevelThree.IntegralOrder.quaternion_order_representation_dimension",
+        "ZInQBlueprint.LevelThree.IntegralOrder.reducedNorm_zero_iff"
+      ]
+    },
+    {
+      "id": "ordinary-weierstrass-action",
+      "title": "The Weierstrass change of coordinates on the complete signed curve",
+      "chapter": "Six-contact height",
+      "routes": [
+        "Bounded existence"
+      ],
+      "state": "kernel",
+      "claim": "The general change of coordinates on the finite hyperelliptic chart, together with the stabilizer calculation, determines the action on all geometric points of the signed curve, including the points at infinity.",
+      "needs": [
+        "signed-modular-jacobian"
+      ],
+      "headers": [
+        "ZInQBlueprint.CMRepair.curveCoordinateLifts_of_voight",
+        "ZInQBlueprint.CMRepair.original_of_ordinary_marking_and_voight",
+        "ZInQBlueprint.WeierstrassCoordinates.signedCoefficients_eval",
+        "ZInQBlueprint.WeierstrassCoordinates.signedReader_eq",
+        "ZInQBlueprint.WeierstrassCoordinates.signed_pullback_action",
+        "ZInQBlueprint.WeierstrassCoordinates.signed_reglued_action",
+        "ZInQBlueprint.WeierstrassCoordinates.finiteAction_of_iso"
+      ]
+    },
+    {
+      "id": "signed-abel-marking-descent",
+      "title": "Descent of an endomorphism from a rational Abel marking",
+      "chapter": "Six-contact height",
+      "routes": [
+        "Bounded existence"
+      ],
+      "state": "kernel",
+      "claim": "A compatible marked Abel map up to translation and a lifted action on the complete curve give the required endomorphism on the same signed Jacobian. The descent proof keeps the chosen determinant line throughout.",
+      "needs": [
+        "ordinary-weierstrass-action",
+        "ordinary-mestre-domain"
+      ],
+      "headers": [
+        "ZInQBlueprint.CMRepair.actions_of_rational_abel_marking",
+        "ZInQBlueprint.CMRepair.differences_of_abel_translate",
+        "ZInQBlueprint.CMRepair.abel_image_pullbacks",
+        "ZInQBlueprint.CMRepair.abel_marking_to_labelled",
+        "ZInQBlueprint.CMRepair.signed_labelled_of_abel_marking",
+        "ZInQBlueprint.CMRepair.original_of_ordinary_rational_curve_marking",
+        "ZInQBlueprint.CMRepair.signed_actions_of_ordinary_curve_marking",
+        "ZInQBlueprint.CMRepair.signed_height_of_quaternion_order"
+      ]
+    },
+    {
+      "id": "signed-polarized-torelli",
+      "title": "The two signs in Torelli and the signed Jacobian",
+      "chapter": "Six-contact height",
+      "routes": [
+        "Bounded existence"
+      ],
+      "state": "kernel",
+      "claim": "The hyperelliptic involution absorbs the negative sign on differences of Abel images. General determinant-form Torelli and the coordinate formula imply that a polarized automorphism of the complete signed Jacobian is 1 or −1. The geometric polynomial implication requires a marked representative only for ordinary represented parameters.",
+      "needs": [
+        "signed-abel-marking-descent",
+        "ordinary-weierstrass-action",
+        "ordinary-mestre-domain"
+      ],
+      "headers": [
+        "ZInQBlueprint.AbelComparison.differences_of_either_sign",
+        "ZInQBlueprint.AbelComparison.signed_deck_sums",
+        "ZInQBlueprint.AbelComparison.signed_differences",
+        "ZInQBlueprint.AbelComparison.original_of_ordinary_polarized_comparison",
+        "ZInQBlueprint.AbelComparison.signed_abel_of_labelled",
+        "ZInQBlueprint.AbelComparison.signed_labelled_from_ordinary",
+        "ZInQBlueprint.AbelComparison.scalar_of_curve_differences",
+        "ZInQBlueprint.AbelComparison.signed_differences_of_polarized",
+        "ZInQBlueprint.AbelComparison.signed_polarized_scalar"
+      ]
+    },
+    {
+      "id": "printed-genus-table",
+      "title": "The second genus sum as an integer coefficient",
+      "chapter": "Bounded-polynomial comparisons",
+      "routes": [
+        "Bounded existence"
+      ],
+      "state": "kernel",
+      "claim": "For a squarefree twist congruent to five modulo eight, the distinguished residues in Tian’s second genus sum must be seven and three. The weighted integer sum is exactly the coefficient used by the polynomial construction.",
+      "needs": [
+        "printed-twist-model"
+      ],
+      "headers": [
+        "ZInQBlueprint.OriginalRank.PublishedGenusRows.disjoint_rows",
+        "ZInQBlueprint.OriginalRank.PublishedGenusRows.higher_order_of_ajm14_singleton",
+        "ZInQBlueprint.OriginalRank.PublishedGenusRows.higher_order_of_tian47",
+        "ZInQBlueprint.OriginalRank.PublishedGenusRows.mixed_iff",
+        "ZInQBlueprint.OriginalRank.PublishedGenusRows.mixed_sum_eq",
+        "ZInQBlueprint.OriginalRank.PublishedGenusRows.normalized_even_iff",
+        "ZInQBlueprint.OriginalRank.PublishedGenusRows.selected_of_ajm14_singleton",
+        "ZInQBlueprint.OriginalRank.PublishedGenusRows.tian_second_iff",
+        "ZInQBlueprint.OriginalRank.PublishedGenusRows.tian_second_sum_eq",
+        "ZInQBlueprint.OriginalRank.PublishedGenusRows.zero_branch"
+      ]
+    },
+    {
+      "id": "ordinary-bounded-polynomial",
+      "title": "The bounded polynomial from ordinary marked Jacobians and published rank criteria",
+      "chapter": "Six-contact height",
+      "routes": [
+        "Bounded existence"
+      ],
+      "state": "kernel",
+      "claim": "The ordinary marked-Jacobian argument, the semistable torus action and Tian’s genus criterion imply the original bounded polynomial under the remaining height, reduction, polarization and simple-zero rank hypotheses.",
+      "needs": [
+        "signed-polarized-torelli",
+        "signed-quaternion-torus",
+        "printed-genus-table"
+      ],
+      "headers": [
+        "ZInQBlueprint.AbelComparison.original_of_ordinary_geometry_and_tian"
+      ]
+    },
+    {
+      "id": "bounded-from-tian-and-rank",
+      "title": "The bounded polynomial from the height and two rank inputs",
+      "chapter": "Bounded-polynomial comparisons",
+      "routes": [
+        "Bounded existence"
+      ],
+      "state": "kernel",
+      "claim": "The Gaussian functional equation proves central vanishing for the selected twists. Glazer’s full bounded theorem then follows from the six-contact height estimate, the analytic consequence of Tian’s parity criterion, and positive rational rank at a simple central zero.",
+      "needs": [
+        "printed-genus-table",
+        "original-modular-rank",
+        "six-min"
+      ],
+      "headers": [
+        "ZOverQ.Bounded.tian_multiset_coefficient",
+        "ZOverQ.Bounded.tian_iff_orders",
+        "ZOverQ.Bounded.central_zero",
+        "ZOverQ.Bounded.certified_rank_from_tian",
+        "ZOverQ.Bounded.bounded_from_height_tian_gross_zagier"
       ]
     }
   ],
@@ -13312,6 +13540,7 @@
     "Sun28.CyclicOrbit.of_locally_connected": "Lean/Topics/sun-28/cyclic-components/CyclicComponent.lean#L58",
     "Sun28.CyclicOrbit.of_open_component": "Lean/Topics/sun-28/cyclic-components/CyclicComponent.lean#L42",
     "Sun28.CyclicOrbit.open_multiples": "Lean/Topics/sun-28/cyclic-components/CompactMultiples.lean#L41",
+    "Sun28.CyclicOrbit.orbitCompact": "Lean/Topics/sun-28/cyclic-components/CyclicComponent.lean#L29",
     "Sun28.CyclicOrbit.positive_return": "Lean/Topics/sun-28/cyclic-components/CyclicComponent.lean#L33",
     "Sun28.CyclicOrbit.residue_cover": "Lean/Topics/sun-28/cyclic-components/CompactMultiples.lean#L21",
     "Sun28.Exceptional.detector_orders": "Lean/Topics/sun-28/exceptional-trace/ExceptionalDetector.lean#L22",
@@ -15213,6 +15442,16 @@
     "Sun28.projection_of_estimates": "Lean/Topics/sun-28/lean/SunCertificate.lean#L112",
     "Sun28.scalar_leaf_costs": "Lean/Topics/sun-28/lean/SunCertificate.lean#L17",
     "ZInQ.RouteK.Rank.eight_le_card_quotient_two": "Lean/Topics/sun-28/global-descent/common-pair/selmer-realization/public-imports/Counting.lean#L45",
+    "ZInQBlueprint.AbelComparison.differences_of_either_sign": "Lean/Lemmas/ordinary-abel-comparison/AbelDifferenceSign.lean#L30",
+    "ZInQBlueprint.AbelComparison.original_of_ordinary_geometry_and_tian": "Lean/Lemmas/ordinary-abel-comparison/literature/OrdinaryHeightAndRank.lean#L19",
+    "ZInQBlueprint.AbelComparison.original_of_ordinary_polarized_comparison": "Lean/Lemmas/ordinary-abel-comparison/OrdinaryPolarizedEndpoint.lean#L67",
+    "ZInQBlueprint.AbelComparison.scalar_of_curve_differences": "Lean/Lemmas/ordinary-abel-comparison/PolarizedAbelAction.lean#L53",
+    "ZInQBlueprint.AbelComparison.signed_abel_of_labelled": "Lean/Lemmas/ordinary-abel-comparison/OrdinaryPolarizedEndpoint.lean#L48",
+    "ZInQBlueprint.AbelComparison.signed_deck_sums": "Lean/Lemmas/ordinary-abel-comparison/AbelDifferenceSign.lean#L52",
+    "ZInQBlueprint.AbelComparison.signed_differences": "Lean/Lemmas/ordinary-abel-comparison/AbelDifferenceSign.lean#L59",
+    "ZInQBlueprint.AbelComparison.signed_differences_of_polarized": "Lean/Lemmas/ordinary-abel-comparison/PolarizedAbelAction.lean#L33",
+    "ZInQBlueprint.AbelComparison.signed_labelled_from_ordinary": "Lean/Lemmas/ordinary-abel-comparison/OrdinaryPolarizedEndpoint.lean#L29",
+    "ZInQBlueprint.AbelComparison.signed_polarized_scalar": "Lean/Lemmas/ordinary-abel-comparison/PolarizedAbelAction.lean#L79",
     "ZInQBlueprint.AbelGalois.baseChange_difference": "Lean/Lemmas/six-abel-galois/AbelScalarTransport.lean#L22",
     "ZInQBlueprint.AbelGalois.rigid_point_class": "Lean/Lemmas/six-abel-galois/SignedRigidGalois.lean#L18",
     "ZInQBlueprint.AbelGalois.rigid_translated_image": "Lean/Lemmas/six-abel-galois/SignedRigidGalois.lean#L42",
@@ -15358,6 +15597,34 @@
     "ZInQBlueprint.CMPeriods.ring_class_degree_le": "Lean/Topics/sun-28/scalar-height/weighted/glazer-inputs/surface-height/cm-periods/CMRingField.lean#L16",
     "ZInQBlueprint.CMPeriods.surface_le": "Lean/Topics/sun-28/scalar-height/weighted/glazer-inputs/surface-height/cm-periods/CMPeriod.lean#L113",
     "ZInQBlueprint.CMPeriods.totient_le_class_index": "Lean/Topics/sun-28/scalar-height/weighted/glazer-inputs/surface-height/cm-periods/RingClassBounds.lean#L6",
+    "ZInQBlueprint.CMRepair.abel_image_pullbacks": "Lean/Lemmas/cm-order-repair/determinant/MarkedAbelDeterminant.lean#L26",
+    "ZInQBlueprint.CMRepair.abel_marking_to_labelled": "Lean/Lemmas/cm-order-repair/determinant/MarkedAbelDeterminant.lean#L53",
+    "ZInQBlueprint.CMRepair.actions_of_rational_abel_marking": "Lean/Lemmas/cm-order-repair/determinant/CurveMarkedDescent.lean#L55",
+    "ZInQBlueprint.CMRepair.coordinate_at_rational_unit": "Lean/Lemmas/cm-order-repair/RationalCMOpen.lean#L36",
+    "ZInQBlueprint.CMRepair.cubic_change": "Lean/Lemmas/cm-order-repair/ExplicitCMQuotients.lean#L12",
+    "ZInQBlueprint.CMRepair.curveCoordinateLifts_of_voight": "Lean/Lemmas/cm-order-repair/determinant/coordinate/SignedCoordinateLifts.lean#L18",
+    "ZInQBlueprint.CMRepair.differences_of_abel_translate": "Lean/Lemmas/cm-order-repair/determinant/CurveMarkedDescent.lean#L28",
+    "ZInQBlueprint.CMRepair.four_elliptic_quotients": "Lean/Lemmas/cm-order-repair/ExplicitCMQuotients.lean#L71",
+    "ZInQBlueprint.CMRepair.independent_coefficients": "Lean/Lemmas/cm-order-repair/EvenEllipticQuotients.lean#L65",
+    "ZInQBlueprint.CMRepair.no_reciprocal_row": "Lean/Lemmas/cm-order-repair/CMFieldRows.lean#L69",
+    "ZInQBlueprint.CMRepair.normalization_bijective": "Lean/Lemmas/cm-order-repair/RationalCMOpen.lean#L21",
+    "ZInQBlueprint.CMRepair.normalized_of_rational_cm": "Lean/Lemmas/cm-order-repair/CMFieldRows.lean#L75",
+    "ZInQBlueprint.CMRepair.openRing_normal": "Lean/Lemmas/cm-order-repair/RationalCMOpen.lean#L16",
+    "ZInQBlueprint.CMRepair.original_of_ordinary_marking_and_voight": "Lean/Lemmas/cm-order-repair/determinant/coordinate/SignedCoordinateLifts.lean#L27",
+    "ZInQBlueprint.CMRepair.original_of_ordinary_rational_curve_marking": "Lean/Lemmas/cm-order-repair/determinant/OrdinaryCurveMarked.lean#L80",
+    "ZInQBlueprint.CMRepair.quartic_reciprocal": "Lean/Lemmas/cm-order-repair/ExplicitCMQuotients.lean#L15",
+    "ZInQBlueprint.CMRepair.quotient_coordinates": "Lean/Lemmas/cm-order-repair/EvenEllipticQuotients.lean#L46",
+    "ZInQBlueprint.CMRepair.quotient_covers_injective": "Lean/Lemmas/cm-order-repair/EvenEllipticQuotients.lean#L42",
+    "ZInQBlueprint.CMRepair.quotient_differentials": "Lean/Lemmas/cm-order-repair/EvenEllipticQuotients.lean#L57",
+    "ZInQBlueprint.CMRepair.rational_point_of_normalization": "Lean/Lemmas/cm-order-repair/RationalCMOpen.lean#L42",
+    "ZInQBlueprint.CMRepair.rational_scheme_lift": "Lean/Lemmas/cm-order-repair/RationalCMOpen.lean#L63",
+    "ZInQBlueprint.CMRepair.row_of_cm19_center": "Lean/Lemmas/cm-order-repair/CMFieldRows.lean#L55",
+    "ZInQBlueprint.CMRepair.row_of_cm24_center": "Lean/Lemmas/cm-order-repair/CMFieldRows.lean#L61",
+    "ZInQBlueprint.CMRepair.signed_actions_of_ordinary_curve_marking": "Lean/Lemmas/cm-order-repair/determinant/OrdinaryCurveMarked.lean#L33",
+    "ZInQBlueprint.CMRepair.signed_height_of_quaternion_order": "Lean/Lemmas/cm-order-repair/determinant/OrdinaryCurveMarked.lean#L55",
+    "ZInQBlueprint.CMRepair.signed_labelled_of_abel_marking": "Lean/Lemmas/cm-order-repair/determinant/MarkedAbelDeterminant.lean#L75",
+    "ZInQBlueprint.CMRepair.squareclass_of_negative_root": "Lean/Lemmas/cm-order-repair/CMFieldRows.lean#L15",
+    "ZInQBlueprint.CMRepair.two_center_tables": "Lean/Lemmas/cm-order-repair/CMFieldRows.lean#L43",
     "ZInQBlueprint.CanonicalTheta.signedThetaSection_ideal_of_reduced": "Lean/Lemmas/six-canonical-theta/ThetaIntegralFibre.lean#L16",
     "ZInQBlueprint.CanonicalTheta.signedThetaSection_reduced_ideal": "Lean/Lemmas/six-canonical-theta/ThetaReducedImage.lean#L73",
     "ZInQBlueprint.ClusterCharts.pole_identity": "Lean/Topics/marked-moduli/transport/ClusterCharts.lean#L24",
@@ -15631,14 +15898,18 @@
     "ZInQBlueprint.LevelThree.IntegralOrder.fullActionOfScalarCenter_apply": "Lean/Lemmas/six-height-source-review/ordinary-center/OrdinaryScalarCenter.lean#L33",
     "ZInQBlueprint.LevelThree.IntegralOrder.fullAction_apply": "Lean/Topics/marked-moduli/level/maximal-order/FiniteEndomorphismOrder.lean#L83",
     "ZInQBlueprint.LevelThree.IntegralOrder.integral_invariants": "Lean/Topics/marked-moduli/level/maximal-order/FiniteEndomorphismOrder.lean#L42",
+    "ZInQBlueprint.LevelThree.IntegralOrder.isUnit_of_quaternion_ne_zero": "Lean/Lemmas/height-hypothesis-audit/QuaternionToricRank.lean#L71",
     "ZInQBlueprint.LevelThree.IntegralOrder.mem_of_traces_norm": "Lean/Topics/marked-moduli/level/maximal-order/IntegralQuaternionOrder.lean#L45",
     "ZInQBlueprint.LevelThree.IntegralOrder.no_finite_overorder": "Lean/Topics/marked-moduli/level/maximal-order/FiniteEndomorphismOrder.lean#L89",
     "ZInQBlueprint.LevelThree.IntegralOrder.nonscalar_quaternion_centralizer": "Lean/Lemmas/six-height-source-review/centralizer/QuaternionComplexCentralizer.lean#L40",
     "ZInQBlueprint.LevelThree.IntegralOrder.quaternion_centralizer_generates": "Lean/Lemmas/six-height-source-review/centralizer-generation/QuaternionCentralizerGeneration.lean#L88",
+    "ZInQBlueprint.LevelThree.IntegralOrder.quaternion_order_representation_dimension": "Lean/Lemmas/height-hypothesis-audit/QuaternionToricRank.lean#L86",
     "ZInQBlueprint.LevelThree.IntegralOrder.rational_action_injective": "Lean/Topics/marked-moduli/level/maximal-order/OrdinaryEndomorphismAlgebra.lean#L20",
     "ZInQBlueprint.LevelThree.IntegralOrder.rational_action_surjective_of_scalar_center": "Lean/Lemmas/six-height-source-review/centralizer-generation/QuaternionCentralizerGeneration.lean#L172",
     "ZInQBlueprint.LevelThree.IntegralOrder.rational_action_surjective_of_scalar_centralizer": "Lean/Lemmas/six-height-source-review/centralizer-generation/QuaternionCentralizerGeneration.lean#L126",
     "ZInQBlueprint.LevelThree.IntegralOrder.rational_centralizer_of_complexStructure": "Lean/Lemmas/six-height-source-review/centralizer/QuaternionComplexCentralizer.lean#L62",
+    "ZInQBlueprint.LevelThree.IntegralOrder.rational_quaternion_inclusion": "Lean/Lemmas/height-hypothesis-audit/QuaternionInclusion.lean#L7",
+    "ZInQBlueprint.LevelThree.IntegralOrder.reducedNorm_zero_iff": "Lean/Lemmas/height-hypothesis-audit/QuaternionToricRank.lean#L42",
     "ZInQBlueprint.LevelThree.frames_of_rank_one": "Lean/Topics/marked-moduli/level/MarkedFrames.lean#L156",
     "ZInQBlueprint.LevelThree.normOne_count": "Lean/Topics/marked-moduli/level/MarkedFrames.lean#L98",
     "ZInQBlueprint.LevelThree.quotientThree": "Lean/Topics/marked-moduli/level/OrderQuotient.lean#L46",
@@ -15691,6 +15962,7 @@
     "ZInQBlueprint.MinimalDiscriminant.minimalIdeal_represented": "Lean/Topics/marked-moduli/quaternion-marking/theta-class/minimal-discriminant/MinimalIdeal.lean#L107",
     "ZInQBlueprint.MinimalDiscriminant.minimalIdeal_spec": "Lean/Topics/marked-moduli/quaternion-marking/theta-class/minimal-discriminant/MinimalIdeal.lean#L102",
     "ZInQBlueprint.MinimalDiscriminant.original_of_canonical_periods": "Lean/Topics/marked-moduli/quaternion-marking/theta-class/minimal-discriminant/rosati/ShimuraPolynomial.lean#L30",
+    "ZInQBlueprint.MinimalDiscriminant.original_of_marked_igusa": "Lean/Lemmas/ordinary-fibre-bridge/OrdinaryFibreBridge.lean#L73",
     "ZInQBlueprint.MinimalDiscriminant.original_of_mestre": "Lean/Lemmas/six-coarse-realization/MestrePolynomial.lean#L13",
     "ZInQBlueprint.MinimalDiscriminant.original_of_modular_comparison": "Lean/Topics/marked-moduli/quaternion-marking/theta-class/minimal-discriminant/rosati/ShimuraPolynomial.lean#L15",
     "ZInQBlueprint.MinimalDiscriminant.original_of_ordinary_comparison": "Lean/Topics/marked-moduli/quaternion-marking/theta-class/minimal-discriminant/rosati/RosatiPolynomial.lean#L49",
@@ -15749,7 +16021,6 @@
     "ZInQBlueprint.OriginalHeightCount.original_exceptional_density": "Lean/Topics/sun-28/scalar-height/weighted/glazer-inputs/OriginalHeightCount.lean#L45",
     "ZInQBlueprint.OriginalHeightCount.row_square_at_failure": "Lean/Topics/sun-28/scalar-height/weighted/glazer-inputs/OriginalRows.lean#L57",
     "ZInQBlueprint.OriginalRank.AdmissibleFactors": "Lean/Topics/original-rank/CongruentNumberParity.lean#L12",
-    "ZInQBlueprint.OriginalRank.HigherOrderGenusCoefficient": "Lean/Topics/original-rank/PrintedTwistModel.lean#L37",
     "ZInQBlueprint.OriginalRank.ModularSimpleZero": "Lean/Topics/original-rank/ModularSimpleZero.lean#L12",
     "ZInQBlueprint.OriginalRank.OddCentralValueParity": "Lean/Topics/original-rank/CongruentNumberParity.lean#L72",
     "ZInQBlueprint.OriginalRank.frozen_from_height_and_printed_rank": "Lean/Topics/original-rank/PrintedRankEndpoint.lean#L16",
@@ -15952,6 +16223,7 @@
     "ZInQBlueprint.SexticConjugation.comparison_coefficient": "Lean/Topics/marked-moduli/transport/SexticConjugation.lean#L98",
     "ZInQBlueprint.SexticConjugation.conjugateEquiv": "Lean/Topics/marked-moduli/transport/SexticConjugation.lean#L64",
     "ZInQBlueprint.SexticEmbedding.completion_is_quadrics": "Lean/Topics/marked-moduli/picard-application/ProjectiveSextic.lean#L68",
+    "ZInQBlueprint.SexticEmbedding.paperEmbedding_closed": "Lean/Topics/marked-moduli/picard-application/PaperEmbedding.lean#L46",
     "ZInQBlueprint.SexticEmbedding.paperEmbedding_finite": "Lean/Topics/marked-moduli/picard-application/PaperEmbedding.lean#L52",
     "ZInQBlueprint.SexticEmbedding.paper_is_quadrics": "Lean/Topics/marked-moduli/picard-application/ProjectiveSextic.lean#L88",
     "ZInQBlueprint.SexticEmbedding.two_standard_opens": "Lean/Topics/marked-moduli/picard-application/QuadricsProj.lean#L44",
@@ -15987,8 +16259,10 @@
     "ZInQBlueprint.ShimuraAtlas.RationalPolarizedForgetful": "Lean/Lemmas/six-raw-jacobian/igusa/algebraic-class/IgusaPolynomial.lean#L16",
     "ZInQBlueprint.ShimuraAtlas.RationalQMClasses": "Lean/Topics/marked-moduli/level/maximal-order/OrdinaryRationalPolynomial.lean#L13",
     "ZInQBlueprint.ShimuraAtlas.RationalRosatiClasses": "Lean/Lemmas/six-raw-jacobian/igusa/algebraic-class/IgusaPolynomial.lean#L24",
+    "ZInQBlueprint.ShimuraAtlas.actions_of_marked_igusa": "Lean/Lemmas/ordinary-fibre-bridge/OrdinaryFibreBridge.lean#L53",
     "ZInQBlueprint.ShimuraAtlas.canonicalPeriods_of_raw": "Lean/Lemmas/six-raw-jacobian/SixRawUniformization.lean#L23",
     "ZInQBlueprint.ShimuraAtlas.class_on_conic": "Lean/Lemmas/six-shimura-atlas/SixRationalQuotient.lean#L26",
+    "ZInQBlueprint.ShimuraAtlas.classifier_change_unrealized": "Lean/Lemmas/ordinary-fibre-bridge/MestreDomain.lean#L90",
     "ZInQBlueprint.ShimuraAtlas.cm19_in_absolute_table": "Lean/Topics/marked-moduli/quaternion-marking/theta-class/minimal-discriminant/rosati/CMNormalization.lean#L11",
     "ZInQBlueprint.ShimuraAtlas.compatible_radicals": "Lean/Lemmas/six-shimura-atlas/SixModularSextic.lean#L43",
     "ZInQBlueprint.ShimuraAtlas.descendIso": "Lean/Lemmas/six-shimura-atlas/SixAbelianHomDescent.lean#L22",
@@ -16002,6 +16276,7 @@
     "ZInQBlueprint.ShimuraAtlas.gaussian_fibre_galois": "Lean/Lemmas/six-height-source-review/SixGaussianSection.lean#L85",
     "ZInQBlueprint.ShimuraAtlas.gaussian_rational_equation": "Lean/Lemmas/six-coarse-realization/rational-chart/RationalMestre.lean#L20",
     "ZInQBlueprint.ShimuraAtlas.j_quotient": "Lean/Lemmas/six-coarse-realization/CoarseOrdinary.lean#L62",
+    "ZInQBlueprint.ShimuraAtlas.mestre_nonsplit_at_unit_slope": "Lean/Lemmas/ordinary-fibre-bridge/MestreDomain.lean#L56",
     "ZInQBlueprint.ShimuraAtlas.modularChartIso": "Lean/Lemmas/six-shimura-atlas/SixBGCompletion.lean#L52",
     "ZInQBlueprint.ShimuraAtlas.modularCurveIso": "Lean/Lemmas/six-shimura-atlas/SixModularJacobian.lean#L32",
     "ZInQBlueprint.ShimuraAtlas.modularPrintedJacobian": "Lean/Lemmas/six-shimura-atlas/SixModularJacobian.lean#L72",
@@ -16016,6 +16291,7 @@
     "ZInQBlueprint.ShimuraAtlas.period_binary": "Lean/Lemmas/six-shimura-atlas/SixModularSextic.lean#L17",
     "ZInQBlueprint.ShimuraAtlas.periods_to_printed": "Lean/Lemmas/six-shimura-atlas/SixModularSextic.lean#L26",
     "ZInQBlueprint.ShimuraAtlas.polarizedClass_eq": "Lean/Lemmas/six-raw-jacobian/igusa/algebraic-class/SixPolarizedIgusa.lean#L22",
+    "ZInQBlueprint.ShimuraAtlas.printedField_of_marked_igusa": "Lean/Lemmas/ordinary-fibre-bridge/OrdinaryFibreBridge.lean#L39",
     "ZInQBlueprint.ShimuraAtlas.printedField_of_modular": "Lean/Lemmas/six-shimura-atlas/SixAtlasEndpoint.lean#L56",
     "ZInQBlueprint.ShimuraAtlas.printed_of_polarized_igusa": "Lean/Lemmas/six-raw-jacobian/igusa/algebraic-class/IgusaPolynomial.lean#L65",
     "ZInQBlueprint.ShimuraAtlas.quotient_on_point": "Lean/Lemmas/six-shimura-atlas/SixConicInvariant.lean#L81",
@@ -16033,7 +16309,11 @@
     "ZInQBlueprint.ShimuraAtlas.signedToModular": "Lean/Lemmas/six-shimura-atlas/SixModularJacobian.lean#L40",
     "ZInQBlueprint.ShimuraAtlas.signed_class_of_igusa": "Lean/Lemmas/six-raw-jacobian/igusa/algebraic-class/SixPolarizedIgusa.lean#L78",
     "ZInQBlueprint.ShimuraAtlas.signed_coordinates": "Lean/Lemmas/six-raw-jacobian/igusa/algebraic-class/SixPolarizedIgusa.lean#L59",
+    "ZInQBlueprint.ShimuraAtlas.signed_realizes": "Lean/Lemmas/ordinary-fibre-bridge/OrdinaryFibreBridge.lean#L18",
+    "ZInQBlueprint.ShimuraAtlas.six_contact_mestre_split": "Lean/Lemmas/ordinary-fibre-bridge/MestreDomain.lean#L15",
     "ZInQBlueprint.ShimuraAtlas.twice_endomorphism": "Lean/Topics/marked-moduli/quaternion-marking/theta-class/minimal-discriminant/rosati/CMNormalization.lean#L41",
+    "ZInQBlueprint.ShimuraAtlas.unit_slope_coordinate": "Lean/Lemmas/ordinary-fibre-bridge/MestreDomain.lean#L78",
+    "ZInQBlueprint.ShimuraAtlas.unit_slope_unrealized": "Lean/Lemmas/ordinary-fibre-bridge/MestreDomain.lean#L85",
     "ZInQBlueprint.ShimuraAtlas.unpolarized_of_mestre": "Lean/Lemmas/six-coarse-realization/AlgebraicCoarse.lean#L44",
     "ZInQBlueprint.ShimuraAtlas.unpolarized_of_modular": "Lean/Lemmas/six-shimura-atlas/SixAtlasEndpoint.lean#L38",
     "ZInQBlueprint.ShimuraAtlas.unpolarized_of_rational_mestre": "Lean/Lemmas/six-coarse-realization/rational-chart/RationalMestre.lean#L90",
@@ -16188,15 +16468,12 @@
     "ZInQBlueprint.TYZ.Specialization.traceData_of_fieldInputs": "Lean/Lemmas/tyz-specialization/compositum/TYZRepresentative.lean#L121",
     "ZInQBlueprint.TYZ.Specialization.twice_realCusp": "Lean/Lemmas/tyz-specialization/TYZCuspRank.lean#L18",
     "ZInQBlueprint.TYZ.Specialization.two_three_mod_four_primes_of_odd_row": "Lean/Topics/marked-moduli/cm-odd-field/OddRowField.lean#L38",
-    "ZInQBlueprint.TYZ.factorizationEquiv": "Lean/Topics/critical-fibres/genus/TYZFactorizations.lean#L154",
     "ZInQBlueprint.TYZ.frozen_of_genusPointPeriods": "Lean/Topics/critical-fibres/genus/TYZGenusPoint.lean#L58",
     "ZInQBlueprint.TYZ.frozen_of_periodParity": "Lean/Topics/critical-fibres/genus/TYZPeriodRank.lean#L78",
-    "ZInQBlueprint.TYZ.integerCoefficient_mod_two": "Lean/Topics/critical-fibres/genus/TYZIntegerCoefficient.lean#L62",
     "ZInQBlueprint.TYZ.normalizedGenusEquation": "Lean/Topics/critical-fibres/genus/TYZPeriodRank.lean#L14",
     "ZInQBlueprint.TYZ.periodParity_of_gaussianRelation": "Lean/Topics/critical-fibres/genus/TYZGenusPoint.lean#L38",
     "ZInQBlueprint.TYZ.publicRank_of_genusPointPeriods": "Lean/Topics/critical-fibres/genus/TYZGenusPoint.lean#L50",
     "ZInQBlueprint.TYZ.publicRank_of_periodParity": "Lean/Topics/critical-fibres/genus/TYZPeriodRank.lean#L70",
-    "ZInQBlueprint.TYZ.sum_by_factorizations": "Lean/Topics/critical-fibres/genus/TYZIntegerCoefficient.lean#L25",
     "ZInQBlueprint.TYZ.tyzIsogeny": "Lean/Topics/critical-fibres/genus/TYZIsogeny.lean#L56",
     "ZInQBlueprint.TYZ.tyzIsogeny_chart": "Lean/Topics/critical-fibres/genus/TYZIsogeny.lean#L98",
     "ZInQBlueprint.TYZ.tyzIsogeny_kernel_two": "Lean/Topics/critical-fibres/genus/TYZIsogeny.lean#L66",
@@ -16252,6 +16529,7 @@
     "ZInQBlueprint.ToricRank.subsingleton_of_quaternion_action": "Lean/Topics/critical-fibres/field/ToricRank.lean#L14",
     "ZInQBlueprint.ToricRank.toric_rank_zero": "Lean/Topics/critical-fibres/field/ToricRank.lean#L38",
     "ZInQBlueprint.TorsionHeight.good_everywhere_of_full_twelve": "Lean/Lemmas/six-torsion-height/CompletedGoodReduction.lean#L39",
+    "ZInQBlueprint.TorsionHeight.potential_of_semistable_torus_action": "Lean/Lemmas/height-hypothesis-audit/PotentialFromTorus.lean#L23",
     "ZInQBlueprint.TorsionHeight.signed_height_field": "Lean/Lemmas/six-torsion-height/SignedTorsionField.lean#L42",
     "ZInQBlueprint.TorsionHeight.signed_height_field_good": "Lean/Lemmas/six-torsion-height/QuaternionGoodHeight.lean#L34",
     "ZInQBlueprint.TorsionHeight.signed_quintic_completion": "Lean/Lemmas/six-torsion-height/SignedQuinticCompletion.lean#L72",
@@ -16319,6 +16597,11 @@
     "ZInQBlueprint.VerticalInertia.distinct_branch_images": "Lean/Topics/critical-fibres/field/VerticalInertia.lean#L21",
     "ZInQBlueprint.VerticalInertia.vertical_inertia_eq_bot": "Lean/Topics/critical-fibres/field/VerticalInertia.lean#L56",
     "ZInQBlueprint.VerticalInertia.vertical_inertia_eq_bot_of_unramified_quotient": "Lean/Topics/critical-fibres/field/VerticalInertia.lean#L85",
+    "ZInQBlueprint.WeierstrassCoordinates.finiteAction_of_iso": "Lean/Lemmas/cm-order-repair/determinant/coordinate/WeierstrassCoordinates.lean#L55",
+    "ZInQBlueprint.WeierstrassCoordinates.signedCoefficients_eval": "Lean/Lemmas/cm-order-repair/determinant/coordinate/SignedWeierstrassChart.lean#L18",
+    "ZInQBlueprint.WeierstrassCoordinates.signedReader_eq": "Lean/Lemmas/cm-order-repair/determinant/coordinate/SignedWeierstrassChart.lean#L32",
+    "ZInQBlueprint.WeierstrassCoordinates.signed_pullback_action": "Lean/Lemmas/cm-order-repair/determinant/coordinate/SignedWeierstrassChart.lean#L46",
+    "ZInQBlueprint.WeierstrassCoordinates.signed_reglued_action": "Lean/Lemmas/cm-order-repair/determinant/coordinate/SignedWeierstrassChart.lean#L40",
     "ZInQBlueprint.WeightedCurvePoints.paper_branch_stalk": "Lean/Lemmas/six-weighted-curve-points/WeightedPointStalk.lean#L56",
     "ZInQBlueprint.WeightedCurvePoints.regular_fibre_stalk": "Lean/Lemmas/six-weighted-curve-points/WeightedPointStalk.lean#L45",
     "ZInQBlueprint.WeightedCurvePoints.weightedEquiv_pullback": "Lean/Lemmas/six-weighted-curve-points/WeightedPointEndpoint.lean#L21",
@@ -16378,6 +16661,11 @@
     "ZInQBlueprint.point_of_cover": "Lean/Topics/theorem-blueprint/CongruentCover.lean#L29",
     "ZInQBlueprint.prescribed_class_of_cover": "Lean/Topics/theorem-blueprint/CongruentCover.lean#L54",
     "ZInQBlueprint.square_abs_mod_eight": "Lean/Topics/theorem-blueprint/CongruentCover.lean#L13",
-    "ZInQBlueprint.twist_change": "Lean/Topics/theorem-blueprint/ApplicationLemmas.lean#L14"
+    "ZInQBlueprint.twist_change": "Lean/Topics/theorem-blueprint/ApplicationLemmas.lean#L14",
+    "ZOverQ.Bounded.bounded_from_height_tian_gross_zagier": "bounded/BoundedFromGenus.lean#L101",
+    "ZOverQ.Bounded.central_zero": "bounded/BoundedFromGenus.lean#L49",
+    "ZOverQ.Bounded.certified_rank_from_tian": "bounded/BoundedFromGenus.lean#L95",
+    "ZOverQ.Bounded.tian_iff_orders": "bounded/BoundedFromGenus.lean#L23",
+    "ZOverQ.Bounded.tian_multiset_coefficient": "bounded/BoundedFromGenus.lean#L15"
   }
 }

@@ -9,26 +9,134 @@
 <script id="data" type="application/json">__BLUEPRINT_DATA__</script>
 <script>
 "use strict";
-const data=JSON.parse(document.getElementById("data").textContent), rows=data.packages, index=new Map(rows.map(r=>[r.id,r]));
-const states={kernel:"Kernel checked",public:"Upstream proof",typed:"Header only",binding:"Open application",missing:"Needs a header"};
-const dependents=new Map(rows.map(r=>[r.id,[]]));for(const r of rows)for(const n of r.needs)dependents.get(n).push(r.id);
-const el=id=>document.getElementById(id), make=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
-function options(id,items){for(const [k,label] of items){const o=make("option",label);o.value=k;el(id).append(o);}}
-options("route",data.routes.map(x=>[x,x]));options("state",Object.entries(states));
-const haystack=new Map(rows.map(r=>[r.id,[r.title,r.claim,r.chapter,...r.headers].join(" ").toLowerCase()]));
-function matches(){const q=el("query").value.trim().toLowerCase();return rows.filter(r=>(!el("route").value||r.routes.includes(el("route").value))&&(!el("state").value||r.state===el("state").value)&&haystack.get(r.id).includes(q));}
-let current=null;
-function select(r,fromGraph=false){current=r;history.replaceState(null,"","#"+r.id);
- if(fromGraph&&!matches().some(x=>x.id===r.id)){el("query").value="";el("route").value="";el("state").value="";renderList();}
- for(const b of el("list").children)b.setAttribute("aria-current",b.dataset.id===r.id?"true":"false");
- const panel=el("detail");panel.replaceChildren(make("div",r.chapter,"detailmeta"),make("h2",r.title),make("p",states[r.state]+" · "+r.routes.join(" · "),"status"),make("p",r.claim));
- panel.append(make("div","Dependencies of this statement","focus"));const neighbors=make("div",undefined,"neighbors");panel.append(neighbors);
- for(const [title,ids] of [["Uses",r.needs],["Used by",dependents.get(r.id)]]){const box=make("section");neighbors.append(box);box.append(make("h3",title+" ("+ids.length+")"));if(!ids.length)box.append(make("small","None recorded."));for(const id of ids){const n=index.get(id),b=make("button",n.title);b.append(make("small",states[n.state]));b.onclick=()=>select(n,true);box.append(b);}}
- if(r.headers.length){const details=make("details"),sum=make("summary","Lean declarations ("+r.headers.length+")"),ul=make("ul");details.append(sum,ul);panel.append(details);for(const h of r.headers){const li=make("li"),code=make("code",h);if(data.declarations[h]){const a=make("a");a.href="https://github.com/nasqret/z-in-q-lean/blob/main/"+data.declarations[h];a.append(code);li.append(a);}else li.append(code);ul.append(li);}}
+
+const element = id => document.getElementById(id);
+const data = JSON.parse(element("data").textContent);
+const rows = new Map(data.packages.map(row => [row.id, row]));
+const states = {
+  kernel: "Kernel checked", public: "Upstream proof", typed: "Header only",
+  binding: "Open application", missing: "Needs a header"
+};
+const dependents = new Map(data.packages.map(row => [row.id, []]));
+for (const row of rows.values()) {
+  for (const prerequisite of row.needs) dependents.get(prerequisite).push(row.id);
 }
-function renderList(preferred){const found=matches(),list=el("list");list.replaceChildren();el("count").textContent=found.length+" of "+rows.length+" statements";for(const r of found){const b=make("button",r.title);b.dataset.id=r.id;b.append(make("small",states[r.state]));b.onclick=()=>select(r);list.append(b);}
- if(!found.length){current=null;el("detail").replaceChildren(make("h2","No matching statement"),make("p","Change the search or select another construction."));return;}
- select(found.find(r=>r.id===preferred)||found.find(r=>current&&r.id===current.id)||found[0]);}
-for(const name of ["query","route","state"])el(name).addEventListener("input",()=>renderList());
-renderList(location.hash.slice(1)||"signed-jacobian-original-endpoint");
+const searchable = new Map(data.packages.map(row => [
+  row.id, [row.title, row.claim, row.chapter, ...row.headers].join(" ").toLowerCase()
+]));
+let selectedId;
+
+function make(tag, text, className) {
+  const node = document.createElement(tag);
+  if (text !== undefined) node.textContent = text;
+  if (className) node.className = className;
+  return node;
+}
+
+function options(id, entries) {
+  for (const [value, label] of entries) {
+    const option = make("option", label);
+    option.value = value;
+    element(id).append(option);
+  }
+}
+options("route", data.routes.map(route => [route, route]));
+options("state", Object.entries(states));
+
+function matchingRows() {
+  const text = element("query").value.trim().toLowerCase();
+  const route = element("route").value;
+  const state = element("state").value;
+  return data.packages.filter(row =>
+    (!route || row.routes.includes(route)) && (!state || row.state === state) &&
+    searchable.get(row.id).includes(text));
+}
+
+function rowButton(row, subtitle) {
+  const button = make("button", row.title);
+  button.dataset.id = row.id;
+  button.append(make("small", subtitle));
+  button.addEventListener("click", () => navigate(row.id, true));
+  return button;
+}
+
+function showDetail(row) {
+  const panel = element("detail");
+  panel.replaceChildren();
+  if (!row) {
+    panel.append(make("h2", "No matching statement"), make("p", "Change your search or filters."));
+    return;
+  }
+  panel.append(make("div", row.chapter, "detailmeta"), make("h2", row.title),
+    make("p", [states[row.state], ...row.routes].join(" · "), "status"), make("p", row.claim));
+  const neighbors = make("div", undefined, "neighbors");
+  panel.append(make("div", "Dependencies of this statement", "focus"), neighbors);
+  for (const [title, ids] of [["Uses", row.needs], ["Used by", dependents.get(row.id)]]) {
+    const box = make("section");
+    box.append(make("h3", title + " (" + ids.length + ")"));
+    if (!ids.length) box.append(make("small", "None recorded."));
+    for (const id of ids) box.append(rowButton(rows.get(id), states[rows.get(id).state]));
+    neighbors.append(box);
+  }
+  if (!row.headers.length) return;
+  const details = make("details");
+  const names = make("ul");
+  details.append(make("summary", "Lean declarations (" + row.headers.length + ")"), names);
+  for (const name of row.headers) {
+    const item = make("li");
+    const code = make("code", name);
+    const path = data.declarations[name];
+    if (path) {
+      const link = make("a");
+      link.href = "https://github.com/nasqret/z-in-q-lean/blob/main/" + path;
+      link.append(code);
+      item.append(link);
+    } else {
+      item.append(code);
+    }
+    names.append(item);
+  }
+  panel.append(details);
+}
+
+function display(rowsToShow, id) {
+  const list = element("list");
+  list.replaceChildren();
+  element("count").textContent = rowsToShow.length + " of " + rows.size + " statements";
+  for (const row of rowsToShow) {
+    const button = rowButton(row, states[row.state]);
+    button.setAttribute("aria-current", row.id === id ? "true" : "false");
+    list.append(button);
+  }
+  selectedId = id;
+  showDetail(rows.get(id));
+}
+
+function navigate(id, addToHistory = false) {
+  let visible = matchingRows();
+  if (rows.has(id) && !visible.some(row => row.id === id)) {
+    for (const filter of ["query", "route", "state"]) element(filter).value = "";
+    visible = data.packages;
+  }
+  const target = visible.find(row => row.id === id) || visible[0];
+  display(visible, target?.id);
+  const hash = target ? "#" + target.id : "";
+  if (location.hash !== hash) {
+    const url = new URL(location.href);
+    url.hash = hash;
+    if (addToHistory) history.pushState(null, "", url);
+    else history.replaceState(null, "", url);
+  }
+}
+
+function filterChanged() {
+  const visible = matchingRows();
+  const target = visible.find(row => row.id === selectedId) || visible[0];
+  navigate(target?.id);
+}
+for (const filter of ["query", "route", "state"]) {
+  element(filter).addEventListener("input", filterChanged);
+}
+window.addEventListener("hashchange", () => navigate(location.hash.slice(1)));
+navigate(location.hash.slice(1) || "bounded-from-tian-and-rank");
 </script></body></html>
