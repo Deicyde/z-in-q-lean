@@ -4,6 +4,10 @@
 
 [Download the interactive explorer](index.html?raw=1) · [Mathematical blueprint](../docs/theorem-blueprint.md)
 
+## Existence with a uniform height constant
+
+Lean checks the adjustable multiplication guard, recovery of the ordinary integer, and projection of one polynomial. The family criterion still takes good-reduction support and two height inequalities for the same fibres. [Theorems and proof table](../bounded/README.md#existence-with-an-unspecified-constant)
+
 ## Completion by chapter
 
 | Chapter | Kernel checked | Upstream proof | Header only | Open application | Needs a header |

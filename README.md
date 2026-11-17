@@ -2,7 +2,7 @@
 
 Which rational numbers can occur as the first coordinate of a rational zero of an integer polynomial? Glazer’s proposed definition seeks one polynomial whose rational image is exactly $`\mathbb Z`$. This repository contains Lean sources for the argument, a mathematical blueprint, and a dashboard of the deductions and hypotheses.
 
-**The main theorem available here is conditional.** Lean derives Glazer’s bounded polynomial from the six-contact height estimate, the analytic consequence of Tian’s genus criterion, and positive rational rank at a simple central zero. Central vanishing follows from the Gaussian functional equation for these twists. [Bounded theorem](bounded/BoundedFromGenus.lean) · [Mathematical blueprint](docs/theorem-blueprint.md)
+**Two conditional theorems define the ordinary integers.** For existence alone, Lean now constructs a single integer polynomial from any uniform six-contact height bound and two published rank inputs. The theorem for Glazer’s prescribed polynomial uses the specified numerical height constant. The remaining geometric work is to prove the required height bound for the actual family of Jacobians. [Existence theorem](bounded/IntegerPolynomial.lean) · [Family criterion](bounded/PicardCriterion.lean) · [Bounded theorem](bounded/BoundedFromGenus.lean)
 
 [Read the results](docs/results.md) · [Browse the proof dashboard](dashboard/README.md) · [Download the interactive explorer](dashboard/index.html?raw=1) · [Explore the variable bounds](docs/variable-bound.md) · [Sources and conventions](docs/sources.md)
 
@@ -74,7 +74,7 @@ Arrows join a mathematical input to a result that uses it. The bounded theorem h
 | Directory | What `lake build` checks |
 | --- | --- |
 | Repository root · Lean 4.28.0 | Thirty foundational modules and their common entry module cover elliptic substitutions, witness transformations and elementary polynomial arguments. The package uses Lean’s standard library. [Entry point](Lean/Foundations/ZOverQ.lean) |
-| `bounded/` · Lean 4.35.0 | Eight modules giving an implication to the full bounded theorem. The manifest pins the upstream polynomial development and Mathlib. [Build instructions and theorem](bounded/README.md) |
+| `bounded/` · Lean 4.35.0 | Two default targets check the bounded theorem, the qualitative existence theorem and the arithmetic of the Picard family. The manifest pins the upstream polynomial development and Mathlib. [Theorems, hypotheses and build instructions](bounded/README.md) |
 
 The other sources are organized by mathematical package under [Lean/Topics](Lean/Topics/) and [Lean/Lemmas](Lean/Lemmas/). They span several upstream revisions and are provided for study alongside the two build targets. The dashboard records the statuses from the underlying formalization. The two commands above have a narrower, specified build scope.
 

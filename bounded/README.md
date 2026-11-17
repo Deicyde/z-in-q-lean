@@ -1,6 +1,21 @@
-# The bounded polynomial implication
+# Two polynomial definitions under height and rank hypotheses
 
 Run `lake build` in this directory with Lean 4.35.0. Lake uses the pinned upstream polynomial formalization and its dependencies. With a new package cache, `lake exe cache get` can download Mathlib’s compiled dependencies before the build. The root project has a separate dependency-free arithmetic library.
+
+### Existence with an unspecified constant
+
+The theorem `integer_polynomial_of_uniform_height` constructs a natural number of witnesses and an integer polynomial whose rational solutions project exactly to the ordinary integers. Its hypotheses are a uniform six-contact estimate with any real coefficient, Tian’s genus criterion, and positive rational rank at a simple central zero. The finite cutoff depends on the coefficient. [Theorem and definition of the target](IntegerPolynomial.lean)
+
+| Part of the proof | Lean result |
+| --- | --- |
+| Multiplication on point codes | An adjustable cutoff excludes every false multiplication. [Proof](QualitativeMultiplication.lean) |
+| Recovery of the ordinary integer | The local test at one shift and precision at a fixed multiple characterize all nonexceptional integers. [Proof](QualitativePrecision.lean) |
+| One polynomial | All auxiliary variables are existential. A sum of squares joins the tests and a product includes the six exceptional values. [Finite polynomial relations](FinitePolynomial.lean) · [Assembly](IntegerPolynomial.lean) |
+| Six-contact height | Odd branch valuations, finite exceptional sets, the rational-root height estimate for the sextic invariant, and the exponent 24 in the numerical Shafarevich bound are proved. [Branch form](QualitativeHeight.lean) · [Sextic computation](PicardSextic.lean) · [Height comparison](ModuliHeight.lean) |
+| Local roots and conjugate charts | The two local calculations determine the six roots and their differences for every residue characteristic greater than three. An explicit isomorphism identifies the twisted sextic with its conjugate on the affine and reciprocal charts. [Hensel lifting](PicardLocal.lean) · [Change of coordinates](PicardConjugation.lean) |
+| Geometric application | The remaining inputs are good-reduction support and the effective and moduli height estimates on the same family of fibres. The final Lean theorem displays each input. [Family criterion](PicardCriterion.lean) |
+
+### Glazer’s prescribed polynomial
 
 The theorem `ZOverQ.Bounded.bounded_from_height_tian_gross_zagier` takes three hypotheses.
 
