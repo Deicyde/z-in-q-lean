@@ -1,0 +1,21 @@
+import ScalarChange
+#print axioms SquareProgram.compiled_reference
+#print axioms SquareProgram.numerator
+#print axioms SquareProgram.scale_ne
+#print axioms SquareProgram.label_specializes
+#print axioms SquareProgram.explains
+#print axioms SquareProgram.checked_index
+#print axioms SquareProgram.pair_instruction
+#print axioms SquareProgram.pointwise
+#print axioms SquareProgram.physical_counts
+#print axioms SquareProgram.source_even
+#print axioms SquareProgram.real_signed
+#print axioms SquareProgram.replaced_signed
+#print axioms SquareProgram.literal_iff
+#print axioms SquareProgram.groups_iff
+#print axioms SquareProgram.frame_congr
+#print axioms SquareProgram.glue_solutions
+#print axioms SquareProgram.fiber_iff
+#print axioms SquareProgram.zero_mark
+#print axioms SquareProgram.old_492
+#print axioms SquareProgram.exact_change

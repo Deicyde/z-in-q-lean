@@ -1,0 +1,148 @@
+import SunScalarDepth
+import Mathlib.NumberTheory.Padics.PadicVal.Basic
+
+/-! The scalar odd-contact implication on actual multiples of one point. -/
+namespace Sun28.Scalar
+open WeierstrassCurve.Affine
+noncomputable section
+variable {K : Type*} [Field K] [CharZero K] [DecidableEq K]
+
+/-- Sun [10], Lemma 2.1, formal-parameter valuation at two formal multiples.
+The integrality and odd-residue hypotheses for the valuation belong to the application of that lemma. -/
+def FormalComparison (p : ℕ) (w : AddValuation K (WithTop ℤ)) {b : K}
+    (P : (curve b).Point) : Prop :=
+  ∀ (m n : ℤ), m ≠ 0 → n ≠ 0 →
+    0 < w (reciprocal (m • P)) → 0 < w (reciprocal (n • P)) →
+    parameter (m • P) ≠ 0 → parameter (n • P) ≠ 0 →
+    w (parameter (m • P) / parameter (n • P)) =
+      ((padicValInt p m : ℤ) - (padicValInt p n : ℤ) : ℤ)
+
+omit [DecidableEq K] in
+private theorem parameter_of_reciprocal_order (w : AddValuation K (WithTop ℤ)) {b : K}
+    (hb : 0≤w b) (H : (curve b).Point) (hr : reciprocal H ≠ 0)
+    (high : (1:WithTop ℤ)≤w (reciprocal H)) :
+    ∃ d : ℤ, 0<d ∧ w (parameter H)=(d:WithTop ℤ) := by
+  obtain ⟨a,ha⟩ := finite_order w hr
+  have hp : 0<a := by rw [ha] at high; exact_mod_cast (lt_of_lt_of_le (by decide : (0:WithTop ℤ)<1) high)
+  cases H with
+  | zero => exact False.elim (hr rfl)
+  | some x y on =>
+    obtain ⟨d,hd,hz,_⟩ := formal_parameter w hb on hp ha
+    exact ⟨d,hd,hz⟩
+
+/-- Sun's two branch tests at one place, together with the formal comparison lemma,
+force divisibility of the scalar index. All curve operations are Mathlib's affine group operations. -/
+theorem scalar_index_dvd {p k : ℕ} [Fact p.Prime] (hp : 2<p)
+    (w : AddValuation K (WithTop ℤ)) {b : K} (hb : 0≤w b) (h2 : w (2:K)=0)
+    (P : (curve b).Point) (compare : FormalComparison p w P)
+    {h n : ℤ} (hn : n≠0) (hh : h≠0)
+    (hre : reciprocal (h • P) ≠ 0) (live : parameter (n • P) ≠ 0)
+    (first : (1:WithTop ℤ)≤w (reciprocal (h • P)))
+    (second : (k:WithTop ℤ)≤w (parameter (n • P) / parameter (h • P))) :
+    (p:ℤ)^k ∣ n := by
+  let H := h • P
+  let R := n • P
+  obtain ⟨d,hd,hz⟩ := parameter_of_reciprocal_order w hb H hre first
+  obtain ⟨a,ha⟩ := finite_order w live
+  change w (parameter R)=(a:WithTop ℤ) at ha
+  change w (parameter H)=(d:WithTop ℤ) at hz
+  change (k:WithTop ℤ)≤w (parameter R / parameter H) at second
+  rw [w.map_div,ha,hz] at second
+  have diff : (k:ℤ) ≤ a-d := by exact_mod_cast second
+  have apos : 0<a := by omega
+  obtain ⟨du,dx⟩ := double_parameter w hb h2 R apos ha
+  have sm : (2:ℕ) • R = (2*n) • P := by
+    rw [two_nsmul,show (2:ℤ)*n=n+n by ring,add_zsmul]
+  rw [sm] at du dx
+  have fp : 0 < w (reciprocal ((2*n) • P)) := by rw [dx];exact_mod_cast (show 0<2*a by omega)
+  have fh : 0 < w (reciprocal (h • P)) := lt_of_lt_of_le (by decide : (0:WithTop ℤ)<1) first
+  have nz₂ : parameter ((2*n) • P) ≠ 0 := (w.ne_top_iff).mp (du ▸ WithTop.coe_ne_top)
+  have nzH : parameter H ≠ 0 := (w.ne_top_iff).mp (hz ▸ WithTop.coe_ne_top)
+  have com := compare (2*n) h (mul_ne_zero (by decide) hn) hh fp fh nz₂ nzH
+  change w (parameter ((2*n) • P)/parameter H)=_ at com
+  rw [w.map_div,du,hz] at com
+  have p2 : ¬(p:ℤ) ∣ 2 := by
+    intro dv
+    have ep := Int.le_of_dvd (by decide : (0:ℤ)<2) dv
+    omega
+  rw [padicValInt.mul (by decide) hn,padicValInt.eq_zero_of_not_dvd p2,zero_add] at com
+  have diff' : a-d = (padicValInt p n : ℤ) - (padicValInt p h : ℤ) := by exact_mod_cast com
+  exact (padicValInt_dvd_iff k n).mpr (Or.inr (by omega))
+
+omit [DecidableEq K] in
+private theorem integer_integral (w : AddValuation K (WithTop ℤ)) (n : ℕ) :
+    0 ≤ w (n:K) := by
+  induction n with
+  | zero => simp
+  | succ n ih =>
+    rw [Nat.cast_succ];apply w.map_le_add ih; simp
+
+omit [DecidableEq K] in
+/-- Both conjugates rho of sqrt(2) give integral b=-(3-rho)^2 at every odd place. -/
+theorem paper_coefficient (w : AddValuation K (WithTop ℤ)) {ρ : K} (root : ρ^2=2)
+    (h2 : w (2:K)=0) : 0≤w (-(3-ρ)^2) := by
+  have rn : ρ≠0 := by rintro rfl;norm_num at root
+  obtain ⟨a,ha⟩ := finite_order w rn
+  have eq := congrArg w root
+  rw [w.map_pow,ha,h2] at eq
+  have aa : 2*a=0 := by exact_mod_cast eq
+  have rr : 0≤w ρ := by rw [ha, show a=0 by omega];rfl
+  have small : 0≤w (3-ρ) := w.map_le_sub (integer_integral w 3) rr
+  rw [w.map_neg,w.map_pow,two_nsmul]
+  exact add_nonneg small small
+
+/-- The literal coefficient of Sun's curve and the indices H=[h]P, R=[s-1]P. -/
+theorem paper_scalar48 {p : ℕ} [Fact p.Prime] (hp : 2<p)
+    (w : AddValuation K (WithTop ℤ)) {ρ : K} (root : ρ^2=2) (h2 : w (2:K)=0)
+    (P : (curve (-(3-ρ)^2)).Point) (compare : FormalComparison p w P)
+    {h s : ℤ} (hs : s-1≠0) (hh : h≠0)
+    (hre : reciprocal (h • P)≠0) (live : parameter ((s-1) • P)≠0)
+    (first : (1:WithTop ℤ)≤w (reciprocal (h • P)))
+    (second : (48:WithTop ℤ)≤w (parameter ((s-1) • P)/parameter (h • P))) :
+    (p:ℤ)^48 ∣ s-1 :=
+  scalar_index_dvd hp w (paper_coefficient w root h2) h2 P compare hs hh hre live first second
+
+omit [CharZero K] in
+/-- On the cyclic subgroup generated by an infinite-order point, a nonzero multiple
+has nonzero abscissa and ordinate. This also verifies the guards on the two chosen tests. -/
+theorem cyclic_middle_nonzero {b : K} (P : (curve b).Point)
+    (hinf : ∀ j : ℤ, j≠0 → j • P≠0) {n : ℤ} (hn : n≠0) :
+    reciprocal (n • P)≠0 ∧ parameter (n • P)≠0 := by
+  have two : (2:ℕ) • (n • P) ≠ 0 := by
+    rw [two_nsmul,←add_zsmul]
+    exact hinf _ (by omega)
+  cases eq : n • P with
+  | zero => exact False.elim (hinf n hn eq)
+  | some x y on =>
+    have yn : y≠0 := by
+      intro hy
+      apply two
+      rw [eq,two_nsmul,Point.add_self_of_Y_eq]
+      simp [curve,negY,hy]
+    have xn : x≠0 := by
+      rintro rfl
+      have hz := equation on
+      simp at hz
+      exact yn hz
+    exact ⟨inv_ne_zero xn,div_ne_zero (neg_ne_zero.mpr xn) yn⟩
+
+/-- Sun's fixed cyclic curve. Each branch receives only the two indicated depths. -/
+theorem cyclic_scalar48 {p : ℕ} [Fact p.Prime] (hp : 2<p)
+    (w : AddValuation K (WithTop ℤ)) {ρ : K} (root : ρ^2=2) (h2 : w (2:K)=0)
+    (P : (curve (-(3-ρ)^2)).Point) (hinf : ∀ j : ℤ, j≠0 → j • P≠0)
+    (compare : FormalComparison p w P) {h s : ℤ} (hh : h≠0)
+    (first : (1:WithTop ℤ)≤w (reciprocal (h • P)))
+    (second : (48:WithTop ℤ)≤w (parameter ((s-1) • P)/parameter (h • P))) :
+    (p:ℤ)^48 ∣ s-1 := by
+  by_cases hs : s-1=0
+  · rw [hs]; exact dvd_zero _
+  exact paper_scalar48 hp w root h2 P compare hs hh (cyclic_middle_nonzero P hinf hh).1
+    (cyclic_middle_nonzero P hinf hs).2 first second
+
+#print axioms cyclic_middle_nonzero
+#print axioms cyclic_scalar48
+#print axioms scalar_index_dvd
+#print axioms paper_coefficient
+#print axioms paper_scalar48
+end
+end Sun28.Scalar

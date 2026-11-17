@@ -1,0 +1,32 @@
+import IntegerProjection
+import IntegerCertificates
+#print axioms CircuitTransport.instruction
+#print axioms CircuitTransport.reuse_value
+#print axioms CircuitTransport.finish_value
+#print axioms CircuitTransport.clear_row_value
+#print axioms CircuitTransport.restore_value
+#print axioms PhysicalProjection.pair_det_ne
+#print axioms PhysicalProjection.pade_f
+#print axioms PhysicalProjection.pade_g
+#print axioms PhysicalProjection.point_pade
+#print axioms Physical130.time_scales
+#print axioms Physical130.detector_values
+#print axioms Physical130.line_correct
+#print axioms Physical130.cramer_scale
+#print axioms Physical130.cramer_correct
+#print axioms Physical130.every_coordinate
+#print axioms Physical130.every_guard
+#print axioms Physical130.every_matrix
+#print axioms Physical130.every_signed_row
+#print axioms Physical130.pointwise
+#print axioms Physical130.ordinary_projection
+#print axioms Physical130.marked_projection
+#print axioms Physical130.ordinary_polynomial
+#print axioms Physical130.marked_polynomial
+#print axioms Physical130.designated_mark
+#print axioms Physical130.Gate510.ordinary
+#print axioms Physical130.Gate510.marked
+#print axioms Physical130.Gate510.mark_at_zero
+#print axioms Physical130.Gate67830.ordinary
+#print axioms Physical130.Gate67830.marked
+#print axioms Physical130.Gate67830.mark_at_zero

@@ -1,0 +1,41 @@
+import LocalControls
+import WireTransport
+
+#print axioms StructuralReduction.order_of_fraction
+#print axioms StructuralReduction.primeOrder
+#print axioms StructuralReduction.power_dvd_of_order
+#print axioms StructuralReduction.sextic_even_target
+#print axioms StructuralReduction.sextic_threshold
+#print axioms StructuralReduction.good_prime_positive
+#print axioms StructuralReduction.seventeen_even_positive
+#print axioms StructuralReduction.scalar_from_cleared
+#print axioms StructuralReduction.scalar_depths
+#print axioms StructuralReduction.rationalPlace
+#print axioms StructuralReduction.ExtensionPlace.deep_add
+#print axioms StructuralReduction.MultiplicationChart.multiple
+#print axioms StructuralReduction.scalar_group_identity
+#print axioms StructuralReduction.index_divisor
+#print axioms StructuralReduction.AffineValue.reciprocal
+#print axioms StructuralReduction.double_reciprocal
+#print axioms StructuralReduction.double_parameter
+#print axioms StructuralReduction.ScalarBranch.divides
+#print axioms StructuralReduction.scalar_index_divisor
+#print axioms StructuralReduction.Wires.sextic19788
+#print axioms StructuralReduction.Wires.sextic19897
+#print axioms StructuralReduction.Wires.sextic21391
+#print axioms StructuralReduction.Wires.sextic21764
+#print axioms StructuralReduction.Wires.correction
+#print axioms StructuralReduction.Wires.reciprocal_row
+#print axioms StructuralReduction.Wires.numerator_row
+#print axioms StructuralReduction.Wires.frame_sextic
+#print axioms StructuralReduction.Wires.frame_prime_order
+#print axioms StructuralReduction.Wires.frame_seventeen
+#print axioms StructuralReduction.Wires.frame_denominator
+#print axioms StructuralReduction.Wires.scalar_wires
+#print axioms StructuralReduction.Wires.valueAt_read
+#print axioms StructuralReduction.Wires.physical_scalar_divisor
+#print axioms StructuralReduction.exact_order_controls
+#print axioms StructuralReduction.endpoint_controls
+#print axioms StructuralReduction.excluded_controls
+#print axioms StructuralReduction.additiveChart
+#print axioms StructuralReduction.signed_multiple_control

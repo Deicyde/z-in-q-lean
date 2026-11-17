@@ -1,0 +1,12 @@
+import ReversedSmallIndices
+import OddActualResidue
+
+#print axioms ReciprocalDivision.adjacent_rep
+#print axioms ReciprocalDivision.quotient_rep_nat
+#print axioms ReciprocalDivision.quotient_rep
+#print axioms ReciprocalDivision.reciprocal_equation
+#print axioms ReciprocalDivision.total_reciprocal_equation
+#print axioms ReciprocalDivision.bottom_zero_iff
+#print axioms ReciprocalDivision.reversed_division_two
+#print axioms ReciprocalDivision.reversed_division_three
+#print axioms Prime23.OddActual.odd_abscissa

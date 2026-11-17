@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 330" role="img" aria-labelledby="title desc">
+<title id="title">Formalization by construction</title>
+<desc id="desc">Each bar gives the proportions of five proof states. The right column counts kernel-checked packages out of all packages on that route.</desc>
+<rect width="880" height="330" rx="12" fill="#f2f6f4"/>
+<g font-family="Inter,system-ui,sans-serif" fill="#193a33">
+<text x="20" y="32" font-size="20" font-weight="700">Formalization by construction</text>
+<text x="858" y="31" text-anchor="end" font-size="13">Kernel checked / packages</text>
+<text x="20" y="67" font-size="14">Bounded existence</text>
+<rect x="217.00" y="54" width="445.36" height="15" fill="#15786d"><title>Kernel checked · 149</title></rect>
+<rect x="662.36" y="54" width="29.89" height="15" fill="#4e70a9"><title>Upstream proof · 10</title></rect>
+<rect x="692.25" y="54" width="32.88" height="15" fill="#dda946"><title>Header only · 11</title></rect>
+<rect x="725.13" y="54" width="32.88" height="15" fill="#bd7152"><title>Open application · 11</title></rect>
+<rect x="758.01" y="54" width="2.99" height="15" fill="#8e9caa"><title>Needs a header · 1</title></rect>
+<text x="858" y="67" text-anchor="end" font-size="15" font-weight="650">149 / 182</text>
+<text x="20" y="102" font-size="14">Fixed construction</text>
+<rect x="217.00" y="89" width="430.47" height="15" fill="#15786d"><title>Kernel checked · 91</title></rect>
+<rect x="647.47" y="89" width="4.73" height="15" fill="#4e70a9"><title>Upstream proof · 1</title></rect>
+<rect x="652.20" y="89" width="61.50" height="15" fill="#dda946"><title>Header only · 13</title></rect>
+<rect x="713.70" y="89" width="37.84" height="15" fill="#bd7152"><title>Open application · 8</title></rect>
+<rect x="751.54" y="89" width="9.46" height="15" fill="#8e9caa"><title>Needs a header · 2</title></rect>
+<text x="858" y="102" text-anchor="end" font-size="15" font-weight="650">91 / 115</text>
+<text x="20" y="137" font-size="14">314-variable quartic</text>
+<rect x="217.00" y="124" width="163.20" height="15" fill="#15786d"><title>Kernel checked · 3</title></rect>
+<rect x="380.20" y="124" width="163.20" height="15" fill="#dda946"><title>Header only · 3</title></rect>
+<rect x="543.40" y="124" width="108.80" height="15" fill="#bd7152"><title>Open application · 2</title></rect>
+<rect x="652.20" y="124" width="108.80" height="15" fill="#8e9caa"><title>Needs a header · 2</title></rect>
+<text x="858" y="137" text-anchor="end" font-size="15" font-weight="650">3 / 10</text>
+<text x="20" y="172" font-size="14">222-variable quartic</text>
+<rect x="217.00" y="159" width="145.07" height="15" fill="#15786d"><title>Kernel checked · 4</title></rect>
+<rect x="362.07" y="159" width="253.87" height="15" fill="#dda946"><title>Header only · 7</title></rect>
+<rect x="615.93" y="159" width="72.53" height="15" fill="#bd7152"><title>Open application · 2</title></rect>
+<rect x="688.47" y="159" width="72.53" height="15" fill="#8e9caa"><title>Needs a header · 2</title></rect>
+<text x="858" y="172" text-anchor="end" font-size="15" font-weight="650">4 / 15</text>
+<text x="20" y="207" font-size="14">80-variable candidate</text>
+<rect x="217.00" y="194" width="310.86" height="15" fill="#15786d"><title>Kernel checked · 4</title></rect>
+<rect x="527.86" y="194" width="155.43" height="15" fill="#dda946"><title>Header only · 2</title></rect>
+<rect x="683.29" y="194" width="77.71" height="15" fill="#bd7152"><title>Open application · 1</title></rect>
+<text x="858" y="207" text-anchor="end" font-size="15" font-weight="650">4 / 7</text>
+<text x="20" y="242" font-size="14">Sun’s 28 witnesses</text>
+<rect x="217.00" y="229" width="483.39" height="15" fill="#15786d"><title>Kernel checked · 327</title></rect>
+<rect x="700.39" y="229" width="60.61" height="15" fill="#dda946"><title>Header only · 41</title></rect>
+<text x="858" y="242" text-anchor="end" font-size="15" font-weight="650">327 / 368</text>
+<rect x="20" y="296" width="13" height="13" fill="#15786d"/>
+<text x="39" y="308" font-size="13">Kernel checked</text>
+<rect x="194" y="296" width="13" height="13" fill="#4e70a9"/>
+<text x="213" y="308" font-size="13">Upstream proof</text>
+<rect x="377" y="296" width="13" height="13" fill="#dda946"/>
+<text x="396" y="308" font-size="13">Header only</text>
+<rect x="533" y="296" width="13" height="13" fill="#bd7152"/>
+<text x="552" y="308" font-size="13">Open application</text>
+<rect x="715" y="296" width="13" height="13" fill="#8e9caa"/>
+<text x="734" y="308" font-size="13">Needs a header</text>
+</g></svg>

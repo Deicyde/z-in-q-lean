@@ -1,0 +1,32 @@
+import AbscissaRatio
+import BlueprintReduction
+import CasselsFibre
+import CentralSpecialization
+import CommonIndex
+import CompactArithmetic
+import ConverseTransfer
+import DetectorImages
+import EulerCorrection
+import HeckeShell
+import HeightPoints
+import InteriorFibre
+import IsogenousCovers
+import IsogenyKernels
+import MarkedMaps
+import MarkedSubsequence
+import NormPencil
+import OddMinimum
+import PartnerQuartic
+import PellPole
+import PoleCharts
+import PoleSurface
+import PrescribedFibres
+import ProofCore
+import QuarticPole
+import QuarticSeparation
+import ReciprocalChart
+import SquaredAbscissa
+import WeakFibre
+import ZeroInput
+
+/-! Arithmetic lemmas and conditional reductions for polynomial definitions of the integers. -/

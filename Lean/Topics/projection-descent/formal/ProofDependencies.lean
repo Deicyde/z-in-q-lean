@@ -1,0 +1,7 @@
+import PDProjection
+
+#print ProjectionDescent.Shared.literal_projection
+#print ProjectionDescent.Gate510.residual_projection
+#print ProjectionDescent.Gate67830.residual_projection
+#print ProjectionDescent.Gate510.polynomial_projection
+#print ProjectionDescent.Gate67830.polynomial_projection

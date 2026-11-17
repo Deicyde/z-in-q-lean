@@ -1,0 +1,12 @@
+name = "z_over_q_bounded"
+version = "0.1.0"
+defaultTargets = ["BoundedFromGenus"]
+
+[[require]]
+name = "z_in_q_kernel"
+git = "https://github.com/elliotglazer/diophantine-z-q.git"
+rev = "eef7deb0317c2120956d27f2be1bc06cb5c8e5ba"
+
+[[lean_lib]]
+name = "BoundedFromGenus"
+roots = ["TYZFactorizations", "TYZIntegerCoefficient", "TYZBracket", "TwistLFunction", "PublishedGenusRows", "BoundedFromGenus"]

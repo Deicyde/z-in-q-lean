@@ -1,0 +1,35 @@
+import IndexContactExamples
+open IndependentIndices
+#print axioms BlueprintReduction.shifted_residue
+#print axioms subtraction
+#print axioms subtract_errors
+#print axioms bootstrap
+#print axioms two_unit
+#print axioms LogRow.label
+#print axioms reduced_num
+#print axioms local_divisibilities
+#print axioms radical_eq_product
+#print axioms prime_list_radical
+#print axioms radical_append
+#print axioms aggregate
+#print axioms Frame.defects
+#print axioms three_frames
+#print axioms largest_powers_le
+#print axioms largest_is_observed
+#print axioms largest_bounds
+#print axioms common_bound
+#print axioms rational_bootstrap
+#print axioms fraction_iff_canonical
+#print axioms detector_denominator
+#print axioms rational_label
+#print axioms inverse_denominator
+#print axioms reduced_image_unique
+#print axioms half_index_spec
+#print axioms half_log_iff
+#print axioms finite_place
+#print axioms QuadraticLog.value_eq
+#print axioms quadratic_finite_place
+#print axioms lucas_source
+#print axioms Examples.nonzero_numerator
+#print axioms Examples.overlapping_empty
+#print axioms Examples.nonintegral_index

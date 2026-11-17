@@ -1,0 +1,40 @@
+name = "z_over_q"
+version = "0.1.0"
+defaultTargets = ["ZOverQ"]
+
+[[lean_lib]]
+name = "ZOverQ"
+srcDir = "Lean/Foundations"
+roots = [
+  "ZOverQ",
+  "AbscissaRatio",
+  "BlueprintReduction",
+  "CasselsFibre",
+  "CentralSpecialization",
+  "CommonIndex",
+  "CompactArithmetic",
+  "ConverseTransfer",
+  "DetectorImages",
+  "EulerCorrection",
+  "HeckeShell",
+  "HeightPoints",
+  "InteriorFibre",
+  "IsogenousCovers",
+  "IsogenyKernels",
+  "MarkedMaps",
+  "MarkedSubsequence",
+  "NormPencil",
+  "OddMinimum",
+  "PartnerQuartic",
+  "PellPole",
+  "PoleCharts",
+  "PoleSurface",
+  "PrescribedFibres",
+  "ProofCore",
+  "QuarticPole",
+  "QuarticSeparation",
+  "ReciprocalChart",
+  "SquaredAbscissa",
+  "WeakFibre",
+  "ZeroInput",
+]
