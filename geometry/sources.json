@@ -1,0 +1,678 @@
+{
+  "AbelianModel.lean": {
+    "source": "Lean/Lemmas/marked-rm-descent/good-reduction/AbelianModel.lean",
+    "sha256": "68d0f89a67dce848005f13f3bbe54ce1b912e3abb71b9918640cd1200bce09c2"
+  },
+  "ApplicationLemmas.lean": {
+    "source": "Lean/Topics/theorem-blueprint/ApplicationLemmas.lean",
+    "sha256": "2922c81672521e111306dc45efeafd85005371bce23ec29c5db04da8954ca0e7"
+  },
+  "BinaryCover.lean": {
+    "source": "Lean/Topics/marked-moduli/jacobian-model/BinaryCover.lean",
+    "sha256": "f554781fbdef373d8eae775086389d7552cadddc8780c7198e6502a35104be3a"
+  },
+  "ChartBaseChange.lean": {
+    "source": "Lean/Topics/marked-moduli/jacobian-model/ChartBaseChange.lean",
+    "sha256": "8eabe38f54d6b92e35438a60b247278f372033063a7218faaf9ecec2f2ff55d9"
+  },
+  "ChartOpen.lean": {
+    "source": "Lean/Topics/marked-moduli/jacobian-model/ChartOpen.lean",
+    "sha256": "225f0b3942a0cdc004ec8898e175fc9d98ce6754b19ca42eb61ee5653f5f83f7"
+  },
+  "ChartSplitting.lean": {
+    "source": "Lean/Lemmas/marked-rm-descent/good-reduction/ChartSplitting.lean",
+    "sha256": "3f2281501cb4c02d4450e5fff2c544176f3ae086d61119ab03391196491d5114"
+  },
+  "ClusterCharts.lean": {
+    "source": "Lean/Topics/marked-moduli/transport/ClusterCharts.lean",
+    "sha256": "c5778e745bf0fd1d48fe236f103b09bdad309d288a41ab94e611ea14de7b20c9"
+  },
+  "ClusterParameters.lean": {
+    "source": "Lean/Topics/marked-moduli/cluster/ClusterParameters.lean",
+    "sha256": "29eb3f7da59f9e3d87a94c562c4d2a28c66cdfe50c53c57e73893d346d8e069e"
+  },
+  "ClusterPicture.lean": {
+    "source": "Lean/Topics/marked-moduli/cluster/ClusterPicture.lean",
+    "sha256": "1317b87254cd86fa9da6340f3f08fe14427af4f9d5fd1121793a36d7a8508e88"
+  },
+  "ClusterRoots.lean": {
+    "source": "Lean/Topics/marked-moduli/cluster/ClusterRoots.lean",
+    "sha256": "26bf603c1c0b63a07d4d51ca6e1138a6956c1956eba874a1579c02ee79a621a0"
+  },
+  "CoarseConic.lean": {
+    "source": "Lean/Topics/marked-moduli/transport/CoarseConic.lean",
+    "sha256": "3e6f0fb6e93518a0a1d82c9efc681e82e1bdcfb3ccbff4d1e3cc48fda0b156ec"
+  },
+  "CommonOpen.lean": {
+    "source": "Lean/Topics/marked-moduli/projective-model/CommonOpen.lean",
+    "sha256": "f02cd3621571d9814f962fd7fff0a4695ff2c4b007e2f6b9e58f86cc3e9db309"
+  },
+  "CurveChart.lean": {
+    "source": "Lean/Topics/marked-moduli/curve-chart/CurveChart.lean",
+    "sha256": "f0a0483d3e4033da362fb6179da56029153e0fee215fe9dd82873053fc6290ac"
+  },
+  "CurveDimension.lean": {
+    "source": "Lean/Topics/marked-moduli/branch-identity/CurveDimension.lean",
+    "sha256": "448feb302ee535a1f24cc45a86908211bc4a3680d75ff6c9067a73856e826f42"
+  },
+  "CurveExtension.lean": {
+    "source": "Lean/Topics/marked-moduli/projective-model/CurveExtension.lean",
+    "sha256": "2f2de72c19816e52eb273f530a69750dbad8e8c8b6cdccacd35515441482d917"
+  },
+  "CurveGeometry.lean": {
+    "source": "Lean/Topics/marked-moduli/branch-identity/CurveGeometry.lean",
+    "sha256": "4ef6ad0577a5a946e3a9607a36069b663c078c2a307929552e1b56d0424ee041"
+  },
+  "DDMMCompletion.lean": {
+    "source": "Lean/Topics/marked-moduli/projective-model/DDMMCompletion.lean",
+    "sha256": "fa223a323c7715b0845a8b049ea1478bc4863843c82ceffdcdb721f26117d6ee"
+  },
+  "DDMMPolynomial.lean": {
+    "source": "Lean/Topics/marked-moduli/projective-model/DDMMPolynomial.lean",
+    "sha256": "3957bbe8e22381482622ee0d6137f82d99d2070f5616bc3d764df4e136ea2a9a"
+  },
+  "DirectCharts.lean": {
+    "source": "Lean/Topics/marked-moduli/reduction/DirectCharts.lean",
+    "sha256": "3d9bd217082bee4ffdc3b98a4f1e0427bd849a1c09bc7c53f0f139d89bdb525e"
+  },
+  "DiscEquations.lean": {
+    "source": "Lean/Topics/marked-moduli/cluster/DiscEquations.lean",
+    "sha256": "a197534b0ce180e88a5c545809389b3d64cddf685c34a6f7a87a777bb92c681e"
+  },
+  "ExactThetaHeight.lean": {
+    "source": "Lean/Lemmas/theta-quotient/ExactThetaHeight.lean",
+    "sha256": "c658aaca02ce5c4507895f5d2291e05fa3da2ba45077e07d88e71ca27d5f4b95"
+  },
+  "FiniteDoubleCover.lean": {
+    "source": "Lean/Topics/marked-moduli/proper-curve/FiniteDoubleCover.lean",
+    "sha256": "0e3d3a80f962e4411e6d4df8679a5ff26308313429893f90ecad363d73891f4e"
+  },
+  "FixedCurve.lean": {
+    "source": "Lean/Topics/marked-moduli/jacobian-model/FixedCurve.lean",
+    "sha256": "e52f30fe63229afb7d051b385a01478636ebd5b6475cac51391fdc70bfcec756"
+  },
+  "FourQuadrics.lean": {
+    "source": "Lean/Topics/marked-moduli/picard-application/FourQuadrics.lean",
+    "sha256": "bfd84eefcacac390a4a387d9a658a9234509ba8731f4d893f9ac866630db9e70"
+  },
+  "GeometricCharts.lean": {
+    "source": "Lean/Topics/marked-moduli/smooth-curve/GeometricCharts.lean",
+    "sha256": "c6cdadc124d1fab59585798f071b2e71718a5672cc272fac4074b137e0e9d012"
+  },
+  "GeometricCurve.lean": {
+    "source": "Lean/Topics/marked-moduli/smooth-curve/GeometricCurve.lean",
+    "sha256": "088b8c6de8aa05856e41f09f5ce643136ccf4b13c3c4d3039a6ef75d5df5f3c2"
+  },
+  "GlobalTwist.lean": {
+    "source": "Lean/Topics/marked-moduli/twist/GlobalTwist.lean",
+    "sha256": "5a8b85603c84665e28c049946f48c8c3d8f211914a1e2369b6446d58186f31e0"
+  },
+  "GlueCover.lean": {
+    "source": "Lean/Topics/marked-moduli/jacobian-model/GlueCover.lean",
+    "sha256": "09bf115767f430abad75fff62df3209c1220929814854fb42c2938188761413b"
+  },
+  "HeightBudget.lean": {
+    "source": "Lean/Topics/marked-moduli/height/HeightBudget.lean",
+    "sha256": "ffa07663261462647f468c4d6c73dde3627ea491faccad0793413e1b42fc8250"
+  },
+  "HeightSix.lean": {
+    "source": "Lean/Topics/theorem-blueprint/HeightSix.lean",
+    "sha256": "6ab6502a258078fc8fd2abba2c2b73c304209581f7bad2549824708b03f94742"
+  },
+  "HenselTriples.lean": {
+    "source": "bounded/HenselTriples.lean",
+    "sha256": "b3eed019944dd4a19bd29a8e6c3519a077a13f44035119c0f91aaa53b20e2c07"
+  },
+  "IgusaRatio.lean": {
+    "source": "Lean/Topics/marked-moduli/theta/IgusaRatio.lean",
+    "sha256": "48ff3dc5a8e43b586ce1e21791c2c5fcca2d6a01a9a65d518fab8de0a6539d4e"
+  },
+  "IntegralComparison.lean": {
+    "source": "Lean/Topics/marked-moduli/curve-chart/IntegralComparison.lean",
+    "sha256": "ef1855d9eb915f7112ff8baa16facb41aa81c6ce433fc8a23d101729aa22fc4e"
+  },
+  "IntegralSextic.lean": {
+    "source": "Lean/Topics/marked-moduli/reduction/IntegralSextic.lean",
+    "sha256": "b4e32956407b9cb4d96d8c1cbff1114e509dfc15036d41f32b5e5b25ef547a88"
+  },
+  "LeadingOrders.lean": {
+    "source": "Lean/Topics/marked-moduli/reduction/LeadingOrders.lean",
+    "sha256": "86b8646d68096f4126c2be054a4326a86f64fa6f50ba578a924fada027f60136"
+  },
+  "LineCover.lean": {
+    "source": "Lean/Topics/marked-moduli/proper-curve/LineCover.lean",
+    "sha256": "e4804e02afc9df624673cd502edcdd0518cd42ed24d4bb4c577966572836f923"
+  },
+  "LinePoints.lean": {
+    "source": "Lean/Topics/marked-moduli/proper-curve/LinePoints.lean",
+    "sha256": "cee654ca2bc10e60d2c7524413584a16ed0e81bfa29b9d18599d8744425b00e3"
+  },
+  "LineValuation.lean": {
+    "source": "Lean/Topics/marked-moduli/proper-curve/LineValuation.lean",
+    "sha256": "5610848580711d6d6afeaba1f8c7e82fe88aed14fd3ee5b92754831cbfce685c"
+  },
+  "LocalChanges.lean": {
+    "source": "Lean/Topics/marked-moduli/curve-chart/LocalChanges.lean",
+    "sha256": "424ec88859728ef6aeb7f0716c2c9a27c93c826f223b8056cf0d324d7e3c332c"
+  },
+  "LocalDiscs.lean": {
+    "source": "Lean/Topics/marked-moduli/transport/LocalDiscs.lean",
+    "sha256": "ea779df637c684d5fbb32ead1dc20269641d53ade7cd4a4a2ad07d04a6c9f7c2"
+  },
+  "LocalFunctionField.lean": {
+    "source": "Lean/Topics/marked-moduli/branch-identity/LocalFunctionField.lean",
+    "sha256": "55fe1c2bba0c4f044ca4c90198d57e85feaffd090a65f0263e7b293df1122a34"
+  },
+  "NormalSextic.lean": {
+    "source": "Lean/Topics/marked-moduli/projective-model/NormalSextic.lean",
+    "sha256": "176d186e25babd4eee7c54bfe907dc611680afd62859f1726e5ad01f7ed9f554"
+  },
+  "PadicParameters.lean": {
+    "source": "Lean/Topics/marked-moduli/cluster/PadicParameters.lean",
+    "sha256": "84462ea99e6e519b0efe646322a610fd3cfab36ce33f694eb008aa4b1bcdc545"
+  },
+  "PicardConjugation.lean": {
+    "source": "bounded/PicardConjugation.lean",
+    "sha256": "3b4a3ff72e277eecdad7efa5d5a7576cef04634cc1876ec4b4c1d602aec58264"
+  },
+  "PicardCurveMap.lean": {
+    "source": "Lean/Lemmas/ordinary-picard-integral/PicardCurveMap.lean",
+    "sha256": "ab23023630799f29eb952848313107befc6ac2a5b6c94b47c0668f7a13da7185"
+  },
+  "PicardDescent.lean": {
+    "source": "Lean/Lemmas/picard-application/PicardDescent.lean",
+    "sha256": "451d920c74fdf816d14886be4d48d67b033c39c37d610b302649bca53b9ba502"
+  },
+  "PicardLocal.lean": {
+    "source": "bounded/PicardLocal.lean",
+    "sha256": "6f18ff010d78a2b173aff8583faba82a9d23c48da4d86c35b71e9b231bfe2adc"
+  },
+  "PicardSextic.lean": {
+    "source": "bounded/PicardSextic.lean",
+    "sha256": "a5ebdb512f8d3129889b6c91c5acc863ea9c09552ae2f4bb787ce8b099e4cd85"
+  },
+  "PrimitiveLifts.lean": {
+    "source": "Lean/Topics/marked-moduli/primitive-roots/PrimitiveLifts.lean",
+    "sha256": "49d0e2af9b7d235b9f4f1796ff341204e88803025cf677b300dd00d20f829f57"
+  },
+  "PrimitiveParameters.lean": {
+    "source": "Lean/Topics/marked-moduli/reduction/PrimitiveParameters.lean",
+    "sha256": "d9dbb1f451a35622b3c047117618626a96d65017b2d45c242ede37cfd219f227"
+  },
+  "PrimitivePole.lean": {
+    "source": "Lean/Topics/marked-moduli/primitive-roots/PrimitivePole.lean",
+    "sha256": "9c840f35e8345d155a17713266061ec9846db5481834d87ffc96ad47a898a904"
+  },
+  "PrimitivePoleFibre.lean": {
+    "source": "Lean/Topics/marked-moduli/primitive-roots/PrimitivePoleFibre.lean",
+    "sha256": "6096425435d7503022cd246abcc29e72ed184294e3fa1fbd9bd7b95cb7d38d4e"
+  },
+  "PrimitiveRoots.lean": {
+    "source": "Lean/Topics/marked-moduli/primitive-roots/PrimitiveRoots.lean",
+    "sha256": "99e8a6ef5e9ec9191836ec7e63d87e0fca44e7ad63ae62f60dc471bdb37f54e4"
+  },
+  "PrincipalClusters.lean": {
+    "source": "Lean/Topics/marked-moduli/reduction/PrincipalClusters.lean",
+    "sha256": "107071ebdbc34785324a1dfe99ed76d191f14e297f1b30810d5b06376650a679"
+  },
+  "ProjectiveCharts.lean": {
+    "source": "Lean/Topics/marked-moduli/projective-model/ProjectiveCharts.lean",
+    "sha256": "0f47223aa454bff02f4c2aa08cd6ec07f4895a44f27589a5001c0c89372462d6"
+  },
+  "ProjectiveSextic.lean": {
+    "source": "Lean/Topics/marked-moduli/picard-application/ProjectiveSextic.lean",
+    "sha256": "3d7dac2fcf8be579f8415e5b7e2f2db411e5376ab186f7269f774bcf184d8e55"
+  },
+  "ProperCompletion.lean": {
+    "source": "Lean/Topics/marked-moduli/projective-model/ProperCompletion.lean",
+    "sha256": "b54c4ccaf22fe2ba9f0e392e5df5765d09505aeaecef812b42159d81bba6f18b"
+  },
+  "PublicHeightFromGeometry.lean": {
+    "source": "Lean/Topics/theorem-blueprint/verification/upstream-eef7/join/PublicHeightFromGeometry.lean",
+    "sha256": "858ed53563040f05f2a056a4038edbf071e3bac2f1644fc68ec709e746151249"
+  },
+  "PublicRankJoin.lean": {
+    "source": "Lean/Topics/theorem-blueprint/verification/upstream-eef7/join/PublicRankJoin.lean",
+    "sha256": "d6cda824aa6a7019f1bc3831df3b1aa9cd8d752f239a2f5da67b483024e09bbc"
+  },
+  "QuadricsAffine.lean": {
+    "source": "Lean/Topics/marked-moduli/picard-application/QuadricsAffine.lean",
+    "sha256": "323e92901469ddf1a556ede3eecda0fdebb1bfeb10d61b50491c65de6bb5d8f0"
+  },
+  "QuadricsGeometry.lean": {
+    "source": "Lean/Topics/marked-moduli/picard-application/QuadricsGeometry.lean",
+    "sha256": "f10d56632aceb33f386b16032fba5caeff210b8211d85b7792ccdc2592b3f5cd"
+  },
+  "QuadricsProj.lean": {
+    "source": "Lean/Topics/marked-moduli/picard-application/QuadricsProj.lean",
+    "sha256": "128b9ab1e5d0bc05efa74048c7e4aa28363222ff0a1245fffce928dbb17c6e2a"
+  },
+  "QualitativeHeight.lean": {
+    "source": "bounded/QualitativeHeight.lean",
+    "sha256": "dd6bd889dbc7d36d7f0cab304cbd29edd54429b5c23ee66a277d36ddd5e74d06"
+  },
+  "RationalClusters.lean": {
+    "source": "Lean/Topics/marked-moduli/cluster/RationalClusters.lean",
+    "sha256": "e6c7f35ed38603e0ea618a8c0374f98665cacfc876af070063f6c58504b35da0"
+  },
+  "RationalJacobian.lean": {
+    "source": "Lean/Lemmas/2026-11-15-six-contact-jacobian/RationalJacobian.lean",
+    "sha256": "302fe0d83613b26bcbf0f7a8ea11975bc9f2e196c04b43e3ad5b3b2576c29d17"
+  },
+  "RationalModel.lean": {
+    "source": "Lean/Topics/marked-moduli/transport/RationalModel.lean",
+    "sha256": "84d5a4766611e6593b050ff5ba770dc8fcdb5e7fb9cee0d38736fb91349e7630"
+  },
+  "RationalReduction.lean": {
+    "source": "Lean/Topics/marked-moduli/reduction-application/RationalReduction.lean",
+    "sha256": "df79a116f00d8f2d6655c5ba2ee8132948117e3e1453bf0f366c1284f00c748e"
+  },
+  "RegularSextic.lean": {
+    "source": "Lean/Topics/marked-moduli/reduction/RegularSextic.lean",
+    "sha256": "f1effb25f6c214d0cdc71174681862f98c23c2be7837b1e3ff30f76c2f0a15bb"
+  },
+  "ResidualFactors.lean": {
+    "source": "Lean/Topics/marked-moduli/cluster/ResidualFactors.lean",
+    "sha256": "967b715a8eb5171ce7602575dd4054a35f6733f2e945bd54b64f1ae6583c35dc"
+  },
+  "ResidueExtension.lean": {
+    "source": "Lean/Topics/marked-moduli/residue-extension/ResidueExtension.lean",
+    "sha256": "101f9284551490e2faa91ce361f4e7e68a30836932833870fad43ede8a385642"
+  },
+  "RootHeight.lean": {
+    "source": "Lean/Topics/theorem-blueprint/RootHeight.lean",
+    "sha256": "76f2e0dcaed62c77043467f38c52ba3f04056cf91be2f482b0e7c95b9d4fc8bb"
+  },
+  "SexticAtlas.lean": {
+    "source": "Lean/Topics/marked-moduli/projective-model/SexticAtlas.lean",
+    "sha256": "1e0dfe403ee93b6692079f0777e497443b406714c6682294b147b354c6b93795"
+  },
+  "SexticCalibration.lean": {
+    "source": "Lean/Topics/critical-fibres/calibration/SexticCalibration.lean",
+    "sha256": "ef3146bff1bcdc16725c507522f4559f635f8437f46bded9b525cdd5d4ab5500"
+  },
+  "SexticConjugation.lean": {
+    "source": "Lean/Topics/marked-moduli/transport/SexticConjugation.lean",
+    "sha256": "16cd7c495138b03c3a3c9e21fb2a9b722548671ae9ac681d9602dfa59468daba"
+  },
+  "SexticDiscriminant.lean": {
+    "source": "Lean/Lemmas/theta-quotient/SexticDiscriminant.lean",
+    "sha256": "8c9d36a9a41eca6f0c1c843eeda45dc30f34cd89aec652b1575d007cfbc87ecc"
+  },
+  "SexticI4.lean": {
+    "source": "Lean/Lemmas/theta-quotient/SexticI4.lean",
+    "sha256": "9f27244b56e870c59d8f1f6a9d8c217f294cbbacd29efc67a57b8e26f555ac95"
+  },
+  "SexticIgusaChart.lean": {
+    "source": "Lean/Topics/marked-moduli/theta/SexticIgusaChart.lean",
+    "sha256": "52345623624bca8ffaed9329ff026fe6186bc9c49e3b4e1a24849276b285f60e"
+  },
+  "SexticThetaHeight.lean": {
+    "source": "Lean/Topics/marked-moduli/theta/SexticThetaHeight.lean",
+    "sha256": "62ff674b4e8f49940a1473a8bbe3baff6c063967d94dde431b9faecfbbb137b2"
+  },
+  "SixAffine.lean": {
+    "source": "Lean/Topics/marked-moduli/jacobian-model/SixAffine.lean",
+    "sha256": "4c9c31ab5937f8974245a0e9651337d47928f16b21f614f2048d46cbcb5b2b0f"
+  },
+  "SmoothCharts.lean": {
+    "source": "Lean/Topics/marked-moduli/smooth-curve/SmoothCharts.lean",
+    "sha256": "379c0e6371e1c2f44e386841180300ad12d069a57d1ef738715ffeff02bdb9b7"
+  },
+  "SmoothSextic.lean": {
+    "source": "Lean/Topics/marked-moduli/smooth-curve/SmoothSextic.lean",
+    "sha256": "eb09a45fd236ae5e024bb82a9c9592031b6a691f3254f0132b97ec811f81b71c"
+  },
+  "SquareRootSmooth.lean": {
+    "source": "Lean/Topics/marked-moduli/smooth-curve/SquareRootSmooth.lean",
+    "sha256": "851b26b1070d7196055d47cbc76fd4e73ff5ac7c844ec60e1721e12a964ee964"
+  },
+  "TauCeti/Algebra/DirectSum/Internal.lean": {
+    "dependency": "TauCeti",
+    "sha256": "6bf89099fe3bc8f6dcf3db2a263f24d1c77fba29155df1d45be3fda559a4fc36"
+  },
+  "TauCeti/Algebra/Field/Fin/Tuple.lean": {
+    "dependency": "TauCeti",
+    "sha256": "950a0fcc3c2190eab9f9ba96df6889541897077c4f8acccde2d52ed1429b11ea"
+  },
+  "TauCeti/Algebra/WordFiltration/Basic.lean": {
+    "dependency": "TauCeti",
+    "sha256": "9000e76a8f05febf61ad99d6e6f538f767e8024bd6d8f5051eed9daf79b21768"
+  },
+  "TauCeti/AlgebraicGeometry/ProjectiveSpectrum/ClosedImmersion.lean": {
+    "dependency": "TauCeti",
+    "sha256": "05b111f22918467e9622170d67492d6c9d38d07f3cefe001f10c3babe18ae5b7"
+  },
+  "TauCeti/LinearAlgebra/SymmetricAlgebra/Basic.lean": {
+    "dependency": "TauCeti",
+    "sha256": "283def6b9903ebc9996ac7e4492b7252a5d18d51f71a8fa9096ec4613b6eebab"
+  },
+  "TauCeti/LinearAlgebra/SymmetricAlgebra/Functoriality.lean": {
+    "dependency": "TauCeti",
+    "sha256": "c62cc66ff04c16f6940affb5dbe70a4b6b0e836c5934f41c3d5eae20a09f05f1"
+  },
+  "TauCeti/LinearAlgebra/SymmetricAlgebra/GradedMap.lean": {
+    "dependency": "TauCeti",
+    "sha256": "3bc0ad35477dea99159461b1bad93a59b02b9ae1fbef714fb91e859d02eb00af"
+  },
+  "TauCeti/LinearAlgebra/SymmetricAlgebra/Grading.lean": {
+    "dependency": "TauCeti",
+    "sha256": "4911671f53502c9a971a169c8e056eb576b4eaf3874d0fefc710de485d8db293"
+  },
+  "TauCeti/LinearAlgebra/SymmetricAlgebra/Homogeneous.lean": {
+    "dependency": "TauCeti",
+    "sha256": "44eff12b571474dbc65cc80b9626ca4308ae7da54b0121f0b691032d278923d5"
+  },
+  "TauCeti/RingTheory/GradedAlgebra/Homogeneous/Maps.lean": {
+    "dependency": "TauCeti",
+    "sha256": "880eae63cc7f6b552eb194f6982d8046de1a051d99f95266fca79e1c9777d717"
+  },
+  "TauCeti/RingTheory/GradedAlgebra/Homogeneous/Quotient.lean": {
+    "dependency": "TauCeti",
+    "sha256": "c0afb174082d3afd9909bfaa2375f14b25b868ee3eec5a72ab594ef48f08b014"
+  },
+  "TauCeti/RingTheory/GradedAlgebra/HomogeneousLocalization/Basic.lean": {
+    "dependency": "TauCeti",
+    "sha256": "b227fd68af5b0b92bba9f6459498383285f76eaea8b8b77a1e25172205a772d3"
+  },
+  "TauCeti/RingTheory/GradedAlgebra/HomogeneousLocalization/Dehomogenization.lean": {
+    "dependency": "TauCeti",
+    "sha256": "72cec0640fb31350efba7379a92f91a34787edf36c439885607daf35b658fa26"
+  },
+  "TauCeti/RingTheory/GradedAlgebra/Quotient.lean": {
+    "dependency": "TauCeti",
+    "sha256": "0ca34d268d48ec59f9a4d0e82404d74febd4ecd7d3f9ee672923b60e1d77358d"
+  },
+  "TauCeti/RingTheory/MvPolynomial/Dehomogenization.lean": {
+    "dependency": "TauCeti",
+    "sha256": "67e96eb89609d13f6efa565f20e0504978677e8919efcc413bd0049e4e19e935"
+  },
+  "TauCeti/RingTheory/MvPolynomial/Homogeneous.lean": {
+    "dependency": "TauCeti",
+    "sha256": "8491a66045339e42c89588a7f6d207c4dddb3c2b776cfb91c15df8b79af05a96"
+  },
+  "TauCeti/RingTheory/MvPolynomial/Initial/Weight.lean": {
+    "dependency": "TauCeti",
+    "sha256": "ac9d3d196422c72fc1bc4cc5d6985f6732b3caab78602991865c559c17d53743"
+  },
+  "TauCeti/RingTheory/MvPolynomial/Rescale.lean": {
+    "dependency": "TauCeti",
+    "sha256": "85bea9b2f4f6e4c757d1c45ea7dcf08aaca912bdcf05dd70854d1669672cf420"
+  },
+  "TauCeti/RingTheory/MvPolynomial/WeightedHomogeneous.lean": {
+    "dependency": "TauCeti",
+    "sha256": "d1a11de99c6bedb7a7a6a76b70676ba4c4daf1d7a74f0da091126fd96b977f16"
+  },
+  "TauCeti/RingTheory/Nullstellensatz.lean": {
+    "dependency": "TauCeti",
+    "sha256": "a3847b725297df51e1be813f6168a929de68e6668c50a2fa17299f452959f399"
+  },
+  "TauCeti/RingTheory/RootsOfUnity/Basic.lean": {
+    "dependency": "TauCeti",
+    "sha256": "278e9a36dcaab376cfb78086c1f187b2e580d118094d41574b53027314a947b8"
+  },
+  "ThetaApplication.lean": {
+    "source": "Lean/Topics/marked-moduli/theta/ThetaApplication.lean",
+    "sha256": "601521415baaf95b669fd747ae75acf9e5aee76312b986508ea629c59e4dab03"
+  },
+  "ThetaMetric.lean": {
+    "source": "Lean/Topics/marked-moduli/theta/ThetaMetric.lean",
+    "sha256": "6d30745d851ec7d4bc32473cec86974732e7664c72c1639ecd46dcd976b018cd"
+  },
+  "ThetaQuotient.lean": {
+    "source": "Lean/Lemmas/theta-quotient/ThetaQuotient.lean",
+    "sha256": "cf8c8472f279f84da9f50b463e07e5eeb615a2964417ca12dbb39efaeaea3e93"
+  },
+  "UnpointedBaseChange.lean": {
+    "source": "Lean/Lemmas/ordinary-picard-integral/UnpointedBaseChange.lean",
+    "sha256": "8173d02145c4897e46a150c81896549f7f8c915a3fdc6594f8135e18ba66393a"
+  },
+  "UnramifiedWitt.lean": {
+    "source": "Lean/Topics/marked-moduli/residue-extension/UnramifiedWitt.lean",
+    "sha256": "f14b286adfa3b0fd82bca800ec989bd2221e1d244f62b6013f2d24faf31157e4"
+  },
+  "ValuationStalks.lean": {
+    "source": "Lean/Topics/marked-moduli/projective-model/ValuationStalks.lean",
+    "sha256": "3e4f8b7dd93c8bf4544b9f52933a9a3c9c81290678ea6ea73cfb61f54e968215"
+  },
+  "WittBasis.lean": {
+    "source": "Lean/Topics/marked-moduli/residue-extension/WittBasis.lean",
+    "sha256": "e21f9ba2e826251b9dea437f68264a8f68fa178e35459680010b4230b7c251e9"
+  },
+  "WittFibres.lean": {
+    "source": "Lean/Topics/marked-moduli/cluster/WittFibres.lean",
+    "sha256": "3d4abf39131cd6eaabd8d725431f01683b6ed947ddb08f3412549455fc1b2dac"
+  },
+  "LocalSupport.lean": {
+    "source": "picard/LocalSupport.lean",
+    "sha256": "9a58513b556e48c33d2d49d9fc9346af4b82474fcbf1778b8eb57d7b23e876ab"
+  },
+  "PicardLocalization.lean": {
+    "source": "Lean/Lemmas/picard-application/PicardLocalization.lean",
+    "sha256": "a6a750a7a005eac69af7c0c9719e9de7d3fa0e0996bcac422e97c00cffcf2dd4"
+  },
+  "PrimitiveTwist.lean": {
+    "source": "picard/PrimitiveTwist.lean",
+    "sha256": "9711094a897f4e6baba494fe0a66b1c0448c75bcd2232e2e6f7a2c42391e675f"
+  },
+  "AbelianPowers.lean": {
+    "source": "picard/AbelianPowers.lean",
+    "sha256": "96871e6eb75e48cd5205f0722bae3d278b5f765bb8812458b1a7f0885abb2310"
+  },
+  "BoundedFromGenus.lean": {
+    "source": "bounded/BoundedFromGenus.lean",
+    "sha256": "7f3b5893c294283ed13a388eda9dba8ea171403e56db59ecef864d16869c5166"
+  },
+  "FinitePolynomial.lean": {
+    "source": "bounded/FinitePolynomial.lean",
+    "sha256": "b3136664e515b053c4e70ea5ae2eebf38973ff82cc1ee7cfef306b05fb8c6bd2"
+  },
+  "IntegerPolynomial.lean": {
+    "source": "bounded/IntegerPolynomial.lean",
+    "sha256": "e9151ea13b3933006285aa48f06743c607e4786bdf01e694290b99174a6b8eed"
+  },
+  "ModuliHeight.lean": {
+    "source": "bounded/ModuliHeight.lean",
+    "sha256": "a433d43dd76761d141f8f068489e2129c4359b67d279d861d5b5bfc6c0ad87a6"
+  },
+  "PicardAssembly.lean": {
+    "source": "picard/PicardAssembly.lean",
+    "sha256": "fa429ddd310ecfa8b535b00a6e0b161a6e3517522370fa098ba3f09d6ae7e8cd"
+  },
+  "PicardCriterion.lean": {
+    "source": "bounded/PicardCriterion.lean",
+    "sha256": "8c9b2f8225fedee3c2a0f7b64d9f6086e941cec0616d0e8d2dd350fa4e5c9b07"
+  },
+  "PicardDiscriminant.lean": {
+    "source": "picard/PicardDiscriminant.lean",
+    "sha256": "77c407250ec1b7be23db211b1395e206e7e8b2386bb7d79a41c8733d5a92bc75"
+  },
+  "PicardGoodReduction.lean": {
+    "source": "Lean/Lemmas/picard-application/PicardGoodReduction.lean",
+    "sha256": "1688599a7dd6671fc86047b6f2375bf4920fe827e3c505c614474ac7b81cf644"
+  },
+  "PublishedGenusRows.lean": {
+    "source": "bounded/PublishedGenusRows.lean",
+    "sha256": "ba2335df8c6baab9bdc6b2db0b5ba3c58b00c852dc24869852b775ad5404a8f6"
+  },
+  "QualitativeMultiplication.lean": {
+    "source": "bounded/QualitativeMultiplication.lean",
+    "sha256": "47a8b3fb639c71f1a9d0be0fae316c11dce7c044ad77daa71c7d7c4aed4f90c8"
+  },
+  "QualitativePrecision.lean": {
+    "source": "bounded/QualitativePrecision.lean",
+    "sha256": "11dd6fb142eee4297660a7dea0767faa8b86cf5514a859f2a93e6652088ced43"
+  },
+  "TYZBracket.lean": {
+    "source": "bounded/TYZBracket.lean",
+    "sha256": "6bbac99b26fd1567ccf58afdbe78e5851577a2349724da0a26b203b0027be4c3"
+  },
+  "TYZFactorizations.lean": {
+    "source": "bounded/TYZFactorizations.lean",
+    "sha256": "0ccf497bc44b5fe05b18bff5a728a399f7eaba88eac519785769ce5d595dff24"
+  },
+  "TYZIntegerCoefficient.lean": {
+    "source": "bounded/TYZIntegerCoefficient.lean",
+    "sha256": "ebcc3a06f803c48e50ec2fb7bd480bb9040c804bfc5a20be2ee3dffab7595f1b"
+  },
+  "TYZMultisetWeights.lean": {
+    "source": "bounded/TYZMultisetWeights.lean",
+    "sha256": "c51fb309c29751cfb60536d4788ebe8c0077bdd25f839584cf0d5f991548daeb"
+  },
+  "TYZUnordered.lean": {
+    "source": "bounded/TYZUnordered.lean",
+    "sha256": "e79a8ed6f5d5cdea28d8a841677f6b9ec19ee2bf039f59f8de906ac9b332b621"
+  },
+  "ThetaComparison.lean": {
+    "source": "picard/ThetaComparison.lean",
+    "sha256": "2addc0f18d22ca9fdb90f2995b700bac2a0da3d381ab98a3f0b3a233da6907a8"
+  },
+  "TwistLFunction.lean": {
+    "source": "bounded/TwistLFunction.lean",
+    "sha256": "7bf722d1acf99e0ed46638736f77a6f40ffb3f690a740b0ed0e9689c9be3c49b"
+  },
+  "CommonWittField.lean": {
+    "source": "Lean/Lemmas/picard-application/CommonWittField.lean",
+    "sha256": "11f5df37ffc2e9845b8d1afcd2c44726b8d4eb759b03c2f76401ad095100a80d"
+  },
+  "CommonWittReduction.lean": {
+    "source": "Lean/Lemmas/picard-application/CommonWittReduction.lean",
+    "sha256": "60af78222aa0761f69f2299c100ae2f41d9496d34d2f0bc6706ee2c6505f5774"
+  },
+  "GeneralQuaternionField.lean": {
+    "source": "Lean/Lemmas/picard-application/GeneralQuaternionField.lean",
+    "sha256": "2fddf40e447338a65b302f6f543b663095e5750753a25a4291d11d942bcb32d6"
+  },
+  "GroupEndomorphism.lean": {
+    "source": "Lean/Lemmas/marked-rm-descent/GroupEndomorphism.lean",
+    "sha256": "5814659592e9acfd7bcbd12780b598c558998eb53cfa6b5ee96ca72dae6fd426"
+  },
+  "GuitartDescent.lean": {
+    "source": "picard/GuitartDescent.lean",
+    "sha256": "c30a49a4d96222bf4c5a2b25c90d6bef005f379a6fb11a7d90175c427a17223f"
+  },
+  "IsogenyHeight.lean": {
+    "source": "Lean/Lemmas/picard-application/IsogenyHeight.lean",
+    "sha256": "601334690ce31674ae1623f40502b9672437edf692da4d635be0cba8d58057e1"
+  },
+  "NormalDescent.lean": {
+    "source": "Lean/Lemmas/marked-rm-descent/NormalDescent.lean",
+    "sha256": "c5b9a02947502347767ddf842a29b6b59bea293d70fbc3f937181568fcef7013"
+  },
+  "PicardPolynomial.lean": {
+    "source": "Lean/Lemmas/picard-application/PicardPolynomial.lean",
+    "sha256": "6bcc3847f9ed65686612e68855ba07770be3fe24eece0c193b88fb153136c5c7"
+  },
+  "QuadraticAction.lean": {
+    "source": "Lean/Lemmas/marked-rm-descent/QuadraticAction.lean",
+    "sha256": "398b7fe28d369b28852cc595a9fbe3a1a7d472dba1054c1669242a9bf49c0891"
+  },
+  "RationalEndomorphism.lean": {
+    "source": "Lean/Lemmas/marked-rm-descent/RationalEndomorphism.lean",
+    "sha256": "84dd50e1c4d5fd8f26a351ce48428dcbac249124760b39ef3e5d80473f9e93da"
+  },
+  "UniformDescent.lean": {
+    "source": "picard/UniformDescent.lean",
+    "sha256": "5c4b54e1f8a25102727f571e2a9309343e2da09e41e2b911ca01bc4123a4ceb4"
+  },
+  "WittAscent.lean": {
+    "source": "Lean/Lemmas/picard-application/WittAscent.lean",
+    "sha256": "e41e2de449376f2f1e2d584520c78734828cb601b8380faf68c1615fa5866b5d"
+  },
+  "AtlasSections.lean": {
+    "source": "Lean/Topics/marked-moduli/affine-cohomology/AtlasSections.lean",
+    "sha256": "4c9300c2af2b5c31c6aaab0a40157eeaaae4b714326c663c3be5a17eb2a85883"
+  },
+  "CechQuotient.lean": {
+    "source": "Lean/Topics/marked-moduli/proper-curve/CechQuotient.lean",
+    "sha256": "f4bfdcca532a61aea5e1e14e053a5a35739e141a9e41fcb7b74b3c9a2fa69d15"
+  },
+  "CentralIsogenyCocycle.lean": {
+    "source": "Lean/Lemmas/picard-application/CentralIsogenyCocycle.lean",
+    "sha256": "e4095893fe0c37641c85bf2086a6701a15be97ffa5c4b5fe45c53435b260654d"
+  },
+  "EndomorphismSpecialization.lean": {
+    "source": "bounded/EndomorphismSpecialization.lean",
+    "sha256": "81bc21088044cd6efecb8fd89ad20306b1abb03d168fba438070e023b155f634"
+  },
+  "GuitartApplication.lean": {
+    "source": "Lean/Lemmas/picard-application/GuitartApplication.lean",
+    "sha256": "5bc756ae5c5d85463085b737e91055eb732c7712490cc5196848d9744eeb7d8d"
+  },
+  "GuitartCocycle.lean": {
+    "source": "Lean/Lemmas/picard-application/GuitartCocycle.lean",
+    "sha256": "f82668ebb63928810e06fb0c2422f7e4d716bc57ac9ac4dcca08013b42b0d01d"
+  },
+  "GuitartFormula.lean": {
+    "source": "Lean/Lemmas/picard-application/GuitartFormula.lean",
+    "sha256": "2e2609ecf65a9f4c9d8e5daa39113eea014fbd64850b15f4d7ab62a9e782d714"
+  },
+  "GuitartSurfaces.lean": {
+    "source": "Lean/Lemmas/picard-application/GuitartSurfaces.lean",
+    "sha256": "e8b791d01a2a0ec7e4a7dd4597d79d765541c592d63d581ee0e5e80af477ffa5"
+  },
+  "MayerVietorisQuotient.lean": {
+    "source": "Lean/Topics/marked-moduli/affine-cohomology/MayerVietorisQuotient.lean",
+    "sha256": "4184c4455f3b75bf6cfcf8c4496572f9495e280105a8294f91e3154eec8b18fd"
+  },
+  "OpeningSections.lean": {
+    "source": "Lean/Topics/marked-moduli/affine-cohomology/OpeningSections.lean",
+    "sha256": "0592916fcc82d6797c60c0342f0a8a95c15b2643894736ec2e5505f32cc3f3dd"
+  },
+  "PaperCohomology.lean": {
+    "source": "Lean/Topics/marked-moduli/affine-cohomology/PaperCohomology.lean",
+    "sha256": "97464cf78734e158e5f85702c0725bbb097650b93dd767f2b43f8ee2b3dfce7f"
+  },
+  "PicardCM.lean": {
+    "source": "Lean/Lemmas/picard-application/PicardCM.lean",
+    "sha256": "d18b42d601d6569d132b94bce61a23ed7be5881018b5f04de9c8c46244063e51"
+  },
+  "PicardConclusion.lean": {
+    "source": "Lean/Lemmas/picard-application/PicardConclusion.lean",
+    "sha256": "2cb14b3991e411fa4a86797c9de39a5eec88ab0d6a86450ad24444c432a61eb2"
+  },
+  "PicardConjugateEnd.lean": {
+    "source": "Lean/Lemmas/picard-application/PicardConjugateEnd.lean",
+    "sha256": "f88b76869822027c6cc3e01ac5d6fb31293f5b971b214ba52f3994cbba56e04f"
+  },
+  "PicardIntegralHom.lean": {
+    "source": "Lean/Lemmas/picard-application/PicardIntegralHom.lean",
+    "sha256": "44b058fc1b4ce07361d5f35895f1f8c6d019058d43885d7fd439cab31db20073"
+  },
+  "PicardPeriods.lean": {
+    "source": "Lean/Lemmas/picard-application/PicardPeriods.lean",
+    "sha256": "d8546284accfc78c46ff738332bf29eb67fd97913e1f7a50077126d6abccde0d"
+  },
+  "PicardPrym.lean": {
+    "source": "Lean/Lemmas/picard-application/PicardPrym.lean",
+    "sha256": "c76b547624666be4f8c4d334761a979cb8bd6a6bee4b32a5a04884eea4666938"
+  },
+  "PicardSurfaceDimension.lean": {
+    "source": "Lean/Lemmas/picard-application/PicardSurfaceDimension.lean",
+    "sha256": "52e4093bc4561b8a359f4c4e13b89962a7d25d7176329b35514cdeedb8f39cfd"
+  },
+  "PrymCoordinates.lean": {
+    "source": "Lean/Lemmas/picard-application/PrymCoordinates.lean",
+    "sha256": "6c9669c0a7b85f757713924cd88ff21ca2db4f51840dbf4f631b996694745ce3"
+  },
+  "PrymFactor.lean": {
+    "source": "picard/PrymFactor.lean",
+    "sha256": "8f13140dfacae38e8d3496e75139c48b3ed662b02d22b91ab9af3df26a31be3e"
+  },
+  "QuaternionModel.lean": {
+    "source": "Lean/Lemmas/picard-application/QuaternionModel.lean",
+    "sha256": "427d4d93e3321639a9c211fad7ac97591da1bc2dabc66987f2e2a01882f565f8"
+  },
+  "SheafComparison.lean": {
+    "source": "Lean/Topics/marked-moduli/proper-curve/SheafComparison.lean",
+    "sha256": "445a70caf0bdefcc3eea327760bc0163237f57a3b6f64e2dce1fef875520763c"
+  },
+  "TerminalCohomology.lean": {
+    "source": "Lean/Topics/marked-moduli/affine-cohomology/TerminalCohomology.lean",
+    "sha256": "17432242bb65200ba7d04f400f4d7a8bb31d6038ea0c72f6f96624b2dc511f00"
+  },
+  "licenses/TauCeti-LICENSE": {
+    "source": "geometry/vendor/LICENSE",
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+  }
+}

@@ -1,0 +1,1239 @@
+{
+  "lean": "4.35.0",
+  "upstream": "2358394558aafae202a1ce6d3bd1b536b79ad3d0",
+  "mathlib": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "modules": {
+    "AbelianPowers": {
+      "file": "picard/AbelianPowers.lean",
+      "sha256": "96871e6eb75e48cd5205f0722bae3d278b5f765bb8812458b1a7f0885abb2310",
+      "declarations": {
+        "ZOverQ.Qualitative.AbelianPowers.abelian_power": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.AbelianPowers.abelian_product": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.AbelianPowers.baseChangePowerIso": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.AbelianPowers.goodWitt_power": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.AbelianPowers.reduction_of_power": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "CentralIsogenyCocycle": {
+      "file": "Lean/Lemmas/picard-application/CentralIsogenyCocycle.lean",
+      "sha256": "e4095893fe0c37641c85bf2086a6701a15be97ffa5c4b5fe45c53435b260654d",
+      "declarations": {
+        "ZOverQ.Qualitative.CentralIsogenyCocycle.central_lift": [
+          "propext"
+        ],
+        "ZOverQ.Qualitative.CentralIsogenyCocycle.normalized_cocycle": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "CommonWittField": {
+      "file": "Lean/Lemmas/picard-application/CommonWittField.lean",
+      "sha256": "11f5df37ffc2e9845b8d1afcd2c44726b8d4eb759b03c2f76401ad095100a80d",
+      "declarations": {
+        "ZOverQ.Qualitative.CommonWittField.common_marked_fibre": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.CommonWittField.common_witt_root": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.CommonWittField.marked_embedding": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.CommonWittField.number_field_embedding": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.CommonWittField.primitive_polynomial": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "CommonWittReduction": {
+      "file": "Lean/Lemmas/picard-application/CommonWittReduction.lean",
+      "sha256": "60af78222aa0761f69f2299c100ae2f41d9496d34d2f0bc6706ee2c6505f5774",
+      "declarations": {
+        "ZOverQ.Qualitative.CommonWittReduction.good_reduction_of_clusters": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.CommonWittReduction.good_reduction_of_fibre": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.CommonWittReduction.good_reduction_outside": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "FibrewiseProjector": {
+      "file": "picard/FibrewiseProjector.lean",
+      "sha256": "366ce7b214992d448a485f7bbd5ea5cba67c70cb7bec9502320656fb9281bf98",
+      "declarations": {
+        "ZOverQ.Qualitative.FibrewiseProjector.cocycle_of_splitting": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.FibrewiseProjector.coefficientField_eq_span_lifts": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.FibrewiseProjector.coefficient_degree_le_quotient": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.FibrewiseProjector.exists_projector": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.FibrewiseProjector.exists_projector_of_quotient": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.FibrewiseProjector.fieldAction_mul": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.FibrewiseProjector.kernel_value_sign": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "GeneralQuaternionField": {
+      "file": "Lean/Lemmas/picard-application/GeneralQuaternionField.lean",
+      "sha256": "2fddf40e447338a65b302f6f543b663095e5750753a25a4291d11d942bcb32d6",
+      "declarations": {
+        "ZOverQ.Qualitative.GeneralQuaternionField.exists_nonsquare": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GeneralQuaternionField.field_action": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GeneralQuaternionField.quadratic_element": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GeneralQuaternionField.quadratic_extension": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GeneralQuaternionField.represents": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "GuitartApplication": {
+      "file": "Lean/Lemmas/picard-application/GuitartApplication.lean",
+      "sha256": "5bc756ae5c5d85463085b737e91055eb732c7712490cc5196848d9744eeb7d8d",
+      "declarations": {
+        "ZOverQ.Qualitative.GuitartApplication.marked_fibre": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GuitartApplication.quaternionVarietyOfTensor": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GuitartApplication.uniform_marked_isogenies": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "GuitartCocycle": {
+      "file": "Lean/Lemmas/picard-application/GuitartCocycle.lean",
+      "sha256": "f82668ebb63928810e06fb0c2422f7e4d716bc57ac9ac4dcca08013b42b0d01d",
+      "declarations": {
+        "ZOverQ.Qualitative.GuitartCocycle.Multiplier": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GuitartCocycle.changeHom_tmul": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GuitartCocycle.choose_maps": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "GuitartDescent": {
+      "file": "picard/GuitartDescent.lean",
+      "sha256": "c30a49a4d96222bf4c5a2b25c90d6bef005f379a6fb11a7d90175c427a17223f",
+      "declarations": {
+        "ZOverQ.Qualitative.GuitartDescent.coefficientUnit_at_fixes": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GuitartDescent.conjugate_deck": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GuitartDescent.epi_of_finite_flat": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GuitartDescent.finite_surjective_of_baseChange": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GuitartDescent.groupHom_descent": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GuitartDescent.hom_rat_injective": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GuitartDescent.isogeny_of_splitting_law": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GuitartDescent.quadratic_field_action": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GuitartDescent.restriction_of_fixes": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "GuitartFormula": {
+      "file": "Lean/Lemmas/picard-application/GuitartFormula.lean",
+      "sha256": "2e2609ecf65a9f4c9d8e5daa39113eea014fbd64850b15f4d7ab62a9e782d714",
+      "declarations": {
+        "ZOverQ.Qualitative.GuitartDescent.GeometricLaw": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GuitartDescent.descended_isogeny": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "GuitartSurfaces": {
+      "file": "Lean/Lemmas/picard-application/GuitartSurfaces.lean",
+      "sha256": "e8b791d01a2a0ec7e4a7dd4597d79d765541c592d63d581ee0e5e80af477ffa5",
+      "declarations": {
+        "ZOverQ.Qualitative.GuitartSurfaces.compatible_isogenies": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GuitartSurfaces.compatible_maps": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.GuitartSurfaces.systems_of_endomorphisms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "IsogenyHeight": {
+      "file": "Lean/Lemmas/picard-application/IsogenyHeight.lean",
+      "sha256": "601334690ce31674ae1623f40502b9672437edf692da4d635be0cba8d58057e1",
+      "declarations": {
+        "ZOverQ.Qualitative.IsogenyHeight.kernelDegree": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.IsogenyHeight.uniform_power_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "LocalSupport": {
+      "file": "picard/LocalSupport.lean",
+      "sha256": "9a58513b556e48c33d2d49d9fc9346af4b82474fcbf1778b8eb57d7b23e876ab",
+      "declarations": {
+        "ZOverQ.Qualitative.LocalSupport.even_contact_data": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.even_nu": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.finite_configuration": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.finite_reciprocal_chart": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.finite_ring_for_family": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.finite_twisted_splitting": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.geometric_disc": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.geometric_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.geometric_roots": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.primitive_chart_scale": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.rational_fibre_data": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.reciprocal_radical": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.relative_finite_etale": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.smooth_data": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.witt_finite_etale": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.witt_fraction_unramified": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.witt_unramified": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.zero_contact_data": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.LocalSupport.zero_nu": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PicardAssembly": {
+      "file": "picard/PicardAssembly.lean",
+      "sha256": "fa429ddd310ecfa8b535b00a6e0b161a6e3517522370fa098ba3f09d6ae7e8cd",
+      "declarations": {
+        "ZOverQ.Qualitative.Picard.Assembly.clusters_outside": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Assembly.comparison_of_polynomial_degree": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Assembly.good_outside": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Assembly.height_of_algebraic_charts": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Assembly.integer_polynomial_of_abelian_factors": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Assembly.integer_polynomial_of_fibrewise_factors": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Assembly.integer_polynomial_of_moduli_charts": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Assembly.mem_inverted": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Assembly.rationalFactorOfQuotients": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Assembly.reduction_of_unramified_quotient": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PicardCM": {
+      "file": "Lean/Lemmas/picard-application/PicardCM.lean",
+      "sha256": "d18b42d601d6569d132b94bce61a23ed7be5881018b5f04de9c8c46244063e51",
+      "declarations": {
+        "ZOverQ.Qualitative.PicardCM.cm_parameters": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardCM.degree_le_two": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardCM.geometric_fibre_iso": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardCM.nonsimple_fibres": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardCM.published_equation": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PicardConclusion": {
+      "file": "Lean/Lemmas/picard-application/PicardConclusion.lean",
+      "sha256": "2cb14b3991e411fa4a86797c9de39a5eec88ab0d6a86450ad24444c432a61eb2",
+      "declarations": {
+        "ZOverQ.Qualitative.PicardConclusion.integer_polynomial_of_arithmetic_geometry": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardConclusion.marked_isogenies": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PicardConjugateEnd": {
+      "file": "Lean/Lemmas/picard-application/PicardConjugateEnd.lean",
+      "sha256": "f88b76869822027c6cc3e01ac5d6fb31293f5b971b214ba52f3994cbba56e04f",
+      "declarations": {
+        "ZOverQ.Qualitative.PicardConjugateEnd.conjugate_family": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardConjugateEnd.corrected_map": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardConjugateEnd.family_quasi_isogeny": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PicardDescent": {
+      "file": "Lean/Lemmas/picard-application/PicardDescent.lean",
+      "sha256": "451d920c74fdf816d14886be4d48d67b033c39c37d610b302649bca53b9ba502",
+      "declarations": {
+        "ZOverQ.Qualitative.PicardDescent.completionIso": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardDescent.conjugate_picard_zero": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardDescent.conjugate_proper_model": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardDescent.family_galois_pullback": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardDescent.family_jacobian_conjugate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardDescent.family_smooth_completion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardDescent.finite_chart_equation": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardDescent.geometric_integral_quadrics": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardDescent.jacobianBaseChange": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardDescent.jacobianIso": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardDescent.jacobian_is_abelian": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardDescent.model_proper": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardDescent.overIso": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardDescent.projectiveBaseChange": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardDescent.projectiveIso": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PicardDiscriminant": {
+      "file": "picard/PicardDiscriminant.lean",
+      "sha256": "77c407250ec1b7be23db211b1395e206e7e8b2386bb7d79a41c8733d5a92bc75",
+      "declarations": {
+        "ZOverQ.Qualitative.Picard.discr_sextic": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.invariant_at": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.ratio_eq_discriminant": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PicardGoodReduction": {
+      "file": "Lean/Lemmas/picard-application/PicardGoodReduction.lean",
+      "sha256": "1688599a7dd6671fc86047b6f2375bf4920fe827e3c505c614474ac7b81cf644",
+      "declarations": {
+        "ZOverQ.Qualitative.PicardGoodReduction.SplitSexticDDMM": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardGoodReduction.disc_iff_mem": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardGoodReduction.family_goodWitt": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardGoodReduction.family_reduction_of_power": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardGoodReduction.goodWitt_of_fibre": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardGoodReduction.goodWitt_of_iso": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardGoodReduction.reduction_of_fibre_power": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardGoodReduction.rootBall_of_threshold": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PicardIntegralHom": {
+      "file": "Lean/Lemmas/picard-application/PicardIntegralHom.lean",
+      "sha256": "44b058fc1b4ce07361d5f35895f1f8c6d019058d43885d7fd439cab31db20073",
+      "declarations": {
+        "ZOverQ.Qualitative.PicardIntegralHom.integral_representatives": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardIntegralHom.isogeny_of_quasi": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PicardLocalization": {
+      "file": "Lean/Lemmas/picard-application/PicardLocalization.lean",
+      "sha256": "a6a750a7a005eac69af7c0c9719e9de7d3fa0e0996bcac422e97c00cffcf2dd4",
+      "declarations": {
+        "ZOverQ.Qualitative.PicardLocalization.coefficient_embedding": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardLocalization.completionJacobian": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardLocalization.family_local_cluster_jacobian": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardLocalization.family_primitive_jacobian": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardLocalization.finite_splitting_jacobian": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardLocalization.jacobianScalarExtension": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardLocalization.jacobian_scalar_square": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardLocalization.projectiveScalarExtension": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PicardPeriods": {
+      "file": "Lean/Lemmas/picard-application/PicardPeriods.lean",
+      "sha256": "d8546284accfc78c46ff738332bf29eb67fd97913e1f7a50077126d6abccde0d",
+      "declarations": {
+        "ZOverQ.Qualitative.PicardPeriods.integer_polynomial_of_sextic_periods": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardPeriods.invariantLine_point": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardPeriods.kernelDegree_iso": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardPeriods.polarizedModuliHeight_of_periods": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardPeriods.stableHeight_iso": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PicardPolynomial": {
+      "file": "Lean/Lemmas/picard-application/PicardPolynomial.lean",
+      "sha256": "6bcc3847f9ed65686612e68855ba07770be3fe24eece0c193b88fb153136c5c7",
+      "declarations": {
+        "ZOverQ.Qualitative.PicardPolynomial.QuaternionVariety.fieldAction": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardPolynomial.integer_polynomial_of_picard_jacobians": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardPolynomial.integer_polynomial_of_quaternionic_fibres": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardPolynomial.local_of_global": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardPolynomial.parameter_preimage": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardPolynomial.surjective_baseChange": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardPolynomial.twistedJacobian_abelian": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PicardPrym": {
+      "file": "Lean/Lemmas/picard-application/PicardPrym.lean",
+      "sha256": "c76b547624666be4f8c4d334761a979cb8bd6a6bee4b32a5a04884eea4666938",
+      "declarations": {
+        "ZOverQ.Qualitative.PicardPrym.family_quaternion": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardPrym.quaternion_outside_finite": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardPrym.twisted_parameters": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardPrym.twisted_polynomial": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PicardSurfaceDimension": {
+      "file": "Lean/Lemmas/picard-application/PicardSurfaceDimension.lean",
+      "sha256": "52e4093bc4561b8a359f4c4e13b89962a7d25d7176329b35514cdeedb8f39cfd",
+      "declarations": {
+        "ZOverQ.Qualitative.PicardSurfaceDimension.baseChange_dimension_two": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardSurfaceDimension.chart_finrank": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardSurfaceDimension.completionJacobian_dimension_two": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardSurfaceDimension.familyJacobian_dimension_two": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardSurfaceDimension.finrank_of_addEquiv": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardSurfaceDimension.geometricGenus_two": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardSurfaceDimension.jacobian_dimension_two": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PicardSurfaceDimension.twistedJacobian_dimension_two": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PrimitiveTwist": {
+      "file": "picard/PrimitiveTwist.lean",
+      "sha256": "9711094a897f4e6baba494fe0a66b1c0448c75bcd2232e2e6f7a2c42391e675f",
+      "declarations": {
+        "ZOverQ.Qualitative.PrimitiveTwist.branch_order": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PrimitiveTwist.cases_of_even": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PrimitiveTwist.exists_rho": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PrimitiveTwist.local_models": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PrimitiveTwist.primitive_pair": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PrimitiveTwist.squarefree": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PrimitiveTwist.twist_ordinate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PrymCoordinates": {
+      "file": "Lean/Lemmas/picard-application/PrymCoordinates.lean",
+      "sha256": "6c9669c0a7b85f757713924cd88ff21ca2db4f51840dbf4f631b996694745ce3",
+      "declarations": {
+        "ZOverQ.Qualitative.PrymCoordinates.quartic_data": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.PrymCoordinates.sextic_substitution": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "PrymFactor": {
+      "file": "picard/PrymFactor.lean",
+      "sha256": "8f13140dfacae38e8d3496e75139c48b3ed662b02d22b91ab9af3df26a31be3e",
+      "declarations": {
+        "ZOverQ.Qualitative.Prym.choose_reference": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Prym.endomorphism_parameter": [
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Prym.equation_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Prym.factor_iso_power": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Prym.intertwine_algebra": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Prym.intertwine_generators": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Prym.lift_splitting": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Prym.moduli_parameter": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Prym.parameters": [
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Prym.split_projective_quotient": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "QuaternionField": {
+      "file": "picard/QuaternionField.lean",
+      "sha256": "522ab19149e8a6a111eb30207229c15266c630539a9181861a775478f7da700a",
+      "declarations": {
+        "ZOverQ.Qualitative.QuaternionField.field_action": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.QuaternionField.not_all_squares": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "QuaternionModel": {
+      "file": "Lean/Lemmas/picard-application/QuaternionModel.lean",
+      "sha256": "427d4d93e3321639a9c211fad7ac97591da1bc2dabc66987f2e2a01882f565f8",
+      "declarations": {
+        "ZOverQ.Qualitative.PicardPrym.QuaternionModel.geometric_surjective": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "ThetaComparison": {
+      "file": "picard/ThetaComparison.lean",
+      "sha256": "2addc0f18d22ca9fdb90f2995b700bac2a0da3d381ab98a3f0b3a233da6907a8",
+      "declarations": {
+        "ZOverQ.Qualitative.Picard.Theta.arch_bound": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Theta.chart_invariants": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Theta.comparison_of_fibre": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Theta.complement_card": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Theta.gopel_card": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Theta.height_of_theta": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Theta.integer_polynomial_of_periods": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Theta.invariant_of_isogeny": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Theta.matchings_eq_transvectant": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Theta.of_streng": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Theta.picard_invariant_height": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Theta.scale_cancels": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Theta.scale_h10_h12": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.Picard.Theta.theta_of_isogeny": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "UniformDescent": {
+      "file": "picard/UniformDescent.lean",
+      "sha256": "5c4b54e1f8a25102727f571e2a9309343e2da09e41e2b911ca01bc4123a4ceb4",
+      "declarations": {
+        "ZOverQ.Qualitative.UniformDescent.coefficientEvaluation_surjective": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.UniformDescent.coefficientEvaluation_twistedLeftShift": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.UniformDescent.coefficientField_degree_le": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.UniformDescent.coefficientField_eq_span": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.UniformDescent.coefficientValue_mul": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.UniformDescent.common_finite_galois_field": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.UniformDescent.finite_second_cohomology": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.UniformDescent.finite_second_cohomology_units": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.UniformDescent.rational_uniform_splitting": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.UniformDescent.rational_uniform_splitting_degree": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.UniformDescent.twistedLeftShiftEquiv": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.UniformDescent.twistedLeftShift_mul": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.UniformDescent.uniform_finite_galois_splitting": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    },
+    "WittAscent": {
+      "file": "Lean/Lemmas/picard-application/WittAscent.lean",
+      "sha256": "e41e2de449376f2f1e2d584520c78734828cb601b8380faf68c1615fa5866b5d",
+      "declarations": {
+        "ZOverQ.Qualitative.WittAscent.baseChangeCompIso": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.WittAscent.family_reduction_after_enlargement": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.WittAscent.fractionAlgHom": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.WittAscent.fractionInclusion_over_padics": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.WittAscent.goodWitt_localized_mono": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "ZOverQ.Qualitative.WittAscent.goodWitt_mono": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    }
+  },
+  "magma": {
+    "version": "2.28-3",
+    "calculations": {
+      "PicardFamily.m": {
+        "file": "picard/PicardFamily.m",
+        "sha256": "846dc4df5b3d977acd680b1bb946bed49f6d40a7b971d570372b3c7ab693b422"
+      },
+      "FibrewiseDescent.m": {
+        "file": "picard/FibrewiseDescent.m",
+        "sha256": "dc82571436c20bc1bd4317b6f4d13b1337b238cf2dfb1ae3bea68e7cbc4fe1be"
+      },
+      "PrymTwist.m": {
+        "file": "picard/PrymTwist.m",
+        "sha256": "df2301a30c7ca83dd072d20a4dd8fd0c08bac9fc0c95432a2890a9dca50f256e"
+      }
+    }
+  }
+}

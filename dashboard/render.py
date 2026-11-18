@@ -179,10 +179,14 @@ def main(write):
                 ("Open application", "A proof still needs an identification or a specialization to the objects of the construction."),
                 ("Needs a header", "The mathematical task has been identified and still needs a Lean statement.")]
     deck = ["# Proof dashboard", "", summary, "", "[Download the interactive explorer](index.html?raw=1) · [Mathematical blueprint](../docs/theorem-blueprint.md)", "",
-            "## Existence with a uniform height constant", "",
-            "Lean checks the adjustable multiplication guard, recovery of the ordinary integer, and projection of one polynomial. "
-            "The family criterion still takes good-reduction support and two height inequalities for the same fibres. "
-            "[Theorems and proof table](../bounded/README.md#existence-with-an-unspecified-constant)", "",
+            "## Qualitative existence", "",
+            "Lean proves that one polynomial defines the ordinary integers from explicit results on Prym varieties, "
+            "isogenies, periods, reduction, heights and rank. Its proof constructs the common descent field and accounts "
+            "for every exceptional rational parameter. The chapter counts below describe the original blueprint. "
+            "The qualitative development has its own module inventory. "
+            "[End-to-end theorem](../Lean/Lemmas/picard-application/PicardConclusion.lean) · "
+            "[Literature inputs](../docs/qualitative-existence.md#the-end-to-end-theorem-and-its-literature-inputs) · "
+            "[Module inventory](../picard/verification.json)", "",
             "## Completion by chapter", "", table(groups, ""), "", "## Reading the states", ""]
     for label, definition in meanings:
         deck.append(f"- **{label}.** {definition}")
@@ -209,7 +213,7 @@ def main(write):
     if template.count("__BLUEPRINT_DATA__") != 1:
         raise ValueError("Invalid dashboard template")
     output[HERE / "index.html"] = template.replace("__BLUEPRINT_DATA__", payload)
-    for p in [*ROOT.glob("docs/*.md"), ROOT / "bounded/README.md"]:
+    for p in [*ROOT.glob("docs/*.md"), *(ROOT / d / "README.md" for d in ("bounded", "picard", "geometry"))]:
         output[p] = p.read_text()
     verify_links(output)
     for p, value in output.items():

@@ -4,9 +4,9 @@
 
 [Download the interactive explorer](index.html?raw=1) · [Mathematical blueprint](../docs/theorem-blueprint.md)
 
-## Existence with a uniform height constant
+## Qualitative existence
 
-Lean checks the adjustable multiplication guard, recovery of the ordinary integer, and projection of one polynomial. The family criterion still takes good-reduction support and two height inequalities for the same fibres. [Theorems and proof table](../bounded/README.md#existence-with-an-unspecified-constant)
+Lean proves that one polynomial defines the ordinary integers from explicit results on Prym varieties, isogenies, periods, reduction, heights and rank. Its proof constructs the common descent field and accounts for every exceptional rational parameter. The chapter counts below describe the original blueprint. The qualitative development has its own module inventory. [End-to-end theorem](../Lean/Lemmas/picard-application/PicardConclusion.lean) · [Literature inputs](../docs/qualitative-existence.md#the-end-to-end-theorem-and-its-literature-inputs) · [Module inventory](../picard/verification.json)
 
 ## Completion by chapter
 

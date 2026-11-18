@@ -1,8 +1,9 @@
-"""Inventory local Lean sources and inspect the two advertised Lake targets (Python 3.11+)."""
+"""Inventory the Lean sources and trace the default Lake targets (Python 3.11+)."""
 
 import argparse
 from collections import defaultdict
 import json
+import os
 from pathlib import Path
 import re
 import tomllib
@@ -24,7 +25,7 @@ def local_modules(project, sources):
     roots = set()
     search_dirs = set()
     for lib in manifest["lean_lib"]:
-        directory = project / lib.get("srcDir", ".")
+        directory = Path(os.path.normpath(project / lib.get("srcDir", ".")))
         search_dirs.add(directory)
         if lib["name"] in manifest["defaultTargets"]:
             roots.update(directory / (m.replace(".", "/") + ".lean")
@@ -61,7 +62,7 @@ def inventory(root):
                 found[kind].append({"file": path.relative_to(root).as_posix(),
                                     "line": code.count("\n", 0, match.start()) + 1})
     targets = {}
-    for project in (root, root / "bounded"):
+    for project in (root, root / "bounded", root / "picard"):
         name = project.relative_to(root).as_posix()
         files = {p.relative_to(root).as_posix() for p in local_modules(project, sources)}
         targets[name] = {"localModules": len(files), "flagged": sorted(

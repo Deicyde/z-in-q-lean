@@ -2,6 +2,8 @@
 
 A subset of the rationals is **Diophantine over** $`\mathbb Q`$ if it is the set of first coordinates of the rational zeros of a polynomial with integer coefficients. For the integers, this asks for a polynomial $`P`$ such that every integer extends to a rational zero and every rational zero has integral first coordinate. The number of variables includes this first coordinate.
 
+For the existence of a defining polynomial, the six-point height estimate may have an unspecified uniform coefficient. The Picard proof constructs the required bound on this scale from explicit statements on Prym varieties, isogenies, periods, reduction and rank. [Proof and literature inputs](qualitative-existence.md) · [Conditional Lean theorem](../Lean/Lemmas/picard-application/PicardConclusion.lean)
+
 ## 1. The theorem to be proved
 
 Let $`N=292{,}890{,}231{,}905`$. Write $`T_1=2`$ and $`T_{k+1}=2^{T_k}`$, so that $`T_k`$ is a tower of $`k`$ twos. Glazer’s bounded assertion asks for an integer polynomial in $`N`$ variables of total degree less than $`T_7`$, with every coefficient of absolute value less than $`T_8`$, such that for every $`x\in\mathbb Q`$,
