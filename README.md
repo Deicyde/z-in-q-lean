@@ -112,6 +112,8 @@ Open a group to read the mathematical statements, their exact Lean formulations 
 
 Glazer’s quantitative construction requires a specific numerical height estimate. A separate comparison gives 85 total variables for a particular family under further hypotheses. The qualitative theorem above makes neither numerical assertion. [Glazer’s bounded theorem](bounded/README.md) · [Variable bounds](docs/variable-bound.md)
 
-To build the package containing the final theorem, follow the [geometry build instructions](geometry/README.md). The [project dashboard](dashboard/README.md) records the status of the wider development, including alternative constructions. The proof map was organized using Bartosz Naskręcki’s [Labyrinth Exploration](https://github.com/nasqret/labyrinth-exploration).
+The geometry package contains the final theorem. The root package builds 31 foundational modules with Lean 4.35.0. Two arithmetic lemmas have also passed a separate six-kernel Comparator run. [Build the final theorem](geometry/README.md) · [Comparator results](docs/palomar.md#arithmetic-already-checked)
+
+The project dashboard records the status of the wider development, including alternative constructions. The proof map was organized using Bartosz Naskręcki’s Labyrinth Exploration method. [Project dashboard](dashboard/README.md) · [Labyrinth Exploration](https://github.com/nasqret/labyrinth-exploration)
 
 [Palomar verification status](docs/palomar.md) · [Sources and attribution](docs/sources.md) · [Repository license](LICENSE) · [Standalone LaTeX source](docs/blueprint/blueprint.tex)

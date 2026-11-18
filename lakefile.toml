@@ -38,3 +38,7 @@ roots = [
   "WeakFibre",
   "ZeroInput",
 ]
+
+[[lean_lib]]
+name = "Comparison"
+roots = ["Comparison.Challenge", "Comparison.Solution"]

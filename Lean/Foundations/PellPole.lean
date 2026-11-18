@@ -1,4 +1,8 @@
-import QuarticPole
+module
+
+public import QuarticPole
+
+@[expose] public section
 
 namespace PellPole
 

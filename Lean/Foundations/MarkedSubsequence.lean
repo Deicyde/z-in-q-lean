@@ -1,4 +1,8 @@
-import OddMinimum
+module
+
+public import OddMinimum
+
+@[expose] public section
 
 namespace MarkedSubsequence
 

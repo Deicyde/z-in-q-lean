@@ -1,0 +1,6 @@
+{
+  "challenge_module": "Comparison.Challenge",
+  "solution_module": "Comparison.Solution",
+  "theorem_names": ["ZOverQ.ArithmeticComparison.power_separation", "ZOverQ.ArithmeticComparison.successive_separation"],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

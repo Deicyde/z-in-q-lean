@@ -87,7 +87,7 @@ def unique_locations(sources, wanted):
 
 def project_sources(root):
     """Avoid traversing downloaded toolchains and Lake build directories."""
-    for directory in ("Lean", "bounded", "picard"):
+    for directory in ("Lean", "bounded", "picard", "Comparison"):
         for base, directories, names in os.walk(root / directory):
             directories[:] = sorted(d for d in directories if not d.startswith("."))
             for name in sorted(names):

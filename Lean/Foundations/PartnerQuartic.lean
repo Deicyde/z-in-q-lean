@@ -1,4 +1,8 @@
-import Std
+module
+
+public import Std
+
+@[expose] public section
 
 namespace PartnerQuartic
 open Lean.Grind

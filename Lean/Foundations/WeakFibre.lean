@@ -1,4 +1,9 @@
-import Std
+module
+
+public import Std
+
+@[expose] public section
+
 namespace WeakFibre
 open Lean.Grind
 

@@ -1,4 +1,8 @@
-import Std
+module
+
+public import Std
+
+@[expose] public section
 
 namespace AbscissaRatio
 open Lean.Grind
@@ -45,7 +49,7 @@ set_option exponentiation.threshold 640 in
 /-- The normalized tangent unit at the surviving ratio. -/
 theorem last_unit : (1165 : Nat)^638 % 1277 = 1276 := by decide
 
-private def negativeUnit (p q : Nat) : Bool :=
+def negativeUnit (p q : Nat) : Bool :=
   ((if p = q then 1 else q) ^ ((p-1)/2)) % p != 1
 
 /-- Prime factors on which the two unit characters differ. -/

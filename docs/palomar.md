@@ -4,9 +4,35 @@ Palomar certifies named declarations at an immutable public commit. It checks th
 
 The initial inventory at revision `95357929` covered all 2,121 Lean sources. Five used the module header, 2,116 required migration and the longest file had 1,034 lines. The standard sets a limit of 10,000 physical lines per source. The repository has no Palomar registry identifier for its conditional polynomial theorem. [Audited revision](https://github.com/nasqret/z-in-q-lean/tree/95357929cf16cedd3dd1960c11060cb923f5bdca) · [Registry verification](https://palomar-registry.org/how-to-submit)
 
+## Arithmetic already checked
+
+The root Lake project now builds its 31 foundational modules with Lean 4.35.0. Its first independent comparison covers two strict size and divisibility lemmas used to exclude incorrect multiplication certificates. The challenge imports only `Std`. The solution applies the two existing proofs. A sandboxed run of Comparator compared both declarations and all six bundled kernels accepted the exported solution. This is a project-run comparison. Palomar registration of the conditional polynomial theorem remains open. [Challenge](../Comparison/Challenge.lean) · [Solution](../Comparison/Solution.lean) · [Checked sources and kernel results](../Comparison/verification.json)
+
+From the repository root on Linux with a supported Bubblewrap, run
+
+```sh
+lake build
+lake comparator --config comparator.json --paranoid
+```
+
+The comparison names the two arithmetic lemmas. The permitted axioms and the module names are recorded in the [configuration](../comparator.json).
+
 ## Reproduce the source inventory
 
-Run `python3 dashboard/palomar_sources.py --json` at the repository root to identify every file requiring a header or length correction. The command returns a nonzero exit status when that part of the inventory is incomplete. Lean's parser and the official verifier determine acceptance.
+The current edition has 38 module headers among 2,123 Lean files. The 2,085 files still awaiting migration include the project-specific imports of Theorem 113. Palomar’s pinned source scanner found precisely those 2,085 missing headers. Lean’s own header parser independently counted all 38 modules. No file exceeds the length limit. [Repository-wide source check](../Comparison/repository-inventory.json)
+
+Run `python3 dashboard/palomar_sources.py --json` at the repository root to identify every file requiring a header or length correction. The command returns a nonzero exit status until all sources pass. Lean's parser and the official verifier determine acceptance.
+
+In a separate preview the source scanner accepted all 2,123 files. Lean 4.35 parsed every module header and confirmed that each file imports precisely the same modules, in the same order and with the same visibility. Moving these edits into the edition requires checking the proof bodies against their dependencies. [Preview results](../Comparison/module-preview.json)
+
+To reproduce the preview, run the following commands from a clean checkout with Python 3.11 or later and Lean 4.35.0. The first command writes the proposed sources to a new directory.
+
+```sh
+python3 Comparison/preview_modules.py . ../zq-module-preview
+git clone https://github.com/PalomarRegistry/PalomarSubmission.git ../palomar-submission
+git -C ../palomar-submission checkout --detach 14aa8d6b3c2f14a8540605e37144560b9a00e7e7
+python3 Comparison/check_module_preview.py ../palomar-submission "$(command -v lean)" . ../zq-module-preview
+```
 
 ## What the proof must pass
 

@@ -1,4 +1,8 @@
-import Std
+module
+
+public import Std
+
+@[expose] public section
 
 namespace CompactArithmetic
 
@@ -30,7 +34,7 @@ theorem lucas_size {B D M : Nat} (height : B^2 < D*M^18)
   rw [Nat.mul_comm ((M^52)^9)] at rev
   omega
 
-private def heightBound (k : Nat) (exceptions : List Nat) : Nat :=
+def heightBound (k : Nat) (exceptions : List Nat) : Nat :=
   2^26 * (2304 * (2^32*3^12) * k *
     exceptions.foldl (fun acc p => acc * (p*(p+1))) 1)^6 + 128
 

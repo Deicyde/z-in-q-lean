@@ -1,0 +1,16 @@
+{
+  "lean": "Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "sourceVerifier": "14aa8d6b3c2f14a8540605e37144560b9a00e7e7",
+  "inventory": {
+    "schema_version": 1,
+    "module_required": true,
+    "maximum_lines": 10000,
+    "files_checked": 2123
+  },
+  "editionLeanSHA256": "5827a7fe8371ad83af82e232098ff49e27fe1f231885cd7163caee8e61616929",
+  "previewLeanSHA256": "cf0b9b0ee67fc36d68bfdab9e23b2730df1256fd815d98c23df769bca73e9a41",
+  "originalModuleHeaders": 38,
+  "previewModuleHeaders": 2123,
+  "identicalImportLists": 2123,
+  "scope": "Lean parsed the headers and Palomar checked the source files. Proof bodies were not elaborated by this check."
+}

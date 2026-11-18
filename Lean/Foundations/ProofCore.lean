@@ -1,4 +1,8 @@
-import Std
+module
+
+public import Std
+
+@[expose] public section
 
 /- The arithmetic at the two ends of the ordinary-value proof.
    The global height estimate, pole existence and model are separate inputs. -/

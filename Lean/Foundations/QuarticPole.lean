@@ -1,4 +1,8 @@
-import PoleSurface
+module
+
+public import PoleSurface
+
+@[expose] public section
 
 /-! Literal pole equations used by the 962-coordinate construction. -/
 namespace QuarticPole

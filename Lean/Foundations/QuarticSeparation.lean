@@ -1,4 +1,8 @@
-import Std
+module
+
+public import Std
+
+@[expose] public section
 
 /-! Integer separation for the order-52 and order-16 divisibility tests. -/
 namespace QuarticSeparation

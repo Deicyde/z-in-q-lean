@@ -1,4 +1,9 @@
-import Std
+module
+
+public import Std
+
+@[expose] public section
+
 namespace NormPencil
 open Lean.Grind
 

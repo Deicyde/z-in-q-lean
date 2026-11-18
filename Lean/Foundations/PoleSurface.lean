@@ -1,4 +1,8 @@
-import Std
+module
+
+public import Std
+
+@[expose] public section
 
 /-! The guarded pole branch and its binary quartic model over the rationals.
 The parameters are homogeneous representatives for two points of the projective line.
@@ -239,10 +243,10 @@ private theorem normalizeRep {A u v : Rat} (valid : u ≠ 0 ∨ v ≠ 0) :
   · have hu : u ≠ 0 := valid.resolve_right (fun h => h hv)
     subst v
     refine ⟨.infinity,u,hu,?_⟩
-    simpa only [Rat.mul_one, Rat.mul_zero] using (quartic_homogeneous A u 1 0)
+    simpa only [ProjectiveLine.value, ProjectiveLine.coords, Rat.mul_one, Rat.mul_zero] using (quartic_homogeneous A u 1 0)
   · refine ⟨.finite (u/v),v,hv,?_⟩
     have huv : v*(u/v)=u := by rw [Rat.mul_comm]; exact Rat.div_mul_cancel hv
-    simpa only [huv,Rat.mul_one] using (quartic_homogeneous A v (u/v) 1)
+    simpa only [ProjectiveLine.value, ProjectiveLine.coords, huv, Rat.mul_one] using (quartic_homogeneous A v (u/v) 1)
 
 def ProjectiveSurface (A H : Rat) : Prop :=
   H ≠ 0 ∧ ∃ (t₁ t₂ : ProjectiveLine) (W : Rat),
