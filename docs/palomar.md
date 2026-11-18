@@ -25,6 +25,8 @@ Run `python3 dashboard/palomar_sources.py --json` at the repository root to iden
 
 In a separate preview the source scanner accepted all 2,123 files. Lean 4.35 parsed every module header and confirmed that each file imports precisely the same modules, in the same order and with the same visibility. Moving these edits into the edition requires checking the proof bodies against their dependencies. [Preview results](../Comparison/module-preview.json)
 
+A fresh kernel check of the released Theorem 113 succeeded. When we rebuilt its preview with the same dependencies, Lean stopped at its first import, `GuitartSurfaces`, which still used the previous module format. The dependency also extends beyond this repository. For instance, the Picard sextic imports Glazer’s height theorem in `ZInQKernel.Hypotheses.JHeight`, whose pinned source also uses the previous format. These dependencies must be ported before the module version of the final theorem can be checked. [Rebuild results](../Comparison/geometry-rebuild.json) · [Picard sextic](../bounded/PicardSextic.lean) · [Pinned height theorem](https://github.com/elliotglazer/diophantine-z-q/blob/2358394558aafae202a1ce6d3bd1b536b79ad3d0/ZInQKernel/Hypotheses/JHeight.lean#L1)
+
 To reproduce the preview, run the following commands from a clean checkout with Python 3.11 or later and Lean 4.35.0. The first command writes the proposed sources to a new directory.
 
 ```sh
