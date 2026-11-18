@@ -12,3 +12,7 @@ The bounded polynomial construction and the upstream Lean development are the wo
 | Variable bounds with unrestricted degree | The 28-witness declarations follow the first version of Zhi-Wei Sun’s preprint. The second version announces 26 witnesses. [Version 1](https://arxiv.org/abs/2611.14605v1) · [Version 2](https://arxiv.org/abs/2611.14605v2) |
 
 The directory guides link to theorems used in a particular proof. The Lean sources retain their original mathematical names. Standard library dependencies for the two build targets are specified in their Lake manifests. [Mathlib](https://github.com/leanprover-community/mathlib4) · [Root package](../lakefile.toml)
+
+## License and attribution
+
+The project's original code and documentation are available under the Apache License, Version 2.0. The cited papers, source excerpts and external libraries retain their authors’ terms. The geometry package carries the Tau Ceti license with its imported material. The upstream polynomial project is pinned as a separate dependency. [Project license](../LICENSE) · [Tau Ceti license](../geometry/vendor/LICENSE) · [Upstream polynomial project](https://github.com/elliotglazer/diophantine-z-q/tree/2358394558aafae202a1ce6d3bd1b536b79ad3d0)

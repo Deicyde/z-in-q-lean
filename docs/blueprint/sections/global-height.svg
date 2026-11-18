@@ -1,0 +1,287 @@
+<svg width="1691pt" height="266pt"
+ viewBox="0.00 0.00 1691.00 266.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="proof" class="graph" transform="scale(1 1) rotate(0) translate(12.96 252.71)">
+<title>proof</title>
+<polygon fill="white" stroke="none" points="-12.96,12.96 -12.96,-252.71 1677.71,-252.71 1677.71,12.96 -12.96,12.96"/>
+<g id="s&#45;97" class="node">
+<title>n97</title>
+<polygon fill="#edf5f2" stroke="none" points="590.62,-194.75 590.62,-239.75 715.12,-239.75 715.12,-194.75 590.62,-194.75"/>
+<g id="a_s&#45;97_0"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/GeneralQuaternionField.lean#L104-L109" xlink:title="Lemma 97. A field of the required degree" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="630.38" y="-226.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 97</text>
+<text xml:space="preserve" text-anchor="start" x="596.62" y="-214.35" font-family="Helvetica,sans-Serif" font-size="12.00">A field of the required</text>
+<text xml:space="preserve" text-anchor="start" x="634.12" y="-202.35" font-family="Helvetica,sans-Serif" font-size="12.00">degree</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="590.62,-194.75 590.62,-239.75 715.12,-239.75 715.12,-194.75 590.62,-194.75"/>
+</g>
+<g id="s&#45;98" class="node">
+<title>n98</title>
+<polygon fill="#edf5f2" stroke="none" points="774.25,-181.75 774.25,-226.75 904,-226.75 904,-181.75 774.25,-181.75"/>
+<g id="a_s&#45;98_1"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardPolynomial.lean#L35-L40" xlink:title="Lemma 98. The field action on the rational variety" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="816.62" y="-213.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 98</text>
+<text xml:space="preserve" text-anchor="start" x="780.25" y="-201.35" font-family="Helvetica,sans-Serif" font-size="12.00">The field action on the</text>
+<text xml:space="preserve" text-anchor="start" x="800.12" y="-189.35" font-family="Helvetica,sans-Serif" font-size="12.00">rational variety</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="774.25,-181.75 774.25,-226.75 904,-226.75 904,-181.75 774.25,-181.75"/>
+</g>
+<g id="e&#45;97&#45;98" class="edge">
+<title>n97&#45;&gt;n98</title>
+<path fill="none" stroke="#899c9b" d="M714.97,-212.94C731.65,-211.76 749.87,-210.48 767.06,-209.26"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="767.01,-211.37 772.84,-208.86 766.71,-207.18 767.01,-211.37"/>
+</g>
+<g id="s&#45;110" class="node">
+<title>n110</title>
+<polygon fill="#edf5f2" stroke="none" points="946.25,-111.75 946.25,-156.75 1109.75,-156.75 1109.75,-111.75 946.25,-111.75"/>
+<g id="a_s&#45;110_2"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardPolynomial.lean#L129-L164" xlink:title="Proposition 110. The local and global data on the same rational factor" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="989" y="-143.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 110</text>
+<text xml:space="preserve" text-anchor="start" x="952.25" y="-131.35" font-family="Helvetica,sans-Serif" font-size="12.00">The local and global data on</text>
+<text xml:space="preserve" text-anchor="start" x="966.12" y="-119.35" font-family="Helvetica,sans-Serif" font-size="12.00">the same rational factor</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="946.25,-111.75 946.25,-156.75 1109.75,-156.75 1109.75,-111.75 946.25,-111.75"/>
+</g>
+<g id="e&#45;98&#45;110" class="edge">
+<title>n98&#45;&gt;n110</title>
+<path fill="none" stroke="#899c9b" d="M900.02,-181.81C919.22,-174.62 940.59,-166.62 960.25,-159.26"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="960.82,-161.28 965.7,-157.21 959.35,-157.35 960.82,-161.28"/>
+</g>
+<g id="s&#45;99" class="node">
+<title>n99</title>
+<polygon fill="#eef2f3" stroke="none" points="189.62,-5.75 189.62,-62.75 325.38,-62.75 325.38,-5.75 189.62,-5.75"/>
+<g id="a_s&#45;99_3"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/PicardAssembly.lean#L69-L71" xlink:title="Definition 99. A rational field action of degree equal to the dimension" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="226" y="-49.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#596970">DEFINITION 99</text>
+<text xml:space="preserve" text-anchor="start" x="195.62" y="-37.35" font-family="Helvetica,sans-Serif" font-size="12.00">A rational field action of</text>
+<text xml:space="preserve" text-anchor="start" x="206.12" y="-25.35" font-family="Helvetica,sans-Serif" font-size="12.00">degree equal to the</text>
+<text xml:space="preserve" text-anchor="start" x="229.75" y="-13.35" font-family="Helvetica,sans-Serif" font-size="12.00">dimension</text>
+</a>
+</g>
+<polygon fill="none" stroke="#596970" points="189.62,-5.75 189.62,-62.75 325.38,-62.75 325.38,-5.75 189.62,-5.75"/>
+</g>
+<g id="s&#45;100" class="node">
+<title>n100</title>
+<polygon fill="#fff3dd" stroke="none" points="374.75,0 374.75,-68.5 527.75,-68.5 527.75,0 374.75,0"/>
+<g id="a_s&#45;100_4"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/PicardAssembly.lean#L79-L82" xlink:title="Hypothesis 100. The effective height bound of von Känel" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="413.38" y="-54.95" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#9b601e">HYPOTHESIS 100</text>
+<text xml:space="preserve" text-anchor="start" x="380.75" y="-43.1" font-family="Helvetica,sans-Serif" font-size="12.00">The effective height bound</text>
+<text xml:space="preserve" text-anchor="start" x="417.88" y="-31.1" font-family="Helvetica,sans-Serif" font-size="12.00">of von Känel</text>
+</a>
+</g>
+<g id="a_s&#45;100_5"><a xlink:href="https://doi.org/10.1017/fms.2021.29" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="375.75,-1 375.75,-24.5 526.75,-24.5 526.75,-1 375.75,-1"/>
+<text xml:space="preserve" text-anchor="start" x="380.38" y="-13.95" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">von Känel, Theorem 6.2, inequality</text>
+<text xml:space="preserve" text-anchor="start" x="441.88" y="-4.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">(6.7)</text>
+</a>
+</g>
+<polygon fill="none" stroke="#9b601e" points="374.75,0 374.75,-68.5 527.75,-68.5 527.75,0 374.75,0"/>
+</g>
+<g id="e&#45;99&#45;100" class="edge">
+<title>n99&#45;&gt;n100</title>
+<path fill="none" stroke="#899c9b" d="M325.3,-34.25C338.92,-34.25 353.4,-34.25 367.51,-34.25"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="367.32,-36.35 373.32,-34.25 367.32,-32.15 367.32,-36.35"/>
+</g>
+<g id="s&#45;107" class="node">
+<title>n107</title>
+<polygon fill="#edf5f2" stroke="none" points="573.75,-80.75 573.75,-125.75 732,-125.75 732,-80.75 573.75,-80.75"/>
+<g id="a_s&#45;107_6"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/PicardAssembly.lean#L202-L234" xlink:title="Proposition 107. Rational factors of bounded dimension suffice" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="613.12" y="-112.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 107</text>
+<text xml:space="preserve" text-anchor="start" x="579.75" y="-100.35" font-family="Helvetica,sans-Serif" font-size="12.00">Rational factors of bounded</text>
+<text xml:space="preserve" text-anchor="start" x="606.38" y="-88.35" font-family="Helvetica,sans-Serif" font-size="12.00">dimension suffice</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="573.75,-80.75 573.75,-125.75 732,-125.75 732,-80.75 573.75,-80.75"/>
+</g>
+<g id="e&#45;100&#45;107" class="edge">
+<title>n100&#45;&gt;n107</title>
+<path fill="none" stroke="#899c9b" d="M527.72,-60.34C544.97,-66.3 563.26,-72.62 580.34,-78.52"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="579.29,-80.38 585.64,-80.36 580.66,-76.41 579.29,-80.38"/>
+</g>
+<g id="s&#45;113" class="node">
+<title>n113</title>
+<polygon fill="#d8eee7" stroke="none" points="1523,-46.75 1523,-91.75 1664.75,-91.75 1664.75,-46.75 1523,-46.75"/>
+<g id="a_s&#45;113_7"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardConclusion.lean#L65-L76" xlink:title="Theorem 113. Conditional Diophantine definition of the integers" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="1563.12" y="-78.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#1e6253">THEOREM 113</text>
+<text xml:space="preserve" text-anchor="start" x="1529" y="-66.35" font-family="Helvetica,sans-Serif" font-size="12.00">Conditional Diophantine</text>
+<text xml:space="preserve" text-anchor="start" x="1530.5" y="-54.35" font-family="Helvetica,sans-Serif" font-size="12.00">definition of the integers</text>
+</a>
+</g>
+<polygon fill="none" stroke="#1e6253" points="1523,-46.75 1523,-91.75 1664.75,-91.75 1664.75,-46.75 1523,-46.75"/>
+</g>
+<g id="e&#45;100&#45;113" class="edge">
+<title>n100&#45;&gt;n113</title>
+<path fill="none" stroke="#899c9b" d="M527.57,-36.98C639.86,-41.06 838.12,-48.25 838.12,-48.25 838.12,-48.25 838.12,-48.25 1220.88,-48.25 1220.88,-48.25 1407.02,-58.76 1515.96,-64.91"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="1515.72,-67 1521.83,-65.24 1515.96,-62.8 1515.72,-67"/>
+</g>
+<g id="s&#45;101" class="node">
+<title>n101</title>
+<polygon fill="#edf5f2" stroke="none" points="372.88,-194.75 372.88,-239.75 529.62,-239.75 529.62,-194.75 372.88,-194.75"/>
+<g id="a_s&#45;101_8"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/QualitativeHeight.lean#L244-L280" xlink:title="Lemma 101. Exponent twenty&#45;four in the prime product" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="426.12" y="-226.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 101</text>
+<text xml:space="preserve" text-anchor="start" x="378.88" y="-214.35" font-family="Helvetica,sans-Serif" font-size="12.00">Exponent twenty&#45;four in the</text>
+<text xml:space="preserve" text-anchor="start" x="414.88" y="-202.35" font-family="Helvetica,sans-Serif" font-size="12.00">prime product</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="372.88,-194.75 372.88,-239.75 529.62,-239.75 529.62,-194.75 372.88,-194.75"/>
+</g>
+<g id="e&#45;101&#45;107" class="edge">
+<title>n101&#45;&gt;n107</title>
+<path fill="none" stroke="#899c9b" d="M520.06,-194.78C529.88,-191.53 536.75,-189.25 536.75,-189.25 536.75,-189.25 573.75,-132.25 573.75,-132.25 573.75,-132.25 578.11,-130.63 584.77,-128.16"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="585.16,-130.25 590.06,-126.2 583.7,-126.32 585.16,-130.25"/>
+</g>
+<g id="s&#45;102" class="node">
+<title>n102</title>
+<polygon fill="#edf5f2" stroke="none" points="0,-165.75 0,-210.75 149.25,-210.75 149.25,-165.75 0,-165.75"/>
+<g id="a_s&#45;102_9"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/QualitativeHeight.lean#L101-L116" xlink:title="Lemma 102. Odd valuation and an odd contact prime" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="49.5" y="-197.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 102</text>
+<text xml:space="preserve" text-anchor="start" x="6" y="-185.35" font-family="Helvetica,sans-Serif" font-size="12.00">Odd valuation and an odd</text>
+<text xml:space="preserve" text-anchor="start" x="39" y="-173.35" font-family="Helvetica,sans-Serif" font-size="12.00">contact prime</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="0,-165.75 0,-210.75 149.25,-210.75 149.25,-165.75 0,-165.75"/>
+</g>
+<g id="s&#45;103" class="node">
+<title>n103</title>
+<polygon fill="#edf5f2" stroke="none" points="186.62,-165.75 186.62,-210.75 328.38,-210.75 328.38,-165.75 186.62,-165.75"/>
+<g id="a_s&#45;103_10"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/QualitativeHeight.lean#L136-L149" xlink:title="Lemma 103. Divisibility of the product of bad primes" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="232.38" y="-197.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 103</text>
+<text xml:space="preserve" text-anchor="start" x="192.62" y="-185.35" font-family="Helvetica,sans-Serif" font-size="12.00">Divisibility of the product</text>
+<text xml:space="preserve" text-anchor="start" x="221.5" y="-173.35" font-family="Helvetica,sans-Serif" font-size="12.00">of bad primes</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="186.62,-165.75 186.62,-210.75 328.38,-210.75 328.38,-165.75 186.62,-165.75"/>
+</g>
+<g id="e&#45;102&#45;103" class="edge">
+<title>n102&#45;&gt;n103</title>
+<path fill="none" stroke="#899c9b" d="M149.19,-188.25C159.19,-188.25 169.47,-188.25 179.52,-188.25"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="179.28,-190.35 185.28,-188.25 179.28,-186.15 179.28,-190.35"/>
+</g>
+<g id="s&#45;105" class="node">
+<title>n105</title>
+<polygon fill="#edf5f2" stroke="none" points="398.75,-137.75 398.75,-182.75 503.75,-182.75 503.75,-137.75 398.75,-137.75"/>
+<g id="a_s&#45;105_11"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/QualitativeHeight.lean#L171-L227" xlink:title="Proposition 105. Absorbing a finite exceptional set" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="411.5" y="-169.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 105</text>
+<text xml:space="preserve" text-anchor="start" x="404.75" y="-157.35" font-family="Helvetica,sans-Serif" font-size="12.00">Absorbing a finite</text>
+<text xml:space="preserve" text-anchor="start" x="411.12" y="-145.35" font-family="Helvetica,sans-Serif" font-size="12.00">exceptional set</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="398.75,-137.75 398.75,-182.75 503.75,-182.75 503.75,-137.75 398.75,-137.75"/>
+</g>
+<g id="e&#45;103&#45;105" class="edge">
+<title>n103&#45;&gt;n105</title>
+<path fill="none" stroke="#899c9b" d="M328.27,-178.06C349.06,-175.03 371.62,-171.73 391.63,-168.81"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="391.74,-170.92 397.37,-167.97 391.13,-166.76 391.74,-170.92"/>
+</g>
+<g id="s&#45;104" class="node">
+<title>n104</title>
+<polygon fill="#edf5f2" stroke="none" points="186.25,-108.75 186.25,-153.75 328.75,-153.75 328.75,-108.75 186.25,-108.75"/>
+<g id="a_s&#45;104_12"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/QualitativeHeight.lean#L154-L166" xlink:title="Lemma 104. Height under the inverse change of parameter" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="232.38" y="-140.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 104</text>
+<text xml:space="preserve" text-anchor="start" x="192.25" y="-128.35" font-family="Helvetica,sans-Serif" font-size="12.00">Height under the inverse</text>
+<text xml:space="preserve" text-anchor="start" x="202.75" y="-116.35" font-family="Helvetica,sans-Serif" font-size="12.00">change of parameter</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="186.25,-108.75 186.25,-153.75 328.75,-153.75 328.75,-108.75 186.25,-108.75"/>
+</g>
+<g id="e&#45;104&#45;105" class="edge">
+<title>n104&#45;&gt;n105</title>
+<path fill="none" stroke="#899c9b" d="M328.54,-141.84C349.31,-144.98 371.83,-148.39 391.79,-151.41"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="391.27,-153.45 397.52,-152.27 391.9,-149.3 391.27,-153.45"/>
+</g>
+<g id="e&#45;105&#45;107" class="edge">
+<title>n105&#45;&gt;n107</title>
+<path fill="none" stroke="#899c9b" d="M503.66,-145.57C522.94,-140.06 545.41,-133.65 566.93,-127.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="567.23,-129.6 572.42,-125.94 566.08,-125.56 567.23,-129.6"/>
+</g>
+<g id="s&#45;106" class="node">
+<title>n106</title>
+<polygon fill="#edf5f2" stroke="none" points="365.75,-80.75 365.75,-125.75 536.75,-125.75 536.75,-80.75 365.75,-80.75"/>
+<g id="a_s&#45;106_13"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/PicardAssembly.lean#L153-L157" xlink:title="Lemma 106. Good reduction away from the prescribed set" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="426.12" y="-112.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 106</text>
+<text xml:space="preserve" text-anchor="start" x="371.75" y="-100.35" font-family="Helvetica,sans-Serif" font-size="12.00">Good reduction away from the</text>
+<text xml:space="preserve" text-anchor="start" x="413.75" y="-88.35" font-family="Helvetica,sans-Serif" font-size="12.00">prescribed set</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="365.75,-80.75 365.75,-125.75 536.75,-125.75 536.75,-80.75 365.75,-80.75"/>
+</g>
+<g id="e&#45;106&#45;107" class="edge">
+<title>n106&#45;&gt;n107</title>
+<path fill="none" stroke="#899c9b" d="M536.62,-103.25C546.46,-103.25 556.5,-103.25 566.35,-103.25"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="566.33,-105.35 572.33,-103.25 566.33,-101.15 566.33,-105.35"/>
+</g>
+<g id="s&#45;109" class="node">
+<title>n109</title>
+<polygon fill="#edf5f2" stroke="none" points="769,-111.75 769,-156.75 909.25,-156.75 909.25,-111.75 769,-111.75"/>
+<g id="a_s&#45;109_14"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/PicardAssembly.lean#L296-L311" xlink:title="Proposition 109. Passing from the moduli point to its value" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="799.38" y="-143.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 109</text>
+<text xml:space="preserve" text-anchor="start" x="775" y="-131.35" font-family="Helvetica,sans-Serif" font-size="12.00">Passing from the moduli</text>
+<text xml:space="preserve" text-anchor="start" x="796" y="-119.35" font-family="Helvetica,sans-Serif" font-size="12.00">point to its value</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="769,-111.75 769,-156.75 909.25,-156.75 909.25,-111.75 769,-111.75"/>
+</g>
+<g id="e&#45;107&#45;109" class="edge">
+<title>n107&#45;&gt;n109</title>
+<path fill="none" stroke="#899c9b" d="M731.75,-116.35C741.7,-118.03 751.89,-119.74 761.82,-121.41"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="761.25,-123.44 767.51,-122.37 761.94,-119.3 761.25,-123.44"/>
+</g>
+<g id="s&#45;108" class="node">
+<title>n108</title>
+<polygon fill="#edf5f2" stroke="none" points="588.75,-137.75 588.75,-182.75 717,-182.75 717,-137.75 588.75,-137.75"/>
+<g id="a_s&#45;108_15"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/PicardAssembly.lean#L269-L291" xlink:title="Lemma 108. Height of a quotient of homogeneous forms" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="627.75" y="-169.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 108</text>
+<text xml:space="preserve" text-anchor="start" x="594.75" y="-157.35" font-family="Helvetica,sans-Serif" font-size="12.00">Height of a quotient of</text>
+<text xml:space="preserve" text-anchor="start" x="598.5" y="-145.35" font-family="Helvetica,sans-Serif" font-size="12.00">homogeneous forms</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="588.75,-137.75 588.75,-182.75 717,-182.75 717,-137.75 588.75,-137.75"/>
+</g>
+<g id="e&#45;108&#45;109" class="edge">
+<title>n108&#45;&gt;n109</title>
+<path fill="none" stroke="#899c9b" d="M716.77,-151.37C731.28,-149.33 746.87,-147.13 761.89,-145.01"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="762.06,-147.1 767.71,-144.19 761.47,-142.95 762.06,-147.1"/>
+</g>
+<g id="e&#45;109&#45;110" class="edge">
+<title>n109&#45;&gt;n110</title>
+<path fill="none" stroke="#899c9b" d="M909.18,-134.25C918.97,-134.25 929.14,-134.25 939.23,-134.25"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="939.03,-136.35 945.03,-134.25 939.03,-132.15 939.03,-136.35"/>
+</g>
+<g id="s&#45;111" class="node">
+<title>n111</title>
+<polygon fill="#edf5f2" stroke="none" points="1146.75,-92.75 1146.75,-149.75 1293,-149.75 1293,-92.75 1146.75,-92.75"/>
+<g id="a_s&#45;111_16"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardPolynomial.lean#L189-L229" xlink:title="Proposition 111. Marked isogenies and a height comparison on the Jacobian" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="1181.25" y="-136.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 111</text>
+<text xml:space="preserve" text-anchor="start" x="1156.12" y="-124.35" font-family="Helvetica,sans-Serif" font-size="12.00">Marked isogenies and a</text>
+<text xml:space="preserve" text-anchor="start" x="1152.75" y="-112.35" font-family="Helvetica,sans-Serif" font-size="12.00">height comparison on the</text>
+<text xml:space="preserve" text-anchor="start" x="1195.5" y="-100.35" font-family="Helvetica,sans-Serif" font-size="12.00">Jacobian</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="1146.75,-92.75 1146.75,-149.75 1293,-149.75 1293,-92.75 1146.75,-92.75"/>
+</g>
+<g id="e&#45;110&#45;111" class="edge">
+<title>n110&#45;&gt;n111</title>
+<path fill="none" stroke="#899c9b" d="M1109.52,-128.74C1119.53,-128.05 1129.75,-127.35 1139.73,-126.67"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="1139.6,-128.78 1145.44,-126.28 1139.31,-124.59 1139.6,-128.78"/>
+</g>
+<g id="s&#45;112" class="node">
+<title>n112</title>
+<polygon fill="#edf5f2" stroke="none" points="1330,-70.75 1330,-115.75 1486,-115.75 1486,-70.75 1330,-70.75"/>
+<g id="a_s&#45;112_17"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardPeriods.lean#L175-L187" xlink:title="Proposition 112. The conditional polynomial over a given descent field" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="1369" y="-102.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 112</text>
+<text xml:space="preserve" text-anchor="start" x="1336" y="-90.35" font-family="Helvetica,sans-Serif" font-size="12.00">The conditional polynomial</text>
+<text xml:space="preserve" text-anchor="start" x="1340.12" y="-78.35" font-family="Helvetica,sans-Serif" font-size="12.00">over a given descent field</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="1330,-70.75 1330,-115.75 1486,-115.75 1486,-70.75 1330,-70.75"/>
+</g>
+<g id="e&#45;111&#45;112" class="edge">
+<title>n111&#45;&gt;n112</title>
+<path fill="none" stroke="#899c9b" d="M1292.84,-110.42C1302.71,-108.94 1312.93,-107.4 1323,-105.89"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="1323.18,-107.98 1328.8,-105.01 1322.55,-103.83 1323.18,-107.98"/>
+</g>
+<g id="e&#45;112&#45;113" class="edge">
+<title>n112&#45;&gt;n113</title>
+<path fill="none" stroke="#899c9b" d="M1485.91,-83.21C1495.72,-81.93 1505.75,-80.62 1515.56,-79.34"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="1515.83,-81.42 1521.51,-78.56 1515.29,-77.26 1515.83,-81.42"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,248 @@
+<svg width="759pt" height="388pt"
+ viewBox="0.00 0.00 759.00 388.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="proof" class="graph" transform="scale(1 1) rotate(0) translate(12.96 374.96)">
+<title>proof</title>
+<polygon fill="white" stroke="none" points="-12.96,12.96 -12.96,-374.96 745.71,-374.96 745.71,12.96 -12.96,12.96"/>
+<g id="s&#45;70" class="node">
+<title>n70</title>
+<polygon fill="#edf5f2" stroke="none" points="15,-323 15,-356 147.75,-356 147.75,-323 15,-323"/>
+<g id="a_s&#45;70_0"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/PrimitiveTwist.lean#L34-L50" xlink:title="Lemma 70. One twist for all primes" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="58.88" y="-342.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 70</text>
+<text xml:space="preserve" text-anchor="start" x="21" y="-330.6" font-family="Helvetica,sans-Serif" font-size="12.00">One twist for all primes</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="15,-323 15,-356 147.75,-356 147.75,-323 15,-323"/>
+</g>
+<g id="s&#45;72" class="node">
+<title>n72</title>
+<polygon fill="#edf5f2" stroke="none" points="217.38,-317 217.38,-362 356.88,-362 356.88,-317 217.38,-317"/>
+<g id="a_s&#45;72_1"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/LocalSupport.lean#L984-L1009" xlink:title="Lemma 72. The split integral fibre at an even contact" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="264.62" y="-348.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 72</text>
+<text xml:space="preserve" text-anchor="start" x="223.38" y="-336.6" font-family="Helvetica,sans-Serif" font-size="12.00">The split integral fibre at</text>
+<text xml:space="preserve" text-anchor="start" x="245.12" y="-324.6" font-family="Helvetica,sans-Serif" font-size="12.00">an even contact</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="217.38,-317 217.38,-362 356.88,-362 356.88,-317 217.38,-317"/>
+</g>
+<g id="e&#45;70&#45;72" class="edge">
+<title>n70&#45;&gt;n72</title>
+<path fill="none" stroke="#899c9b" d="M147.68,-339.5C167.59,-339.5 189.64,-339.5 210.18,-339.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="210.16,-341.6 216.16,-339.5 210.16,-337.4 210.16,-341.6"/>
+</g>
+<g id="s&#45;71" class="node">
+<title>n71</title>
+<polygon fill="#edf5f2" stroke="none" points="211,-179 211,-224 363.25,-224 363.25,-179 211,-179"/>
+<g id="a_s&#45;71_2"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardLocalization.lean#L280-L311" xlink:title="Proposition 71. The actual Jacobian of the integral equation" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="250" y="-210.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 71</text>
+<text xml:space="preserve" text-anchor="start" x="217" y="-198.6" font-family="Helvetica,sans-Serif" font-size="12.00">The actual Jacobian of the</text>
+<text xml:space="preserve" text-anchor="start" x="242.5" y="-186.6" font-family="Helvetica,sans-Serif" font-size="12.00">integral equation</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="211,-179 211,-224 363.25,-224 363.25,-179 211,-179"/>
+</g>
+<g id="s&#45;78" class="node">
+<title>n78</title>
+<polygon fill="#edf5f2" stroke="none" points="413.38,-150 413.38,-195 567.88,-195 567.88,-150 413.38,-150"/>
+<g id="a_s&#45;78_3"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardGoodReduction.lean#L174-L199" xlink:title="Proposition 78. Good reduction of the local Jacobian" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="453.5" y="-181.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 78</text>
+<text xml:space="preserve" text-anchor="start" x="419.38" y="-169.6" font-family="Helvetica,sans-Serif" font-size="12.00">Good reduction of the local</text>
+<text xml:space="preserve" text-anchor="start" x="466.25" y="-157.6" font-family="Helvetica,sans-Serif" font-size="12.00">Jacobian</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="413.38,-150 413.38,-195 567.88,-195 567.88,-150 413.38,-150"/>
+</g>
+<g id="e&#45;71&#45;78" class="edge">
+<title>n71&#45;&gt;n78</title>
+<path fill="none" stroke="#899c9b" d="M363.16,-190.7C377.16,-188.69 391.88,-186.57 406.12,-184.52"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="406.39,-186.6 412.02,-183.67 405.79,-182.44 406.39,-186.6"/>
+</g>
+<g id="e&#45;72&#45;78" class="edge">
+<title>n72&#45;&gt;n78</title>
+<path fill="none" stroke="#899c9b" d="M354.9,-317.08C366.27,-313.26 374.5,-310.5 374.5,-310.5 374.5,-310.5 411.5,-254.5 411.5,-254.5 411.5,-254.5 440.58,-223.98 463.26,-200.18"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="464.61,-201.8 467.23,-196 461.57,-198.9 464.61,-201.8"/>
+</g>
+<g id="s&#45;79" class="node">
+<title>n79</title>
+<polygon fill="#edf5f2" stroke="none" points="412.62,-317 412.62,-362 568.62,-362 568.62,-317 412.62,-317"/>
+<g id="a_s&#45;79_4"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/CommonWittField.lean#L206-L233" xlink:title="Proposition 79. A common unramified local field" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="453.5" y="-348.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 79</text>
+<text xml:space="preserve" text-anchor="start" x="418.62" y="-336.6" font-family="Helvetica,sans-Serif" font-size="12.00">A common unramified local</text>
+<text xml:space="preserve" text-anchor="start" x="479.38" y="-324.6" font-family="Helvetica,sans-Serif" font-size="12.00">field</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="412.62,-317 412.62,-362 568.62,-362 568.62,-317 412.62,-317"/>
+</g>
+<g id="e&#45;72&#45;79" class="edge">
+<title>n72&#45;&gt;n79</title>
+<path fill="none" stroke="#899c9b" d="M356.62,-339.5C372.26,-339.5 389.05,-339.5 405.26,-339.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="405.14,-341.6 411.14,-339.5 405.14,-337.4 405.14,-341.6"/>
+</g>
+<g id="s&#45;83" class="node">
+<title>n83</title>
+<polygon fill="#edf5f2" stroke="none" points="428,-260 428,-305 553.25,-305 553.25,-260 428,-260"/>
+<g id="a_s&#45;83_5"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/PicardAssembly.lean#L48-L59" xlink:title="Lemma 83. Which primes require inversion" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="468.12" y="-291.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 83</text>
+<text xml:space="preserve" text-anchor="start" x="434" y="-279.6" font-family="Helvetica,sans-Serif" font-size="12.00">Which primes require</text>
+<text xml:space="preserve" text-anchor="start" x="466.25" y="-267.6" font-family="Helvetica,sans-Serif" font-size="12.00">inversion</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="428,-260 428,-305 553.25,-305 553.25,-260 428,-260"/>
+</g>
+<g id="e&#45;72&#45;83" class="edge">
+<title>n72&#45;&gt;n83</title>
+<path fill="none" stroke="#899c9b" d="M356.62,-320.12C377.43,-314.24 400.29,-307.77 421.1,-301.88"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="421.42,-303.98 426.62,-300.32 420.27,-299.94 421.42,-303.98"/>
+</g>
+<g id="s&#45;73" class="node">
+<title>n73</title>
+<polygon fill="#edf5f2" stroke="none" points="212.5,-122 212.5,-167 361.75,-167 361.75,-122 212.5,-122"/>
+<g id="a_s&#45;73_6"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/LocalSupport.lean#L568" xlink:title="Lemma 73. Cardinalities of the proper clusters" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="264.62" y="-153.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 73</text>
+<text xml:space="preserve" text-anchor="start" x="218.5" y="-141.6" font-family="Helvetica,sans-Serif" font-size="12.00">Cardinalities of the proper</text>
+<text xml:space="preserve" text-anchor="start" x="266.5" y="-129.6" font-family="Helvetica,sans-Serif" font-size="12.00">clusters</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="212.5,-122 212.5,-167 361.75,-167 361.75,-122 212.5,-122"/>
+</g>
+<g id="e&#45;73&#45;78" class="edge">
+<title>n73&#45;&gt;n78</title>
+<path fill="none" stroke="#899c9b" d="M361.73,-154.73C376.22,-156.74 391.52,-158.87 406.31,-160.92"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="405.79,-162.97 412.02,-161.72 406.36,-158.81 405.79,-162.97"/>
+</g>
+<g id="s&#45;74" class="node">
+<title>n74</title>
+<polygon fill="#edf5f2" stroke="none" points="225.25,-65 225.25,-110 349,-110 349,-65 225.25,-65"/>
+<g id="a_s&#45;74_7"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/LocalSupport.lean#L604-L611" xlink:title="Lemma 74. The local integer at a triple" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="264.62" y="-96.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 74</text>
+<text xml:space="preserve" text-anchor="start" x="231.25" y="-84.6" font-family="Helvetica,sans-Serif" font-size="12.00">The local integer at a</text>
+<text xml:space="preserve" text-anchor="start" x="274" y="-72.6" font-family="Helvetica,sans-Serif" font-size="12.00">triple</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="225.25,-65 225.25,-110 349,-110 349,-65 225.25,-65"/>
+</g>
+<g id="e&#45;74&#45;78" class="edge">
+<title>n74&#45;&gt;n78</title>
+<path fill="none" stroke="#899c9b" d="M348.58,-107.8C363.1,-112.67 374.5,-116.5 374.5,-116.5 374.5,-116.5 411.5,-143.5 411.5,-143.5 411.5,-143.5 415.86,-145.12 422.52,-147.59"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="421.45,-149.43 427.81,-149.55 422.91,-145.5 421.45,-149.43"/>
+</g>
+<g id="s&#45;75" class="node">
+<title>n75</title>
+<polygon fill="#edf5f2" stroke="none" points="220.38,-8 220.38,-53 353.88,-53 353.88,-8 220.38,-8"/>
+<g id="a_s&#45;75_8"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/LocalSupport.lean#L613-L614" xlink:title="Lemma 75. The local integer at the full set" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="264.62" y="-39.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 75</text>
+<text xml:space="preserve" text-anchor="start" x="226.38" y="-27.6" font-family="Helvetica,sans-Serif" font-size="12.00">The local integer at the</text>
+<text xml:space="preserve" text-anchor="start" x="269.88" y="-15.6" font-family="Helvetica,sans-Serif" font-size="12.00">full set</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="220.38,-8 220.38,-53 353.88,-53 353.88,-8 220.38,-8"/>
+</g>
+<g id="e&#45;75&#45;78" class="edge">
+<title>n75&#45;&gt;n78</title>
+<path fill="none" stroke="#899c9b" d="M353.59,-52.48C365.64,-56.52 374.5,-59.5 374.5,-59.5 374.5,-59.5 411.5,-143.5 411.5,-143.5 411.5,-143.5 415.86,-145.12 422.52,-147.59"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="421.45,-149.43 427.81,-149.55 422.91,-145.5 421.45,-149.43"/>
+</g>
+<g id="s&#45;76" class="node">
+<title>n76</title>
+<polygon fill="#eef2f3" stroke="none" points="0,-107 0,-152 162.75,-152 162.75,-107 0,-107"/>
+<g id="a_s&#45;76_9"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/PicardAssembly.lean#L99-L101" xlink:title="Definition 76. Good reduction over the Witt ring" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="49.88" y="-138.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#596970">DEFINITION 76</text>
+<text xml:space="preserve" text-anchor="start" x="6" y="-126.6" font-family="Helvetica,sans-Serif" font-size="12.00">Good reduction over the Witt</text>
+<text xml:space="preserve" text-anchor="start" x="71.25" y="-114.6" font-family="Helvetica,sans-Serif" font-size="12.00">ring</text>
+</a>
+</g>
+<polygon fill="none" stroke="#596970" points="0,-107 0,-152 162.75,-152 162.75,-107 0,-107"/>
+</g>
+<g id="s&#45;77" class="node">
+<title>n77</title>
+<polygon fill="#fff3dd" stroke="none" points="199.75,-236.25 199.75,-304.75 374.5,-304.75 374.5,-236.25 199.75,-236.25"/>
+<g id="a_s&#45;77_10"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardGoodReduction.lean#L90-L102" xlink:title="Hypothesis 77. The split&#45;sextic criterion for good reduction" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="251.88" y="-291.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#9b601e">HYPOTHESIS 77</text>
+<text xml:space="preserve" text-anchor="start" x="224.12" y="-279.35" font-family="Helvetica,sans-Serif" font-size="12.00">The split&#45;sextic criterion</text>
+<text xml:space="preserve" text-anchor="start" x="239.12" y="-267.35" font-family="Helvetica,sans-Serif" font-size="12.00">for good reduction</text>
+</a>
+</g>
+<g id="a_s&#45;77_11"><a xlink:href="https://doi.org/10.1007/s00208-021-02319-y" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="200.75,-237.25 200.75,-260.75 373.5,-260.75 373.5,-237.25 200.75,-237.25"/>
+<text xml:space="preserve" text-anchor="start" x="202.75" y="-250.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Dokchitser–Dokchitser–Maistret–Morgan,</text>
+<text xml:space="preserve" text-anchor="start" x="228.62" y="-240.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Theorems 1.9(5) and 10.3(5)</text>
+</a>
+</g>
+<polygon fill="none" stroke="#9b601e" points="199.75,-236.25 199.75,-304.75 374.5,-304.75 374.5,-236.25 199.75,-236.25"/>
+</g>
+<g id="e&#45;76&#45;77" class="edge">
+<title>n76&#45;&gt;n77</title>
+<path fill="none" stroke="#899c9b" d="M108.42,-151.92C143,-181.67 199.75,-230.5 199.75,-230.5 199.75,-230.5 202.04,-231.56 205.87,-233.33"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="204.79,-235.15 211.12,-235.77 206.56,-231.34 204.79,-235.15"/>
+</g>
+<g id="s&#45;80" class="node">
+<title>n80</title>
+<polygon fill="#fff3dd" stroke="none" points="422,-57.25 422,-137.75 559.25,-137.75 559.25,-57.25 422,-57.25"/>
+<g id="a_s&#45;80_12"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/PicardAssembly.lean#L106-L112" xlink:title="Hypothesis 80. Good reduction under quotient and unramified descent" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="455.38" y="-124.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#9b601e">HYPOTHESIS 80</text>
+<text xml:space="preserve" text-anchor="start" x="432.88" y="-112.35" font-family="Helvetica,sans-Serif" font-size="12.00">Good reduction under</text>
+<text xml:space="preserve" text-anchor="start" x="428" y="-100.35" font-family="Helvetica,sans-Serif" font-size="12.00">quotient and unramified</text>
+<text xml:space="preserve" text-anchor="start" x="469.62" y="-88.35" font-family="Helvetica,sans-Serif" font-size="12.00">descent</text>
+</a>
+</g>
+<g id="a_s&#45;80_13"><a xlink:href="https://wstein.org/papers/bib/Serre-Tate-Good_Reduction_of_Abelian_Varieties.pdf" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="423,-58.25 423,-81.75 558.25,-81.75 558.25,-58.25 423,-58.25"/>
+<text xml:space="preserve" text-anchor="start" x="434.75" y="-71.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Serre–Tate, Theorem 1 and</text>
+<text xml:space="preserve" text-anchor="start" x="459.5" y="-61.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Corollaries 2, 4</text>
+</a>
+</g>
+<polygon fill="none" stroke="#9b601e" points="422,-57.25 422,-137.75 559.25,-137.75 559.25,-57.25 422,-57.25"/>
+</g>
+<g id="e&#45;76&#45;80" class="edge">
+<title>n76&#45;&gt;n80</title>
+<path fill="none" stroke="#899c9b" d="M103.09,-107.09C136.79,-70.63 199.75,-2.5 199.75,-2.5 199.75,-2.5 374.5,-2.5 374.5,-2.5 374.5,-2.5 411.5,-51.5 411.5,-51.5 411.5,-51.5 413.12,-52.45 415.9,-54.09"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="414.5,-55.7 420.73,-56.94 416.63,-52.08 414.5,-55.7"/>
+</g>
+<g id="e&#45;77&#45;78" class="edge">
+<title>n77&#45;&gt;n78</title>
+<path fill="none" stroke="#899c9b" d="M361.76,-236.4C369.43,-232.85 374.5,-230.5 374.5,-230.5 374.5,-230.5 407.81,-213.72 438.6,-198.21"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="439.35,-200.18 443.76,-195.61 437.46,-196.43 439.35,-200.18"/>
+</g>
+<g id="s&#45;82" class="node">
+<title>n82</title>
+<polygon fill="#d8eee7" stroke="none" points="606.75,-112 606.75,-157 732.75,-157 732.75,-112 606.75,-112"/>
+<g id="a_s&#45;82_14"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/CommonWittReduction.lean#L79-L90" xlink:title="Theorem 82. Good reduction of the rational factor" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="640.88" y="-143.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#1e6253">THEOREM 82</text>
+<text xml:space="preserve" text-anchor="start" x="612.75" y="-131.6" font-family="Helvetica,sans-Serif" font-size="12.00">Good reduction of the</text>
+<text xml:space="preserve" text-anchor="start" x="633.75" y="-119.6" font-family="Helvetica,sans-Serif" font-size="12.00">rational factor</text>
+</a>
+</g>
+<polygon fill="none" stroke="#1e6253" points="606.75,-112 606.75,-157 732.75,-157 732.75,-112 606.75,-112"/>
+</g>
+<g id="e&#45;78&#45;82" class="edge">
+<title>n78&#45;&gt;n82</title>
+<path fill="none" stroke="#899c9b" d="M567.77,-156.16C578.36,-153.89 589.19,-151.57 599.64,-149.33"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="599.9,-151.42 605.33,-148.11 599.02,-147.31 599.9,-151.42"/>
+</g>
+<g id="e&#45;79&#45;82" class="edge">
+<title>n79&#45;&gt;n82</title>
+<path fill="none" stroke="#899c9b" d="M554.32,-317.03C563.4,-313.78 569.75,-311.5 569.75,-311.5 569.75,-311.5 624.54,-213.54 652.6,-163.37"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="654.38,-164.5 655.47,-158.24 650.71,-162.45 654.38,-164.5"/>
+</g>
+<g id="e&#45;80&#45;82" class="edge">
+<title>n80&#45;&gt;n82</title>
+<path fill="none" stroke="#899c9b" d="M559.09,-111.59C572.37,-114.37 586.33,-117.28 599.66,-120.07"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="599.21,-122.12 605.51,-121.29 600.07,-118.01 599.21,-122.12"/>
+</g>
+<g id="s&#45;81" class="node">
+<title>n81</title>
+<polygon fill="#edf5f2" stroke="none" points="411.5,0 411.5,-45 569.75,-45 569.75,0 411.5,0"/>
+<g id="a_s&#45;81_15"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardPolynomial.lean#L98-L125" xlink:title="Lemma 81. Localizing the global power quotient" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="468.12" y="-31.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 81</text>
+<text xml:space="preserve" text-anchor="start" x="417.5" y="-19.6" font-family="Helvetica,sans-Serif" font-size="12.00">Localizing the global power</text>
+<text xml:space="preserve" text-anchor="start" x="469.25" y="-7.6" font-family="Helvetica,sans-Serif" font-size="12.00">quotient</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="411.5,0 411.5,-45 569.75,-45 569.75,0 411.5,0"/>
+</g>
+<g id="e&#45;81&#45;82" class="edge">
+<title>n81&#45;&gt;n82</title>
+<path fill="none" stroke="#899c9b" d="M552.02,-44.92C562.31,-48.74 569.75,-51.5 569.75,-51.5 569.75,-51.5 607.45,-83.1 636.32,-107.31"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="634.85,-108.82 640.8,-111.07 637.55,-105.6 634.85,-108.82"/>
+</g>
+</g>
+</svg>

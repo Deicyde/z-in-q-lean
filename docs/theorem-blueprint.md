@@ -1,5 +1,7 @@
 # A proof blueprint for the bounded Diophantine definition
 
+[Numbered proof of the qualitative theorem](blueprint/proof-map.md) · [Blueprint PDF](blueprint/blueprint.pdf)
+
 A subset of the rationals is **Diophantine over** $`\mathbb Q`$ if it is the set of first coordinates of the rational zeros of a polynomial with integer coefficients. For the integers, this asks for a polynomial $`P`$ such that every integer extends to a rational zero and every rational zero has integral first coordinate. The number of variables includes this first coordinate.
 
 For the existence of a defining polynomial, the six-point height estimate may have an unspecified uniform coefficient. The Picard proof constructs the required bound on this scale from explicit statements on Prym varieties, isogenies, periods, reduction and rank. [Proof and literature inputs](qualitative-existence.md) · [Conditional Lean theorem](../Lean/Lemmas/picard-application/PicardConclusion.lean)

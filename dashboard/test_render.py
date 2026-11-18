@@ -12,6 +12,14 @@ from review_sources import local_modules
 
 
 class DashboardTests(unittest.TestCase):
+    def test_github_named_operators_in_inline_and_display_math(self):
+        tex = r"\operatorname{End}(A)"
+        source = f"An endomorphism algebra ${tex}$ and literal `{tex}`.\n\n```math\n{tex}\n```\n"
+        markdown, equations = protect(source)
+        self.assertEqual(equations, [(form, r"\mathrm{End}(A)") for form in ("inline", "display")])
+        self.assertIn(f"`{tex}`", markdown)
+        self.assertEqual(protect(markdown), (markdown, equations))
+
     def test_link_is_a_definition_in_its_actual_namespace(self):
         source = """
 namespace First

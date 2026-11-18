@@ -5,6 +5,12 @@ from pathlib import Path
 import re
 
 
+def github_tex(tex):
+    # GitHub's math renderer rejects \operatorname even when Markdown preserves
+    # every byte. All named operators in the reading edition have upright names.
+    return re.sub(r"\\operatorname\{([A-Za-z]+)\}", r"\\mathrm{\1}", tex)
+
+
 def inline(line, expressions):
     result = []
     i = 0
@@ -33,7 +39,7 @@ def inline(line, expressions):
                 if protected or backslashes % 2 == 0:
                     break
                 j = end + 1
-            tex = line[start:end]
+            tex = github_tex(line[start:end])
             if not tex.strip() or "`" in tex:
                 raise ValueError("Invalid inline equation: " + line.rstrip()[:120])
             # GitHub HTML-escapes a literal comparison sign twice inside an inline
@@ -58,7 +64,7 @@ def protect(source):
             end = s == "$$" if state == "dollars" else re.fullmatch(re.escape(marker[0]) + "{" + str(len(marker)) + ",}", s)
             if end:
                 if state in ("math", "dollars"):
-                    tex = "".join(display).strip()
+                    tex = github_tex("".join(display).strip())
                     if not tex:
                         raise ValueError("Empty display")
                     expressions.append(("display", tex))
@@ -82,7 +88,7 @@ def protect(source):
         elif s == "$$":
             state = "dollars"
         elif s.startswith("$$") and s.endswith("$$") and len(s) > 4:
-            tex = s[2:-2].strip()
+            tex = github_tex(s[2:-2].strip())
             expressions.append(("display", tex))
             out.extend(["```math\n", tex + "\n", "```\n"])
         else:

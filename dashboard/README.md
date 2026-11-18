@@ -6,7 +6,7 @@
 
 ## Qualitative existence
 
-Lean proves that one polynomial defines the ordinary integers from explicit results on Prym varieties, isogenies, periods, reduction, heights and rank. Its proof constructs the common descent field and accounts for every exceptional rational parameter. The chapter counts below describe the original blueprint. The qualitative development has its own module inventory. [End-to-end theorem](../Lean/Lemmas/picard-application/PicardConclusion.lean) · [Literature inputs](../docs/qualitative-existence.md#the-end-to-end-theorem-and-its-literature-inputs) · [Module inventory](../picard/verification.json)
+Lean proves that one polynomial defines the ordinary integers from explicit results on Prym varieties, isogenies, periods, reduction, heights and rank. Its proof constructs the common descent field and accounts for every exceptional rational parameter. The chapter counts below describe the original blueprint. The qualitative development has its own module inventory. [End-to-end theorem](../Lean/Lemmas/picard-application/PicardConclusion.lean) · [Twelve hypotheses and their sources](../README.md#the-twelve-hypotheses) · [Visual proof and seven chapters](../docs/blueprint/proof-map.md) · [Blueprint PDF](../docs/blueprint/blueprint.pdf) · [Module inventory](../picard/verification.json)
 
 ## Completion by chapter
 
@@ -21,6 +21,29 @@ Lean proves that one polynomial defines the ordinary integers from explicit resu
 | [80-variable candidate](chapters/07.md) | 4/7 (57%) | 0 | 2 | 1 | 0 |
 | [Sun’s 28-witness construction](chapters/08.md) | 272/303 (90%) | 0 | 31 | 0 | 0 |
 | [Bounded-polynomial comparisons](chapters/09.md) | 18/18 (100%) | 0 | 0 | 0 | 0 |
+
+![Status across constructions](routes.svg)
+
+## Dependencies of the bounded construction
+
+```mermaid
+flowchart LR
+    marked["Marked Jacobian"]:::pending
+    field["Field of the marked action"]:::checked
+    formula["Global stable-height formula"]:::pending
+    height["Height bound from the global formula"]:::checked
+    local["Local reduction"]:::checked
+    rank["Selected elliptic twists"]:::checked
+    target["Bounded polynomial theorem"]:::checked
+    marked --> field
+    formula --> height
+    field --> target
+    height --> target
+    local --> target
+    rank --> target
+    classDef checked fill:#dff2ec,stroke:#247669,color:#12392f
+    classDef pending fill:#fff0d2,stroke:#966b22,color:#49340f
+```
 
 ## Reading the states
 

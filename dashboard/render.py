@@ -86,14 +86,6 @@ def route_chart(routes, rows):
     return "\n".join(lines + ["</g></svg>"])
 
 
-def section(s, key, body):
-    first, last = f"<!-- {key}:begin -->", f"<!-- {key}:end -->"
-    if s.count(first) != 1 or s.count(last) != 1:
-        raise ValueError("Missing or duplicate README section " + key)
-    a, rest = s.split(first)
-    return a + first + "\n\n" + body + "\n\n" + last + rest.split(last)[1]
-
-
 def verify_links(files):
     anchors = {}
     lengths = {}
@@ -171,8 +163,6 @@ def main(write):
                f"{c['public']} are classified from pinned upstream proofs, {c['typed']} have only a formal header, "
                f"{c['binding']} await an application or identification, and {c['missing']} need a Lean statement.")
     readme = (ROOT / "README.md").read_text()
-    for key, body in (("summary", summary), ("chapters", table(groups, "dashboard/")), ("graph", diagram(by_id))):
-        readme = section(readme, key, body)
     meanings = [("Kernel checked", "The formalization records a local kernel check of a lemma or a conditional implication."),
                 ("Upstream proof", "An existing proof in the indicated upstream Lean development supplies the deduction."),
                 ("Header only", "Lean expresses the proposed statement with its hypotheses and conclusion. Its proof remains to be supplied."),
@@ -185,9 +175,12 @@ def main(write):
             "for every exceptional rational parameter. The chapter counts below describe the original blueprint. "
             "The qualitative development has its own module inventory. "
             "[End-to-end theorem](../Lean/Lemmas/picard-application/PicardConclusion.lean) · "
-            "[Literature inputs](../docs/qualitative-existence.md#the-end-to-end-theorem-and-its-literature-inputs) · "
+            "[Twelve hypotheses and their sources](../README.md#the-twelve-hypotheses) · "
+            "[Visual proof and seven chapters](../docs/blueprint/proof-map.md) · "
+            "[Blueprint PDF](../docs/blueprint/blueprint.pdf) · "
             "[Module inventory](../picard/verification.json)", "",
-            "## Completion by chapter", "", table(groups, ""), "", "## Reading the states", ""]
+            "## Completion by chapter", "", table(groups, ""), "", "![Status across constructions](routes.svg)", "",
+            "## Dependencies of the bounded construction", "", diagram(by_id), "", "## Reading the states", ""]
     for label, definition in meanings:
         deck.append(f"- **{label}.** {definition}")
     deck.extend(["", "Each chapter lists its statements, prerequisites and named declarations. "

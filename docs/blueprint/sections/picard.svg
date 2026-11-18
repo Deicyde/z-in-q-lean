@@ -1,0 +1,284 @@
+<svg width="790pt" height="451pt"
+ viewBox="0.00 0.00 790.00 451.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="proof" class="graph" transform="scale(1 1) rotate(0) translate(12.96 437.96)">
+<title>proof</title>
+<polygon fill="white" stroke="none" points="-12.96,12.96 -12.96,-437.96 777.21,-437.96 777.21,12.96 -12.96,12.96"/>
+<g id="s&#45;36" class="node">
+<title>n36</title>
+<polygon fill="#edf5f2" stroke="none" points="0,-329 0,-362 159,-362 159,-329 0,-329"/>
+<g id="a_s&#45;36_0"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/QualitativeHeight.lean#L43-L48" xlink:title="Lemma 36. The primitive branch divisor" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="57" y="-348.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 36</text>
+<text xml:space="preserve" text-anchor="start" x="6" y="-336.6" font-family="Helvetica,sans-Serif" font-size="12.00">The primitive branch divisor</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="0,-329 0,-362 159,-362 159,-329 0,-329"/>
+</g>
+<g id="s&#45;37" class="node">
+<title>n37</title>
+<polygon fill="#edf5f2" stroke="none" points="196,-323 196,-368 359.5,-368 359.5,-323 196,-323"/>
+<g id="a_s&#45;37_1"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardCM.lean#L145-L166" xlink:title="Lemma 37. Nonvanishing away from the contacts" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="255.25" y="-354.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 37</text>
+<text xml:space="preserve" text-anchor="start" x="202" y="-342.6" font-family="Helvetica,sans-Serif" font-size="12.00">Nonvanishing away from the</text>
+<text xml:space="preserve" text-anchor="start" x="255.62" y="-330.6" font-family="Helvetica,sans-Serif" font-size="12.00">contacts</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="196,-323 196,-368 359.5,-368 359.5,-323 196,-323"/>
+</g>
+<g id="e&#45;36&#45;37" class="edge">
+<title>n36&#45;&gt;n37</title>
+<path fill="none" stroke="#899c9b" d="M158.91,-345.5C168.79,-345.5 178.95,-345.5 188.96,-345.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="188.71,-347.6 194.71,-345.5 188.71,-343.4 188.71,-347.6"/>
+</g>
+<g id="s&#45;40" class="node">
+<title>n40</title>
+<polygon fill="#edf5f2" stroke="none" points="409.25,-380 409.25,-425 553.25,-425 553.25,-380 409.25,-380"/>
+<g id="a_s&#45;40_2"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardSurfaceDimension.lean#L171-L176" xlink:title="Lemma 40. Dimension of the chosen Jacobian" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="458.75" y="-411.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 40</text>
+<text xml:space="preserve" text-anchor="start" x="415.25" y="-399.6" font-family="Helvetica,sans-Serif" font-size="12.00">Dimension of the chosen</text>
+<text xml:space="preserve" text-anchor="start" x="456.88" y="-387.6" font-family="Helvetica,sans-Serif" font-size="12.00">Jacobian</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="409.25,-380 409.25,-425 553.25,-425 553.25,-380 409.25,-380"/>
+</g>
+<g id="e&#45;37&#45;40" class="edge">
+<title>n37&#45;&gt;n40</title>
+<path fill="none" stroke="#899c9b" d="M358.1,-367.95C372.67,-372.07 387.88,-376.37 402.41,-380.48"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="401.68,-382.46 408.02,-382.07 402.82,-378.41 401.68,-382.46"/>
+</g>
+<g id="s&#45;41" class="node">
+<title>n41</title>
+<polygon fill="#edf5f2" stroke="none" points="402.12,-323 402.12,-368 560.38,-368 560.38,-323 402.12,-323"/>
+<g id="a_s&#45;41_3"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardDescent.lean#L558-L568" xlink:title="Proposition 41. The actual Jacobian and its conjugates" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="444.12" y="-354.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 41</text>
+<text xml:space="preserve" text-anchor="start" x="408.12" y="-342.6" font-family="Helvetica,sans-Serif" font-size="12.00">The actual Jacobian and its</text>
+<text xml:space="preserve" text-anchor="start" x="452" y="-330.6" font-family="Helvetica,sans-Serif" font-size="12.00">conjugates</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="402.12,-323 402.12,-368 560.38,-368 560.38,-323 402.12,-323"/>
+</g>
+<g id="e&#45;37&#45;41" class="edge">
+<title>n37&#45;&gt;n41</title>
+<path fill="none" stroke="#899c9b" d="M359.26,-345.5C370.97,-345.5 383.06,-345.5 394.86,-345.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="394.65,-347.6 400.65,-345.5 394.65,-343.4 394.65,-347.6"/>
+</g>
+<g id="s&#45;46" class="node">
+<title>n46</title>
+<polygon fill="#edf5f2" stroke="none" points="406.25,-226 406.25,-271 556.25,-271 556.25,-226 406.25,-226"/>
+<g id="a_s&#45;46_4"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardCM.lean#L249-L259" xlink:title="Proposition 46. One exceptional set for all twists" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="444.12" y="-257.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 46</text>
+<text xml:space="preserve" text-anchor="start" x="412.25" y="-245.6" font-family="Helvetica,sans-Serif" font-size="12.00">One exceptional set for all</text>
+<text xml:space="preserve" text-anchor="start" x="466.25" y="-233.6" font-family="Helvetica,sans-Serif" font-size="12.00">twists</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="406.25,-226 406.25,-271 556.25,-271 556.25,-226 406.25,-226"/>
+</g>
+<g id="e&#45;37&#45;46" class="edge">
+<title>n37&#45;&gt;n46</title>
+<path fill="none" stroke="#899c9b" d="M341.18,-323.08C351.81,-319.26 359.5,-316.5 359.5,-316.5 359.5,-316.5 396.5,-289.5 396.5,-289.5 396.5,-289.5 411.1,-282.35 428.1,-274.03"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="428.63,-276.11 433.09,-271.58 426.78,-272.34 428.63,-276.11"/>
+</g>
+<g id="s&#45;51" class="node">
+<title>n51</title>
+<polygon fill="#edf5f2" stroke="none" points="603,-133 603,-178 764.25,-178 764.25,-133 603,-133"/>
+<g id="a_s&#45;51_5"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardPrym.lean#L200-L207" xlink:title="Proposition 51. Quaternion multiplication on every ordinary twist" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="646.5" y="-164.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 51</text>
+<text xml:space="preserve" text-anchor="start" x="609" y="-152.6" font-family="Helvetica,sans-Serif" font-size="12.00">Quaternion multiplication on</text>
+<text xml:space="preserve" text-anchor="start" x="632.25" y="-140.6" font-family="Helvetica,sans-Serif" font-size="12.00">every ordinary twist</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="603,-133 603,-178 764.25,-178 764.25,-133 603,-133"/>
+</g>
+<g id="e&#45;37&#45;51" class="edge">
+<title>n37&#45;&gt;n51</title>
+<path fill="none" stroke="#899c9b" d="M359.24,-326.36C379.94,-321.44 396.5,-317.5 396.5,-317.5 396.5,-317.5 566,-277.5 566,-277.5 566,-277.5 621.93,-218.99 656.32,-183.01"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="657.56,-184.76 660.19,-178.97 654.52,-181.86 657.56,-184.76"/>
+</g>
+<g id="s&#45;38" class="node">
+<title>n38</title>
+<polygon fill="#edf5f2" stroke="none" points="13.12,-374 13.12,-419 145.88,-419 145.88,-374 13.12,-374"/>
+<g id="a_s&#45;38_6"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/PicardDiscriminant.lean#L138-L154" xlink:title="Lemma 38. The discriminant of the sextic" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="57" y="-405.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 38</text>
+<text xml:space="preserve" text-anchor="start" x="19.12" y="-393.6" font-family="Helvetica,sans-Serif" font-size="12.00">The discriminant of the</text>
+<text xml:space="preserve" text-anchor="start" x="64.12" y="-381.6" font-family="Helvetica,sans-Serif" font-size="12.00">sextic</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="13.12,-374 13.12,-419 145.88,-419 145.88,-374 13.12,-374"/>
+</g>
+<g id="s&#45;39" class="node">
+<title>n39</title>
+<polygon fill="#edf5f2" stroke="none" points="200.12,-380 200.12,-425 355.38,-425 355.38,-380 200.12,-380"/>
+<g id="a_s&#45;39_7"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardSurfaceDimension.lean#L101-L110" xlink:title="Proposition 39. Genus of the smooth sextic completion" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="240.62" y="-411.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 39</text>
+<text xml:space="preserve" text-anchor="start" x="206.12" y="-399.6" font-family="Helvetica,sans-Serif" font-size="12.00">Genus of the smooth sextic</text>
+<text xml:space="preserve" text-anchor="start" x="248.5" y="-387.6" font-family="Helvetica,sans-Serif" font-size="12.00">completion</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="200.12,-380 200.12,-425 355.38,-425 355.38,-380 200.12,-380"/>
+</g>
+<g id="e&#45;39&#45;40" class="edge">
+<title>n39&#45;&gt;n40</title>
+<path fill="none" stroke="#899c9b" d="M355.22,-402.5C370.52,-402.5 386.63,-402.5 402,-402.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="401.96,-404.6 407.96,-402.5 401.96,-400.4 401.96,-404.6"/>
+</g>
+<g id="s&#45;42" class="node">
+<title>n42</title>
+<polygon fill="#eef2f3" stroke="none" points="210.25,-128 210.25,-173 345.25,-173 345.25,-128 210.25,-128"/>
+<g id="a_s&#45;42_8"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/QuaternionModel.lean#L12-L23" xlink:title="Definition 42. The full quaternionic endomorphism algebra" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="246.25" y="-159.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#596970">DEFINITION 42</text>
+<text xml:space="preserve" text-anchor="start" x="223.38" y="-147.6" font-family="Helvetica,sans-Serif" font-size="12.00">The full quaternionic</text>
+<text xml:space="preserve" text-anchor="start" x="216.25" y="-135.6" font-family="Helvetica,sans-Serif" font-size="12.00">endomorphism algebra</text>
+</a>
+</g>
+<polygon fill="none" stroke="#596970" points="210.25,-128 210.25,-173 345.25,-173 345.25,-128 210.25,-128"/>
+</g>
+<g id="s&#45;48" class="node">
+<title>n48</title>
+<polygon fill="#fff3dd" stroke="none" points="398,-114.38 398,-196.62 564.5,-196.62 564.5,-114.38 398,-114.38"/>
+<g id="a_s&#45;48_9"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardPrym.lean#L98-L104" xlink:title="Hypothesis 48. Endomorphisms of the published Prym sextic" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="446" y="-183.07" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#9b601e">HYPOTHESIS 48</text>
+<text xml:space="preserve" text-anchor="start" x="421.62" y="-171.22" font-family="Helvetica,sans-Serif" font-size="12.00">Endomorphisms of the</text>
+<text xml:space="preserve" text-anchor="start" x="422.75" y="-159.22" font-family="Helvetica,sans-Serif" font-size="12.00">published Prym sextic</text>
+</a>
+</g>
+<g id="a_s&#45;48_10"><a xlink:href="https://doi.org/10.1112/jlms.70347" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="399,-129.12 399,-152.62 563.5,-152.62 563.5,-129.12 399,-129.12"/>
+<text xml:space="preserve" text-anchor="start" x="401" y="-142.07" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Laga–Shnidman, Remark 2.12, Lemma</text>
+<text xml:space="preserve" text-anchor="start" x="410.38" y="-132.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">6.2, Theorem 6.5 and Corollary 6.6</text>
+</a>
+</g>
+<g id="a_s&#45;48_11"><a xlink:href="https://doi.org/10.46298/epiga.2018.volume2.3663" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="399,-115.38 399,-129.12 563.5,-129.12 563.5,-115.38 399,-115.38"/>
+<text xml:space="preserve" text-anchor="start" x="405.88" y="-118.58" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Ritzenthaler–Romagny, Theorem 1.1</text>
+</a>
+</g>
+<polygon fill="none" stroke="#9b601e" points="398,-114.38 398,-196.62 564.5,-196.62 564.5,-114.38 398,-114.38"/>
+</g>
+<g id="e&#45;42&#45;48" class="edge">
+<title>n42&#45;&gt;n48</title>
+<path fill="none" stroke="#899c9b" d="M345.01,-152.14C359.6,-152.51 375.28,-152.9 390.62,-153.28"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="390.55,-155.37 396.6,-153.42 390.66,-151.18 390.55,-155.37"/>
+</g>
+<g id="s&#45;43" class="node">
+<title>n43</title>
+<polygon fill="#eef2f3" stroke="none" points="9.38,-254 9.38,-299 149.62,-299 149.62,-254 9.38,-254"/>
+<g id="a_s&#45;43_12"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardCM.lean#L242-L243" xlink:title="Definition 43. The exceptional marked values" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="48" y="-285.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#596970">DEFINITION 43</text>
+<text xml:space="preserve" text-anchor="start" x="15.38" y="-273.6" font-family="Helvetica,sans-Serif" font-size="12.00">The exceptional marked</text>
+<text xml:space="preserve" text-anchor="start" x="61.88" y="-261.6" font-family="Helvetica,sans-Serif" font-size="12.00">values</text>
+</a>
+</g>
+<polygon fill="none" stroke="#596970" points="9.38,-254 9.38,-299 149.62,-299 149.62,-254 9.38,-254"/>
+</g>
+<g id="s&#45;44" class="node">
+<title>n44</title>
+<polygon fill="#fff3dd" stroke="none" points="196.75,-242.25 196.75,-310.75 358.75,-310.75 358.75,-242.25 196.75,-242.25"/>
+<g id="a_s&#45;44_13"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardConclusion.lean#L24-L25" xlink:title="Hypothesis 44. Finiteness in degree at most two" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="242.5" y="-297.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#9b601e">HYPOTHESIS 44</text>
+<text xml:space="preserve" text-anchor="start" x="202.75" y="-285.35" font-family="Helvetica,sans-Serif" font-size="12.00">Finiteness in degree at most</text>
+<text xml:space="preserve" text-anchor="start" x="268.38" y="-273.35" font-family="Helvetica,sans-Serif" font-size="12.00">two</text>
+</a>
+</g>
+<g id="a_s&#45;44_14"><a xlink:href="https://doi.org/10.1112/jlms.70347" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="197.75,-243.25 197.75,-266.75 357.75,-266.75 357.75,-243.25 197.75,-243.25"/>
+<text xml:space="preserve" text-anchor="start" x="206.12" y="-256.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Laga–Shnidman, Remark 2.12 and</text>
+<text xml:space="preserve" text-anchor="start" x="241.38" y="-246.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Lemmas 6.2, 6.16</text>
+</a>
+</g>
+<polygon fill="none" stroke="#9b601e" points="196.75,-242.25 196.75,-310.75 358.75,-310.75 358.75,-242.25 196.75,-242.25"/>
+</g>
+<g id="e&#45;43&#45;44" class="edge">
+<title>n43&#45;&gt;n44</title>
+<path fill="none" stroke="#899c9b" d="M149.41,-276.5C162.37,-276.5 176.07,-276.5 189.49,-276.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="189.4,-278.6 195.4,-276.5 189.4,-274.4 189.4,-278.6"/>
+</g>
+<g id="e&#45;44&#45;46" class="edge">
+<title>n44&#45;&gt;n46</title>
+<path fill="none" stroke="#899c9b" d="M358.68,-265.39C371.94,-263.55 385.7,-261.64 398.99,-259.79"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="399.16,-261.89 404.82,-258.98 398.58,-257.73 399.16,-261.89"/>
+</g>
+<g id="s&#45;45" class="node">
+<title>n45</title>
+<polygon fill="#edf5f2" stroke="none" points="203.12,-185 203.12,-230 352.38,-230 352.38,-185 203.12,-185"/>
+<g id="a_s&#45;45_15"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardCM.lean#L72-L112" xlink:title="Lemma 45. At most six preimages per marked value" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="255.25" y="-216.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 45</text>
+<text xml:space="preserve" text-anchor="start" x="209.12" y="-204.6" font-family="Helvetica,sans-Serif" font-size="12.00">At most six preimages per</text>
+<text xml:space="preserve" text-anchor="start" x="241.75" y="-192.6" font-family="Helvetica,sans-Serif" font-size="12.00">marked value</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="203.12,-185 203.12,-230 352.38,-230 352.38,-185 203.12,-185"/>
+</g>
+<g id="e&#45;45&#45;46" class="edge">
+<title>n45&#45;&gt;n46</title>
+<path fill="none" stroke="#899c9b" d="M352.35,-222.48C367.66,-225.59 383.87,-228.89 399.42,-232.05"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="398.73,-234.06 405.03,-233.19 399.57,-229.94 398.73,-234.06"/>
+</g>
+<g id="e&#45;46&#45;51" class="edge">
+<title>n46&#45;&gt;n51</title>
+<path fill="none" stroke="#899c9b" d="M530.5,-226.11C559.78,-212.51 597.25,-195.13 627.67,-181.01"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="628.52,-182.93 633.07,-178.5 626.75,-179.12 628.52,-182.93"/>
+</g>
+<g id="s&#45;47" class="node">
+<title>n47</title>
+<polygon fill="#edf5f2" stroke="none" points="199.38,-43.25 199.38,-115.75 356.12,-115.75 356.12,-43.25 199.38,-43.25"/>
+<g id="a_s&#45;47_16"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PrymCoordinates.lean#L61-L68" xlink:title="Lemma 47. The coordinate identity in the Prym construction" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="255.25" y="-102.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 47</text>
+<text xml:space="preserve" text-anchor="start" x="210.62" y="-90.35" font-family="Helvetica,sans-Serif" font-size="12.00">The coordinate identity in</text>
+<text xml:space="preserve" text-anchor="start" x="220.38" y="-78.35" font-family="Helvetica,sans-Serif" font-size="12.00">the Prym construction</text>
+</a>
+</g>
+<g id="a_s&#45;47_17"><a xlink:href="https://doi.org/10.46298/epiga.2018.volume2.3663" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="200.38,-58 200.38,-71.75 355.12,-71.75 355.12,-58 200.38,-58"/>
+<text xml:space="preserve" text-anchor="start" x="202.38" y="-61.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Ritzenthaler–Romagny, Theorem 1.1</text>
+</a>
+</g>
+<g id="a_s&#45;47_18"><a xlink:href="https://doi.org/10.1112/jlms.70347" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="200.38,-44.25 200.38,-58 355.12,-58 355.12,-44.25 200.38,-44.25"/>
+<text xml:space="preserve" text-anchor="start" x="215.12" y="-47.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Laga–Shnidman, Remark 2.12</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="199.38,-43.25 199.38,-115.75 356.12,-115.75 356.12,-43.25 199.38,-43.25"/>
+</g>
+<g id="e&#45;47&#45;48" class="edge">
+<title>n47&#45;&gt;n48</title>
+<path fill="none" stroke="#899c9b" d="M356.08,-108.67C367.58,-113.01 379.52,-117.51 391.24,-121.93"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="390.34,-123.83 396.69,-123.99 391.82,-119.9 390.34,-123.83"/>
+</g>
+<g id="e&#45;48&#45;51" class="edge">
+<title>n48&#45;&gt;n51</title>
+<path fill="none" stroke="#899c9b" d="M564.33,-155.5C574.78,-155.5 585.5,-155.5 596.02,-155.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="595.75,-157.6 601.75,-155.5 595.75,-153.4 595.75,-157.6"/>
+</g>
+<g id="s&#45;49" class="node">
+<title>n49</title>
+<polygon fill="#edf5f2" stroke="none" points="396.5,-57 396.5,-102 566,-102 566,-57 396.5,-57"/>
+<g id="a_s&#45;49_19"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardPrym.lean#L58-L64" xlink:title="Lemma 49. The normalized polynomial of the twist" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="458.75" y="-88.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 49</text>
+<text xml:space="preserve" text-anchor="start" x="402.5" y="-76.6" font-family="Helvetica,sans-Serif" font-size="12.00">The normalized polynomial of</text>
+<text xml:space="preserve" text-anchor="start" x="459.5" y="-64.6" font-family="Helvetica,sans-Serif" font-size="12.00">the twist</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="396.5,-57 396.5,-102 566,-102 566,-57 396.5,-57"/>
+</g>
+<g id="e&#45;49&#45;51" class="edge">
+<title>n49&#45;&gt;n51</title>
+<path fill="none" stroke="#899c9b" d="M547,-101.92C558.02,-105.74 566,-108.5 566,-108.5 566,-108.5 592.58,-119.21 620.35,-130.4"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="619.29,-132.24 625.64,-132.54 620.86,-128.34 619.29,-132.24"/>
+</g>
+<g id="s&#45;50" class="node">
+<title>n50</title>
+<polygon fill="#edf5f2" stroke="none" points="403.62,0 403.62,-45 558.88,-45 558.88,0 403.62,0"/>
+<g id="a_s&#45;50_20"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardPrym.lean#L68-L91" xlink:title="Lemma 50. Marking and sixth root over one field" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="458.75" y="-31.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 50</text>
+<text xml:space="preserve" text-anchor="start" x="409.62" y="-19.6" font-family="Helvetica,sans-Serif" font-size="12.00">Marking and sixth root over</text>
+<text xml:space="preserve" text-anchor="start" x="458.38" y="-7.6" font-family="Helvetica,sans-Serif" font-size="12.00">one field</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="403.62,0 403.62,-45 558.88,-45 558.88,0 403.62,0"/>
+</g>
+<g id="e&#45;50&#45;51" class="edge">
+<title>n50&#45;&gt;n51</title>
+<path fill="none" stroke="#899c9b" d="M549.45,-44.97C559.19,-48.22 566,-50.5 566,-50.5 566,-50.5 617.95,-97.27 652.51,-128.38"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="650.9,-129.77 656.77,-132.22 653.71,-126.64 650.9,-129.77"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,289 @@
+<svg width="777pt" height="468pt"
+ viewBox="0.00 0.00 777.00 468.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="proof" class="graph" transform="scale(1 1) rotate(0) translate(12.96 454.83)">
+<title>proof</title>
+<polygon fill="white" stroke="none" points="-12.96,12.96 -12.96,-454.83 763.71,-454.83 763.71,12.96 -12.96,12.96"/>
+<g id="s&#45;84" class="node">
+<title>n84</title>
+<polygon fill="#edf5f2" stroke="none" points="0,-289.88 0,-334.88 156,-334.88 156,-289.88 0,-289.88"/>
+<g id="a_s&#45;84_0"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/PicardDiscriminant.lean#L162-L175" xlink:title="Lemma 84. The absolute invariant as a rational function" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="55.5" y="-321.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 84</text>
+<text xml:space="preserve" text-anchor="start" x="6" y="-309.47" font-family="Helvetica,sans-Serif" font-size="12.00">The absolute invariant as a</text>
+<text xml:space="preserve" text-anchor="start" x="35.62" y="-297.47" font-family="Helvetica,sans-Serif" font-size="12.00">rational function</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="0,-289.88 0,-334.88 156,-334.88 156,-289.88 0,-289.88"/>
+</g>
+<g id="s&#45;85" class="node">
+<title>n85</title>
+<polygon fill="#edf5f2" stroke="none" points="195.62,-258.88 195.62,-303.88 356.88,-303.88 356.88,-258.88 195.62,-258.88"/>
+<g id="a_s&#45;85_1"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/PicardCriterion.lean#L42-L56" xlink:title="Lemma 85. Recovering the height of the Picard parameter" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="253.75" y="-290.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 85</text>
+<text xml:space="preserve" text-anchor="start" x="201.62" y="-278.47" font-family="Helvetica,sans-Serif" font-size="12.00">Recovering the height of the</text>
+<text xml:space="preserve" text-anchor="start" x="230.5" y="-266.47" font-family="Helvetica,sans-Serif" font-size="12.00">Picard parameter</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="195.62,-258.88 195.62,-303.88 356.88,-303.88 356.88,-258.88 195.62,-258.88"/>
+</g>
+<g id="e&#45;84&#45;85" class="edge">
+<title>n84&#45;&gt;n85</title>
+<path fill="none" stroke="#899c9b" d="M156,-300.21C166.75,-298.51 177.85,-296.76 188.76,-295.04"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="188.8,-297.16 194.39,-294.15 188.14,-293.01 188.8,-297.16"/>
+</g>
+<g id="s&#45;91" class="node">
+<title>n91</title>
+<polygon fill="#edf5f2" stroke="none" points="209.88,-315.88 209.88,-372.88 342.62,-372.88 342.62,-315.88 209.88,-315.88"/>
+<g id="a_s&#45;91_2"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/ThetaComparison.lean#L315-L338" xlink:title="Lemma 91. Height of the rational invariant from the theta coordinates" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="253.75" y="-359.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 91</text>
+<text xml:space="preserve" text-anchor="start" x="221.12" y="-347.47" font-family="Helvetica,sans-Serif" font-size="12.00">Height of the rational</text>
+<text xml:space="preserve" text-anchor="start" x="215.88" y="-335.47" font-family="Helvetica,sans-Serif" font-size="12.00">invariant from the theta</text>
+<text xml:space="preserve" text-anchor="start" x="245.12" y="-323.47" font-family="Helvetica,sans-Serif" font-size="12.00">coordinates</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="209.88,-315.88 209.88,-372.88 342.62,-372.88 342.62,-315.88 209.88,-315.88"/>
+</g>
+<g id="e&#45;84&#45;91" class="edge">
+<title>n84&#45;&gt;n91</title>
+<path fill="none" stroke="#899c9b" d="M156,-324.93C171.32,-327.43 187.36,-330.04 202.53,-332.52"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="202.15,-334.58 208.41,-333.48 202.82,-330.44 202.15,-334.58"/>
+</g>
+<g id="s&#45;86" class="node">
+<title>n86</title>
+<polygon fill="#eef2f3" stroke="none" points="193,-178.12 193,-246.62 359.5,-246.62 359.5,-178.12 193,-178.12"/>
+<g id="a_s&#45;86_3"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/ThetaComparison.lean#L394-L395" xlink:title="Definition 86. The numerical comparison at one period" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="244.75" y="-233.07" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#596970">DEFINITION 86</text>
+<text xml:space="preserve" text-anchor="start" x="199" y="-221.22" font-family="Helvetica,sans-Serif" font-size="12.00">The numerical comparison at</text>
+<text xml:space="preserve" text-anchor="start" x="247.75" y="-209.22" font-family="Helvetica,sans-Serif" font-size="12.00">one period</text>
+</a>
+</g>
+<g id="a_s&#45;86_4"><a xlink:href="https://doi.org/10.24033/bsmf.2623" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="194,-179.12 194,-202.62 358.5,-202.62 358.5,-179.12 194,-179.12"/>
+<text xml:space="preserve" text-anchor="start" x="224.12" y="-192.07" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Pazuki, Definition 2.1 and</text>
+<text xml:space="preserve" text-anchor="start" x="244.38" y="-182.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Corollary 1.3(1)</text>
+</a>
+</g>
+<polygon fill="none" stroke="#596970" points="193,-178.12 193,-246.62 359.5,-246.62 359.5,-178.12 193,-178.12"/>
+</g>
+<g id="s&#45;89" class="node">
+<title>n89</title>
+<polygon fill="#fff9ed" stroke="none" points="399.12,-153.5 399.12,-271.25 555.12,-271.25 555.12,-153.5 399.12,-153.5"/>
+<g id="a_s&#45;89_5"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardPeriods.lean#L24-L32" xlink:title="Clause 89. One canonical period for both invariant identities and height" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="452.38" y="-257.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#9b601e">CLAUSE 89</text>
+<text xml:space="preserve" text-anchor="start" x="411.88" y="-245.85" font-family="Helvetica,sans-Serif" font-size="12.00">One canonical period for</text>
+<text xml:space="preserve" text-anchor="start" x="415.62" y="-233.85" font-family="Helvetica,sans-Serif" font-size="12.00">both invariant identities</text>
+<text xml:space="preserve" text-anchor="start" x="449" y="-221.85" font-family="Helvetica,sans-Serif" font-size="12.00">and height</text>
+</a>
+</g>
+<g id="a_s&#45;89_6"><a xlink:href="https://doi.org/10.1090/S0025-5718-2013-02712-3" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="400.12,-201.5 400.12,-215.25 554.12,-215.25 554.12,-201.5 400.12,-201.5"/>
+<text xml:space="preserve" text-anchor="start" x="402.12" y="-204.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Streng, Lemma 7.3 and Remark 7.10</text>
+</a>
+</g>
+<g id="a_s&#45;89_7"><a xlink:href="https://www.jmilne.org/math/xnotes/JVs.pdf" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="400.12,-178 400.12,-201.5 554.12,-201.5 554.12,-178 400.12,-178"/>
+<text xml:space="preserve" text-anchor="start" x="405.5" y="-190.95" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Milne, Jacobian Varieties, Theorem</text>
+<text xml:space="preserve" text-anchor="start" x="468.12" y="-181.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">12.1</text>
+</a>
+</g>
+<g id="a_s&#45;89_8"><a xlink:href="https://doi.org/10.24033/bsmf.2623" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="400.12,-154.5 400.12,-178 554.12,-178 554.12,-154.5 400.12,-154.5"/>
+<text xml:space="preserve" text-anchor="start" x="425" y="-167.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Pazuki, Definition 2.6 and</text>
+<text xml:space="preserve" text-anchor="start" x="445.25" y="-157.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Corollary 1.3(1)</text>
+</a>
+</g>
+<polygon fill="none" stroke="#9b601e" points="399.12,-153.5 399.12,-271.25 555.12,-271.25 555.12,-153.5 399.12,-153.5"/>
+</g>
+<g id="e&#45;86&#45;89" class="edge">
+<title>n86&#45;&gt;n89</title>
+<path fill="none" stroke="#899c9b" d="M359.29,-212.38C370.07,-212.38 381.13,-212.38 391.94,-212.38"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="391.87,-214.48 397.87,-212.38 391.87,-210.28 391.87,-214.48"/>
+</g>
+<g id="s&#45;92" class="node">
+<title>n92</title>
+<polygon fill="#edf5f2" stroke="none" points="396.5,-282.88 396.5,-327.88 557.75,-327.88 557.75,-282.88 396.5,-282.88"/>
+<g id="a_s&#45;92_9"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/ThetaComparison.lean#L438-L443" xlink:title="Lemma 92. The explicit comparison at a single fibre" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="454.62" y="-314.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 92</text>
+<text xml:space="preserve" text-anchor="start" x="402.5" y="-302.47" font-family="Helvetica,sans-Serif" font-size="12.00">The explicit comparison at a</text>
+<text xml:space="preserve" text-anchor="start" x="447.88" y="-290.47" font-family="Helvetica,sans-Serif" font-size="12.00">single fibre</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="396.5,-282.88 396.5,-327.88 557.75,-327.88 557.75,-282.88 396.5,-282.88"/>
+</g>
+<g id="e&#45;86&#45;92" class="edge">
+<title>n86&#45;&gt;n92</title>
+<path fill="none" stroke="#899c9b" d="M345.92,-246.6C354.03,-250.65 359.5,-253.38 359.5,-253.38 359.5,-253.38 396.5,-277.38 396.5,-277.38 396.5,-277.38 399.84,-278.55 405.16,-280.42"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="404.45,-282.4 410.8,-282.4 405.84,-278.43 404.45,-282.4"/>
+</g>
+<g id="s&#45;87" class="node">
+<title>n87</title>
+<polygon fill="#fff9ed" stroke="none" points="400.25,-83 400.25,-141.75 554,-141.75 554,-83 400.25,-83"/>
+<g id="a_s&#45;87_10"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/IsogenyHeight.lean#L34-L38" xlink:title="Clause 87. Products and isogenies for the stable height" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="452.38" y="-128.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#9b601e">CLAUSE 87</text>
+<text xml:space="preserve" text-anchor="start" x="406.25" y="-116.35" font-family="Helvetica,sans-Serif" font-size="12.00">Products and isogenies for</text>
+<text xml:space="preserve" text-anchor="start" x="433.25" y="-104.35" font-family="Helvetica,sans-Serif" font-size="12.00">the stable height</text>
+</a>
+</g>
+<g id="a_s&#45;87_11"><a xlink:href="https://doi.org/10.1017/fms.2021.29" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="401.25,-84 401.25,-97.75 553,-97.75 553,-84 401.25,-84"/>
+<text xml:space="preserve" text-anchor="start" x="425.75" y="-87.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">von Känel, §2.1 and (3.1)</text>
+</a>
+</g>
+<polygon fill="none" stroke="#9b601e" points="400.25,-83 400.25,-141.75 554,-141.75 554,-83 400.25,-83"/>
+</g>
+<g id="s&#45;90" class="node">
+<title>n90</title>
+<polygon fill="#fff3dd" stroke="none" points="594.75,-69.75 594.75,-215 750.75,-215 750.75,-69.75 594.75,-69.75"/>
+<g id="a_s&#45;90_12"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardConclusion.lean#L55-L60" xlink:title="Hypothesis 90. Compatible heights over every candidate descent field" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="637.5" y="-201.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#9b601e">HYPOTHESIS 90</text>
+<text xml:space="preserve" text-anchor="start" x="607.88" y="-189.6" font-family="Helvetica,sans-Serif" font-size="12.00">Compatible heights over</text>
+<text xml:space="preserve" text-anchor="start" x="607.88" y="-177.6" font-family="Helvetica,sans-Serif" font-size="12.00">every candidate descent</text>
+<text xml:space="preserve" text-anchor="start" x="661.5" y="-165.6" font-family="Helvetica,sans-Serif" font-size="12.00">field</text>
+</a>
+</g>
+<g id="a_s&#45;90_13"><a xlink:href="https://doi.org/10.1017/fms.2021.29" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="595.75,-145.25 595.75,-159 749.75,-159 749.75,-145.25 595.75,-145.25"/>
+<text xml:space="preserve" text-anchor="start" x="621.38" y="-148.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">von Känel, §2.1 and (3.1)</text>
+</a>
+</g>
+<g id="a_s&#45;90_14"><a xlink:href="https://lmbp.uca.fr/~gaudron/art13.pdf" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="595.75,-131.5 595.75,-145.25 749.75,-145.25 749.75,-131.5 595.75,-131.5"/>
+<text xml:space="preserve" text-anchor="start" x="603.75" y="-134.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Gaudron–Rémond, Théorème 1.4</text>
+</a>
+</g>
+<g id="a_s&#45;90_15"><a xlink:href="https://doi.org/10.1090/S0025-5718-2013-02712-3" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="595.75,-117.75 595.75,-131.5 749.75,-131.5 749.75,-117.75 595.75,-117.75"/>
+<text xml:space="preserve" text-anchor="start" x="597.75" y="-120.95" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Streng, Lemma 7.3 and Remark 7.10</text>
+</a>
+</g>
+<g id="a_s&#45;90_16"><a xlink:href="https://www.jmilne.org/math/xnotes/JVs.pdf" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="595.75,-94.25 595.75,-117.75 749.75,-117.75 749.75,-94.25 595.75,-94.25"/>
+<text xml:space="preserve" text-anchor="start" x="601.12" y="-107.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Milne, Jacobian Varieties, Theorem</text>
+<text xml:space="preserve" text-anchor="start" x="663.75" y="-97.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">12.1</text>
+</a>
+</g>
+<g id="a_s&#45;90_17"><a xlink:href="https://doi.org/10.24033/bsmf.2623" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="595.75,-70.75 595.75,-94.25 749.75,-94.25 749.75,-70.75 595.75,-70.75"/>
+<text xml:space="preserve" text-anchor="start" x="609.75" y="-83.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Pazuki, Definitions 2.1, 2.6 and</text>
+<text xml:space="preserve" text-anchor="start" x="640.88" y="-73.95" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Corollary 1.3(1)</text>
+</a>
+</g>
+<polygon fill="none" stroke="#9b601e" points="594.75,-69.75 594.75,-215 750.75,-215 750.75,-69.75 594.75,-69.75"/>
+</g>
+<g id="e&#45;87&#45;90" class="edge">
+<title>n87&#45;&gt;n90</title>
+<path fill="none" stroke="#899c9b" d="M553.82,-124.1C564.87,-125.81 576.3,-127.59 587.51,-129.32"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="587.09,-131.38 593.34,-130.23 587.73,-127.23 587.09,-131.38"/>
+</g>
+<g id="s&#45;95" class="node">
+<title>n95</title>
+<polygon fill="#edf5f2" stroke="none" points="597.38,-282.88 597.38,-327.88 748.12,-327.88 748.12,-282.88 597.38,-282.88"/>
+<g id="a_s&#45;95_18"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardPeriods.lean#L145-L171" xlink:title="Proposition 95. The height comparison for all smooth fibres" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="635.62" y="-314.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 95</text>
+<text xml:space="preserve" text-anchor="start" x="603.38" y="-302.47" font-family="Helvetica,sans-Serif" font-size="12.00">The height comparison for</text>
+<text xml:space="preserve" text-anchor="start" x="629.25" y="-290.47" font-family="Helvetica,sans-Serif" font-size="12.00">all smooth fibres</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="597.38,-282.88 597.38,-327.88 748.12,-327.88 748.12,-282.88 597.38,-282.88"/>
+</g>
+<g id="e&#45;87&#45;95" class="edge">
+<title>n87&#45;&gt;n95</title>
+<path fill="none" stroke="#899c9b" d="M544.6,-141.6C552.46,-145.05 557.75,-147.38 557.75,-147.38 557.75,-147.38 594.75,-221.38 594.75,-221.38 594.75,-221.38 624.1,-253.39 646.56,-277.89"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="644.89,-279.19 650.5,-282.19 647.99,-276.35 644.89,-279.19"/>
+</g>
+<g id="s&#45;96" class="node">
+<title>n96</title>
+<polygon fill="#edf5f2" stroke="none" points="595.88,-12.88 595.88,-57.88 749.62,-57.88 749.62,-12.88 595.88,-12.88"/>
+<g id="a_s&#45;96_19"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/IsogenyHeight.lean#L43-L75" xlink:title="Lemma 96. Transferring the height of a power" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="650.25" y="-44.33" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 96</text>
+<text xml:space="preserve" text-anchor="start" x="601.88" y="-32.48" font-family="Helvetica,sans-Serif" font-size="12.00">Transferring the height of a</text>
+<text xml:space="preserve" text-anchor="start" x="656.25" y="-20.48" font-family="Helvetica,sans-Serif" font-size="12.00">power</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="595.88,-12.88 595.88,-57.88 749.62,-57.88 749.62,-12.88 595.88,-12.88"/>
+</g>
+<g id="e&#45;87&#45;96" class="edge">
+<title>n87&#45;&gt;n96</title>
+<path fill="none" stroke="#899c9b" d="M547.99,-83.02C572.82,-72.59 594.75,-63.38 594.75,-63.38 594.75,-63.38 597.98,-62.2 603.13,-60.33"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="603.62,-62.38 608.54,-58.36 602.18,-58.44 603.62,-62.38"/>
+</g>
+<g id="s&#45;88" class="node">
+<title>n88</title>
+<polygon fill="#fff9ed" stroke="none" points="401.75,0 401.75,-70.75 552.5,-70.75 552.5,0 401.75,0"/>
+<g id="a_s&#45;88_20"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/IsogenyHeight.lean#L26-L30" xlink:title="Clause 88. A polynomial bound for an isogeny in the reverse direction" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="452.38" y="-57.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#9b601e">CLAUSE 88</text>
+<text xml:space="preserve" text-anchor="start" x="407.75" y="-45.35" font-family="Helvetica,sans-Serif" font-size="12.00">A polynomial bound for an</text>
+<text xml:space="preserve" text-anchor="start" x="418.62" y="-33.35" font-family="Helvetica,sans-Serif" font-size="12.00">isogeny in the reverse</text>
+<text xml:space="preserve" text-anchor="start" x="454.25" y="-21.35" font-family="Helvetica,sans-Serif" font-size="12.00">direction</text>
+</a>
+</g>
+<g id="a_s&#45;88_21"><a xlink:href="https://lmbp.uca.fr/~gaudron/art13.pdf" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="402.75,-1 402.75,-14.75 551.5,-14.75 551.5,-1 402.75,-1"/>
+<text xml:space="preserve" text-anchor="start" x="408.12" y="-4.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Gaudron–Rémond, Théorème 1.4</text>
+</a>
+</g>
+<polygon fill="none" stroke="#9b601e" points="401.75,0 401.75,-70.75 552.5,-70.75 552.5,0 401.75,0"/>
+</g>
+<g id="e&#45;88&#45;90" class="edge">
+<title>n88&#45;&gt;n90</title>
+<path fill="none" stroke="#899c9b" d="M544.96,-70.63C552.62,-74.67 557.75,-77.38 557.75,-77.38 557.75,-77.38 571.1,-84.99 588.66,-95"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="587.2,-96.58 593.45,-97.73 589.28,-92.93 587.2,-96.58"/>
+</g>
+<g id="e&#45;88&#45;96" class="edge">
+<title>n88&#45;&gt;n96</title>
+<path fill="none" stroke="#899c9b" d="M552.43,-35.38C564.27,-35.38 576.58,-35.38 588.6,-35.38"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="588.53,-37.48 594.53,-35.38 588.53,-33.28 588.53,-37.48"/>
+</g>
+<g id="e&#45;89&#45;90" class="edge">
+<title>n89&#45;&gt;n90</title>
+<path fill="none" stroke="#899c9b" d="M554.93,-184.61C565.86,-180.66 577.14,-176.58 588.19,-172.58"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="588.69,-174.64 593.62,-170.62 587.26,-170.69 588.69,-174.64"/>
+</g>
+<g id="e&#45;89&#45;95" class="edge">
+<title>n89&#45;&gt;n95</title>
+<path fill="none" stroke="#899c9b" d="M554.93,-249.26C576.27,-259.52 598.97,-270.42 618.63,-279.86"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="617.49,-281.64 623.81,-282.35 619.31,-277.86 617.49,-281.64"/>
+</g>
+<g id="e&#45;91&#45;92" class="edge">
+<title>n91&#45;&gt;n92</title>
+<path fill="none" stroke="#899c9b" d="M342.37,-331.6C357.4,-328.66 373.62,-325.48 389.41,-322.38"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="389.66,-324.47 395.14,-321.26 388.85,-320.35 389.66,-324.47"/>
+</g>
+<g id="e&#45;92&#45;95" class="edge">
+<title>n92&#45;&gt;n95</title>
+<path fill="none" stroke="#899c9b" d="M557.72,-305.38C568.4,-305.38 579.36,-305.38 590.08,-305.38"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="589.93,-307.48 595.93,-305.38 589.93,-303.28 589.93,-307.48"/>
+</g>
+<g id="s&#45;93" class="node">
+<title>n93</title>
+<polygon fill="#edf5f2" stroke="none" points="413,-396.88 413,-441.88 541.25,-441.88 541.25,-396.88 413,-396.88"/>
+<g id="a_s&#45;93_22"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardPeriods.lean#L101-L108" xlink:title="Lemma 93. The coordinate on the invariant line" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="454.62" y="-428.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 93</text>
+<text xml:space="preserve" text-anchor="start" x="419" y="-416.47" font-family="Helvetica,sans-Serif" font-size="12.00">The coordinate on the</text>
+<text xml:space="preserve" text-anchor="start" x="443" y="-404.47" font-family="Helvetica,sans-Serif" font-size="12.00">invariant line</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="413,-396.88 413,-441.88 541.25,-441.88 541.25,-396.88 413,-396.88"/>
+</g>
+<g id="e&#45;93&#45;95" class="edge">
+<title>n93&#45;&gt;n95</title>
+<path fill="none" stroke="#899c9b" d="M540.86,-397.31C550.73,-393.84 557.75,-391.38 557.75,-391.38 557.75,-391.38 602.94,-357.29 636.41,-332.03"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="637.36,-333.95 640.89,-328.66 634.83,-330.59 637.36,-333.95"/>
+</g>
+<g id="s&#45;94" class="node">
+<title>n94</title>
+<polygon fill="#eef2f3" stroke="none" points="401.75,-339.88 401.75,-384.88 552.5,-384.88 552.5,-339.88 401.75,-339.88"/>
+<g id="a_s&#45;94_23"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardPolynomial.lean#L177-L182" xlink:title="Definition 94. The precise moduli&#45;height assertion" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="445.62" y="-371.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#596970">DEFINITION 94</text>
+<text xml:space="preserve" text-anchor="start" x="407.75" y="-359.47" font-family="Helvetica,sans-Serif" font-size="12.00">The precise moduli&#45;height</text>
+<text xml:space="preserve" text-anchor="start" x="452.75" y="-347.47" font-family="Helvetica,sans-Serif" font-size="12.00">assertion</text>
+</a>
+</g>
+<polygon fill="none" stroke="#596970" points="401.75,-339.88 401.75,-384.88 552.5,-384.88 552.5,-339.88 401.75,-339.88"/>
+</g>
+<g id="e&#45;94&#45;95" class="edge">
+<title>n94&#45;&gt;n95</title>
+<path fill="none" stroke="#899c9b" d="M552.43,-340.5C564.94,-336.82 577.98,-332.98 590.65,-329.25"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="591.03,-331.33 596.19,-327.62 589.84,-327.3 591.03,-331.33"/>
+</g>
+</g>
+</svg>

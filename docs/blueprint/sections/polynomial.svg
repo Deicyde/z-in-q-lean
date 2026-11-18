@@ -1,0 +1,398 @@
+<svg width="1481pt" height="625pt"
+ viewBox="0.00 0.00 1481.00 625.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="proof" class="graph" transform="scale(1 1) rotate(0) translate(12.96 611.96)">
+<title>proof</title>
+<polygon fill="white" stroke="none" points="-12.96,12.96 -12.96,-611.96 1468.21,-611.96 1468.21,12.96 -12.96,12.96"/>
+<g id="s&#45;13" class="node">
+<title>n13</title>
+<polygon fill="#edf5f2" stroke="none" points="406.25,-338 406.25,-383 512,-383 512,-338 406.25,-338"/>
+<g id="a_s&#45;13_0"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/QualitativeMultiplication.lean#L18-L23" xlink:title="Lemma 13. An integral height coefficient" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="436.62" y="-369.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 13</text>
+<text xml:space="preserve" text-anchor="start" x="412.25" y="-357.6" font-family="Helvetica,sans-Serif" font-size="12.00">An integral height</text>
+<text xml:space="preserve" text-anchor="start" x="432.12" y="-345.6" font-family="Helvetica,sans-Serif" font-size="12.00">coefficient</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="406.25,-338 406.25,-383 512,-383 512,-338 406.25,-338"/>
+</g>
+<g id="s&#45;22" class="node">
+<title>n22</title>
+<polygon fill="#edf5f2" stroke="none" points="571.12,-171 571.12,-216 722.62,-216 722.62,-171 571.12,-171"/>
+<g id="a_s&#45;22_1"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/QualitativeMultiplication.lean#L78-L103" xlink:title="Proposition 22. Exact multiplication on the elliptic codes" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="609.75" y="-202.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 22</text>
+<text xml:space="preserve" text-anchor="start" x="577.12" y="-190.6" font-family="Helvetica,sans-Serif" font-size="12.00">Exact multiplication on the</text>
+<text xml:space="preserve" text-anchor="start" x="612" y="-178.6" font-family="Helvetica,sans-Serif" font-size="12.00">elliptic codes</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="571.12,-171 571.12,-216 722.62,-216 722.62,-171 571.12,-171"/>
+</g>
+<g id="e&#45;13&#45;22" class="edge">
+<title>n13&#45;&gt;n22</title>
+<path fill="none" stroke="#899c9b" d="M488.09,-338.24C508.64,-321.89 533,-302.5 533,-302.5 533,-302.5 570,-222.5 570,-222.5 570,-222.5 574.06,-220.95 580.31,-218.56"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="580.95,-220.56 585.8,-216.46 579.45,-216.64 580.95,-220.56"/>
+</g>
+<g id="s&#45;34" class="node">
+<title>n34</title>
+<polygon fill="#edf5f2" stroke="none" points="1149.75,-455 1149.75,-500 1269.75,-500 1269.75,-455 1149.75,-455"/>
+<g id="a_s&#45;34_2"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/IntegerPolynomial.lean#L92-L112" xlink:title="Proposition 34. One equation for the ordinary integers" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="1172.62" y="-486.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 34</text>
+<text xml:space="preserve" text-anchor="start" x="1155.75" y="-474.6" font-family="Helvetica,sans-Serif" font-size="12.00">One equation for the</text>
+<text xml:space="preserve" text-anchor="start" x="1165.12" y="-462.6" font-family="Helvetica,sans-Serif" font-size="12.00">ordinary integers</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="1149.75,-455 1149.75,-500 1269.75,-500 1269.75,-455 1149.75,-455"/>
+</g>
+<g id="e&#45;13&#45;34" class="edge">
+<title>n13&#45;&gt;n34</title>
+<path fill="none" stroke="#899c9b" d="M511.92,-381.11C523.79,-385.84 533,-389.5 533,-389.5 533,-389.5 570,-438.5 570,-438.5 570,-438.5 1112.75,-467.5 1112.75,-467.5 1112.75,-467.5 1125.95,-468.88 1142.57,-470.61"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="1142.18,-472.68 1148.36,-471.21 1142.61,-468.5 1142.18,-472.68"/>
+</g>
+<g id="s&#45;14" class="node">
+<title>n14</title>
+<polygon fill="#edf5f2" stroke="none" points="209.12,-283 209.12,-328 332.12,-328 332.12,-283 209.12,-283"/>
+<g id="a_s&#45;14_3"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/QualitativeMultiplication.lean#L70-L75" xlink:title="Lemma 14. Existence of the pole witnesses" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="248.12" y="-314.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 14</text>
+<text xml:space="preserve" text-anchor="start" x="215.12" y="-302.6" font-family="Helvetica,sans-Serif" font-size="12.00">Existence of the pole</text>
+<text xml:space="preserve" text-anchor="start" x="244" y="-290.6" font-family="Helvetica,sans-Serif" font-size="12.00">witnesses</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="209.12,-283 209.12,-328 332.12,-328 332.12,-283 209.12,-283"/>
+</g>
+<g id="s&#45;19" class="node">
+<title>n19</title>
+<polygon fill="#edf5f2" stroke="none" points="403.25,-57 403.25,-102 515,-102 515,-57 403.25,-57"/>
+<g id="a_s&#45;19_4"><a xlink:href="https://github.com/elliotglazer/diophantine-z-q/blob/2358394558aafae202a1ce6d3bd1b536b79ad3d0/ZInQKernel/Multiplication/Completeness/AP/Completeness.lean#L62-L93" xlink:title="Lemma 19. Certificates for true products" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="436.62" y="-88.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 19</text>
+<text xml:space="preserve" text-anchor="start" x="409.25" y="-76.6" font-family="Helvetica,sans-Serif" font-size="12.00">Certificates for true</text>
+<text xml:space="preserve" text-anchor="start" x="436.25" y="-64.6" font-family="Helvetica,sans-Serif" font-size="12.00">products</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="403.25,-57 403.25,-102 515,-102 515,-57 403.25,-57"/>
+</g>
+<g id="e&#45;14&#45;19" class="edge">
+<title>n14&#45;&gt;n19</title>
+<path fill="none" stroke="#899c9b" d="M284.44,-283.17C314.15,-231.39 385.25,-107.5 385.25,-107.5 385.25,-107.5 389.74,-105.77 396.49,-103.18"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="397,-105.23 401.85,-101.12 395.5,-101.31 397,-105.23"/>
+</g>
+<g id="e&#45;14&#45;22" class="edge">
+<title>n14&#45;&gt;n22</title>
+<path fill="none" stroke="#899c9b" d="M331.92,-299.5C409.11,-291.82 533,-279.5 533,-279.5 533,-279.5 570,-222.5 570,-222.5 570,-222.5 574.06,-220.95 580.31,-218.56"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="580.95,-220.56 585.8,-216.46 579.45,-216.64 580.95,-220.56"/>
+</g>
+<g id="s&#45;24" class="node">
+<title>n24</title>
+<polygon fill="#edf5f2" stroke="none" points="583.5,-228 583.5,-273 710.25,-273 710.25,-228 583.5,-228"/>
+<g id="a_s&#45;24_5"><a xlink:href="https://github.com/elliotglazer/diophantine-z-q/blob/2358394558aafae202a1ce6d3bd1b536b79ad3d0/ZInQKernel/Assembly/Local/TestCompleteness.lean#L35-L113" xlink:title="Lemma 24. Local witnesses at an integer" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="624.38" y="-259.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 24</text>
+<text xml:space="preserve" text-anchor="start" x="589.5" y="-247.6" font-family="Helvetica,sans-Serif" font-size="12.00">Local witnesses at an</text>
+<text xml:space="preserve" text-anchor="start" x="628.5" y="-235.6" font-family="Helvetica,sans-Serif" font-size="12.00">integer</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="583.5,-228 583.5,-273 710.25,-273 710.25,-228 583.5,-228"/>
+</g>
+<g id="e&#45;14&#45;24" class="edge">
+<title>n14&#45;&gt;n24</title>
+<path fill="none" stroke="#899c9b" d="M331.92,-304.81C409.11,-303.92 533,-302.5 533,-302.5 533,-302.5 570,-279.5 570,-279.5 570,-279.5 574.06,-277.95 580.31,-275.56"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="580.95,-277.56 585.8,-273.46 579.45,-273.64 580.95,-277.56"/>
+</g>
+<g id="e&#45;14&#45;34" class="edge">
+<title>n14&#45;&gt;n34</title>
+<path fill="none" stroke="#899c9b" d="M289.63,-327.84C321.67,-367.6 385.25,-446.5 385.25,-446.5 385.25,-446.5 645.88,-477.5 645.88,-477.5 645.88,-477.5 645.88,-477.5 837.12,-477.5 837.12,-477.5 1035.84,-477.5 1142.65,-477.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="1142.35,-479.6 1148.35,-477.5 1142.35,-475.4 1142.35,-479.6"/>
+</g>
+<g id="s&#45;15" class="node">
+<title>n15</title>
+<polygon fill="#edf5f2" stroke="none" points="385.25,-114 385.25,-159 533,-159 533,-114 385.25,-114"/>
+<g id="a_s&#45;15_6"><a xlink:href="https://github.com/elliotglazer/diophantine-z-q/blob/2358394558aafae202a1ce6d3bd1b536b79ad3d0/ZInQKernel/Multiplication/Soundness/ContactSupport.lean#L49-L65" xlink:title="Lemma 15. Divisibility at an accepted slope" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="436.62" y="-145.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 15</text>
+<text xml:space="preserve" text-anchor="start" x="391.25" y="-133.6" font-family="Helvetica,sans-Serif" font-size="12.00">Divisibility at an accepted</text>
+<text xml:space="preserve" text-anchor="start" x="444.5" y="-121.6" font-family="Helvetica,sans-Serif" font-size="12.00">slope</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="385.25,-114 385.25,-159 533,-159 533,-114 385.25,-114"/>
+</g>
+<g id="e&#45;15&#45;22" class="edge">
+<title>n15&#45;&gt;n22</title>
+<path fill="none" stroke="#899c9b" d="M532.74,-158.78C543.51,-162.09 554.66,-165.51 565.57,-168.86"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="564.9,-170.85 571.25,-170.6 566.13,-166.83 564.9,-170.85"/>
+</g>
+<g id="s&#45;16" class="node">
+<title>n16</title>
+<polygon fill="#edf5f2" stroke="none" points="401.38,0 401.38,-45 516.88,-45 516.88,0 401.38,0"/>
+<g id="a_s&#45;16_7"><a xlink:href="https://github.com/elliotglazer/diophantine-z-q/blob/2358394558aafae202a1ce6d3bd1b536b79ad3d0/ZInQKernel/Multiplication/Soundness/FiniteBox.lean#L60-L152" xlink:title="Lemma 16. A finite box for false products" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="436.62" y="-31.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 16</text>
+<text xml:space="preserve" text-anchor="start" x="407.38" y="-19.6" font-family="Helvetica,sans-Serif" font-size="12.00">A finite box for false</text>
+<text xml:space="preserve" text-anchor="start" x="436.25" y="-7.6" font-family="Helvetica,sans-Serif" font-size="12.00">products</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="401.38,0 401.38,-45 516.88,-45 516.88,0 401.38,0"/>
+</g>
+<g id="e&#45;16&#45;22" class="edge">
+<title>n16&#45;&gt;n22</title>
+<path fill="none" stroke="#899c9b" d="M516.83,-44.29C526.23,-47.9 533,-50.5 533,-50.5 533,-50.5 590.92,-123.87 623.78,-165.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="621.93,-166.56 627.3,-169.97 625.23,-163.96 621.93,-166.56"/>
+</g>
+<g id="s&#45;17" class="node">
+<title>n17</title>
+<polygon fill="#edf5f2" stroke="none" points="0,-57 0,-102 156,-102 156,-57 0,-57"/>
+<g id="a_s&#45;17_8"><a xlink:href="https://github.com/elliotglazer/diophantine-z-q/blob/2358394558aafae202a1ce6d3bd1b536b79ad3d0/ZInQKernel/Density/PropDFinal.lean#L28-L29" xlink:title="Lemma 17. Progressions of admissible primes" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="55.5" y="-88.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 17</text>
+<text xml:space="preserve" text-anchor="start" x="6" y="-76.6" font-family="Helvetica,sans-Serif" font-size="12.00">Progressions of admissible</text>
+<text xml:space="preserve" text-anchor="start" x="60" y="-64.6" font-family="Helvetica,sans-Serif" font-size="12.00">primes</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="0,-57 0,-102 156,-102 156,-57 0,-57"/>
+</g>
+<g id="s&#45;18" class="node">
+<title>n18</title>
+<polygon fill="#edf5f2" stroke="none" points="193,-57 193,-102 348.25,-102 348.25,-57 193,-57"/>
+<g id="a_s&#45;18_9"><a xlink:href="https://github.com/elliotglazer/diophantine-z-q/blob/2358394558aafae202a1ce6d3bd1b536b79ad3d0/ZInQKernel/Multiplication/Completeness/AP/PropAP.lean#L200-L268" xlink:title="Lemma 18. Slope representations from progressions" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="248.12" y="-88.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 18</text>
+<text xml:space="preserve" text-anchor="start" x="199" y="-76.6" font-family="Helvetica,sans-Serif" font-size="12.00">Slope representations from</text>
+<text xml:space="preserve" text-anchor="start" x="236.12" y="-64.6" font-family="Helvetica,sans-Serif" font-size="12.00">progressions</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="193,-57 193,-102 348.25,-102 348.25,-57 193,-57"/>
+</g>
+<g id="e&#45;17&#45;18" class="edge">
+<title>n17&#45;&gt;n18</title>
+<path fill="none" stroke="#899c9b" d="M155.99,-79.5C165.88,-79.5 176.05,-79.5 186.04,-79.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="185.77,-81.6 191.77,-79.5 185.77,-77.4 185.77,-81.6"/>
+</g>
+<g id="e&#45;18&#45;19" class="edge">
+<title>n18&#45;&gt;n19</title>
+<path fill="none" stroke="#899c9b" d="M348.02,-79.5C364.01,-79.5 380.69,-79.5 396.08,-79.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="396.02,-81.6 402.02,-79.5 396.02,-77.4 396.02,-81.6"/>
+</g>
+<g id="e&#45;19&#45;22" class="edge">
+<title>n19&#45;&gt;n22</title>
+<path fill="none" stroke="#899c9b" d="M514.99,-100.58C525.34,-104.56 533,-107.5 533,-107.5 533,-107.5 577.74,-141.59 610.89,-166.84"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="609.26,-168.25 615.31,-170.21 611.81,-164.91 609.26,-168.25"/>
+</g>
+<g id="s&#45;20" class="node">
+<title>n20</title>
+<polygon fill="#edf5f2" stroke="none" points="386,-228 386,-273 532.25,-273 532.25,-228 386,-228"/>
+<g id="a_s&#45;20_10"><a xlink:href="https://github.com/elliotglazer/diophantine-z-q/blob/2358394558aafae202a1ce6d3bd1b536b79ad3d0/ZInQKernel/Multiplication/Certificate/Guard.lean#L62-L66" xlink:title="Lemma 20. The guard excludes false triples in its box" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="436.62" y="-259.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 20</text>
+<text xml:space="preserve" text-anchor="start" x="392" y="-247.6" font-family="Helvetica,sans-Serif" font-size="12.00">The guard excludes false</text>
+<text xml:space="preserve" text-anchor="start" x="417.88" y="-235.6" font-family="Helvetica,sans-Serif" font-size="12.00">triples in its box</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="386,-228 386,-273 532.25,-273 532.25,-228 386,-228"/>
+</g>
+<g id="e&#45;20&#45;22" class="edge">
+<title>n20&#45;&gt;n22</title>
+<path fill="none" stroke="#899c9b" d="M532.21,-228.38C543.19,-225.01 554.57,-221.52 565.71,-218.1"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="566.04,-220.19 571.16,-216.43 564.81,-216.18 566.04,-220.19"/>
+</g>
+<g id="s&#45;21" class="node">
+<title>n21</title>
+<polygon fill="#edf5f2" stroke="none" points="392,-171 392,-216 526.25,-216 526.25,-171 392,-171"/>
+<g id="a_s&#45;21_11"><a xlink:href="https://github.com/elliotglazer/diophantine-z-q/blob/2358394558aafae202a1ce6d3bd1b536b79ad3d0/ZInQKernel/Multiplication/Certificate/Guard.lean#L46-L59" xlink:title="Lemma 21. The guard accepts true triples" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="436.62" y="-202.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 21</text>
+<text xml:space="preserve" text-anchor="start" x="398" y="-190.6" font-family="Helvetica,sans-Serif" font-size="12.00">The guard accepts true</text>
+<text xml:space="preserve" text-anchor="start" x="443" y="-178.6" font-family="Helvetica,sans-Serif" font-size="12.00">triples</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="392,-171 392,-216 526.25,-216 526.25,-171 392,-171"/>
+</g>
+<g id="e&#45;21&#45;22" class="edge">
+<title>n21&#45;&gt;n22</title>
+<path fill="none" stroke="#899c9b" d="M526.14,-193.5C538.34,-193.5 551.22,-193.5 563.83,-193.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="563.7,-195.6 569.7,-193.5 563.7,-191.4 563.7,-195.6"/>
+</g>
+<g id="s&#45;28" class="node">
+<title>n28</title>
+<polygon fill="#edf5f2" stroke="none" points="774.62,-279 774.62,-324 897.62,-324 897.62,-279 774.62,-279"/>
+<g id="a_s&#45;28_12"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/QualitativePrecision.lean#L159-L184" xlink:title="Proposition 28. Exact recovery of the rational input" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="799" y="-310.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 28</text>
+<text xml:space="preserve" text-anchor="start" x="780.62" y="-298.6" font-family="Helvetica,sans-Serif" font-size="12.00">Exact recovery of the</text>
+<text xml:space="preserve" text-anchor="start" x="801.62" y="-286.6" font-family="Helvetica,sans-Serif" font-size="12.00">rational input</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="774.62,-279 774.62,-324 897.62,-324 897.62,-279 774.62,-279"/>
+</g>
+<g id="e&#45;22&#45;28" class="edge">
+<title>n22&#45;&gt;n28</title>
+<path fill="none" stroke="#899c9b" d="M706.53,-215.92C716.52,-219.74 723.75,-222.5 723.75,-222.5 723.75,-222.5 765.25,-251.94 797.59,-274.87"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="796.16,-276.44 802.27,-278.2 798.59,-273.01 796.16,-276.44"/>
+</g>
+<g id="s&#45;33" class="node">
+<title>n33</title>
+<polygon fill="#edf5f2" stroke="none" points="948.5,-279 948.5,-324 1112.75,-324 1112.75,-279 948.5,-279"/>
+<g id="a_s&#45;33_13"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/IntegerPolynomial.lean#L68-L80" xlink:title="Lemma 33. The image away from the six constants" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="1008.12" y="-310.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 33</text>
+<text xml:space="preserve" text-anchor="start" x="954.5" y="-298.6" font-family="Helvetica,sans-Serif" font-size="12.00">The image away from the six</text>
+<text xml:space="preserve" text-anchor="start" x="1005.12" y="-286.6" font-family="Helvetica,sans-Serif" font-size="12.00">constants</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="948.5,-279 948.5,-324 1112.75,-324 1112.75,-279 948.5,-279"/>
+</g>
+<g id="e&#45;22&#45;33" class="edge">
+<title>n22&#45;&gt;n33</title>
+<path fill="none" stroke="#899c9b" d="M722.39,-214.58C785.72,-232.5 876.68,-258.23 943.2,-277.05"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="942.57,-279.05 948.91,-278.67 943.71,-275.01 942.57,-279.05"/>
+</g>
+<g id="s&#45;23" class="node">
+<title>n23</title>
+<polygon fill="#edf5f2" stroke="none" points="388.62,-395 388.62,-440 529.62,-440 529.62,-395 388.62,-395"/>
+<g id="a_s&#45;23_14"><a xlink:href="https://github.com/elliotglazer/diophantine-z-q/blob/2358394558aafae202a1ce6d3bd1b536b79ad3d0/ZInQKernel/Assembly/Local/TestDivisibility.lean#L381-L394" xlink:title="Lemma 23. Divisibility from the local value test" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="436.62" y="-426.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 23</text>
+<text xml:space="preserve" text-anchor="start" x="394.62" y="-414.6" font-family="Helvetica,sans-Serif" font-size="12.00">Divisibility from the local</text>
+<text xml:space="preserve" text-anchor="start" x="433.62" y="-402.6" font-family="Helvetica,sans-Serif" font-size="12.00">value test</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="388.62,-395 388.62,-440 529.62,-440 529.62,-395 388.62,-395"/>
+</g>
+<g id="s&#45;26" class="node">
+<title>n26</title>
+<polygon fill="#edf5f2" stroke="none" points="570.38,-285 570.38,-318 723.38,-318 723.38,-285 570.38,-285"/>
+<g id="a_s&#45;26_15"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/QualitativePrecision.lean#L136-L155" xlink:title="Lemma 26. Height at the rescaled shift" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="624.38" y="-304.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 26</text>
+<text xml:space="preserve" text-anchor="start" x="576.38" y="-292.6" font-family="Helvetica,sans-Serif" font-size="12.00">Height at the rescaled shift</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="570.38,-285 570.38,-318 723.38,-318 723.38,-285 570.38,-285"/>
+</g>
+<g id="e&#45;23&#45;26" class="edge">
+<title>n23&#45;&gt;n26</title>
+<path fill="none" stroke="#899c9b" d="M518.6,-395.03C527.07,-391.78 533,-389.5 533,-389.5 533,-389.5 570,-324.5 570,-324.5 570,-324.5 575.96,-322.69 584.53,-320.1"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="584.96,-322.16 590.09,-318.41 583.74,-318.14 584.96,-322.16"/>
+</g>
+<g id="e&#45;24&#45;28" class="edge">
+<title>n24&#45;&gt;n28</title>
+<path fill="none" stroke="#899c9b" d="M710.23,-267.48C728.7,-272.51 749.02,-278.05 767.79,-283.16"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="766.83,-285.08 773.17,-284.63 767.94,-281.02 766.83,-285.08"/>
+</g>
+<g id="s&#45;25" class="node">
+<title>n25</title>
+<polygon fill="#edf5f2" stroke="none" points="577.12,-387 577.12,-432 716.62,-432 716.62,-387 577.12,-387"/>
+<g id="a_s&#45;25_16"><a xlink:href="https://github.com/elliotglazer/diophantine-z-q/blob/2358394558aafae202a1ce6d3bd1b536b79ad3d0/lean/ZInQ/RationalSeparation.lean#L93-L98" xlink:title="Lemma 25. Separation of an integer from another rational" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="624.38" y="-418.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 25</text>
+<text xml:space="preserve" text-anchor="start" x="583.12" y="-406.6" font-family="Helvetica,sans-Serif" font-size="12.00">Separation of an integer</text>
+<text xml:space="preserve" text-anchor="start" x="592.12" y="-394.6" font-family="Helvetica,sans-Serif" font-size="12.00">from another rational</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="577.12,-387 577.12,-432 716.62,-432 716.62,-387 577.12,-387"/>
+</g>
+<g id="e&#45;25&#45;28" class="edge">
+<title>n25&#45;&gt;n28</title>
+<path fill="none" stroke="#899c9b" d="M708.76,-387.03C717.58,-383.78 723.75,-381.5 723.75,-381.5 723.75,-381.5 765.5,-351.51 797.88,-328.25"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="798.93,-330.09 802.58,-324.88 796.48,-326.68 798.93,-330.09"/>
+</g>
+<g id="e&#45;26&#45;28" class="edge">
+<title>n26&#45;&gt;n28</title>
+<path fill="none" stroke="#899c9b" d="M723.23,-301.5C737.85,-301.5 753.1,-301.5 767.46,-301.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="767.36,-303.6 773.36,-301.5 767.36,-299.4 767.36,-303.6"/>
+</g>
+<g id="s&#45;27" class="node">
+<title>n27</title>
+<polygon fill="#edf5f2" stroke="none" points="570,-330 570,-375 723.75,-375 723.75,-330 570,-330"/>
+<g id="a_s&#45;27_17"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/QualitativePrecision.lean#L112-L133" xlink:title="Lemma 27. Precision at every nonzero shift" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="624.38" y="-361.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 27</text>
+<text xml:space="preserve" text-anchor="start" x="576" y="-349.6" font-family="Helvetica,sans-Serif" font-size="12.00">Precision at every nonzero</text>
+<text xml:space="preserve" text-anchor="start" x="636" y="-337.6" font-family="Helvetica,sans-Serif" font-size="12.00">shift</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="570,-330 570,-375 723.75,-375 723.75,-330 570,-330"/>
+</g>
+<g id="e&#45;27&#45;28" class="edge">
+<title>n27&#45;&gt;n28</title>
+<path fill="none" stroke="#899c9b" d="M723.5,-331.9C738.15,-327.91 753.42,-323.75 767.78,-319.84"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="768.06,-321.94 773.3,-318.34 766.96,-317.89 768.06,-321.94"/>
+</g>
+<g id="e&#45;28&#45;33" class="edge">
+<title>n28&#45;&gt;n33</title>
+<path fill="none" stroke="#899c9b" d="M897.51,-301.5C911.43,-301.5 926.53,-301.5 941.38,-301.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="941.12,-303.6 947.12,-301.5 941.12,-299.4 941.12,-303.6"/>
+</g>
+<g id="s&#45;29" class="node">
+<title>n29</title>
+<polygon fill="#eef2f3" stroke="none" points="580.12,-526 580.12,-571 713.62,-571 713.62,-526 580.12,-526"/>
+<g id="a_s&#45;29_18"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/FinitePolynomial.lean#L14-L16" xlink:title="Definition 29. A relation given by one polynomial" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="615.38" y="-557.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#596970">DEFINITION 29</text>
+<text xml:space="preserve" text-anchor="start" x="586.12" y="-545.6" font-family="Helvetica,sans-Serif" font-size="12.00">A relation given by one</text>
+<text xml:space="preserve" text-anchor="start" x="617.62" y="-533.6" font-family="Helvetica,sans-Serif" font-size="12.00">polynomial</text>
+</a>
+</g>
+<polygon fill="none" stroke="#596970" points="580.12,-526 580.12,-571 713.62,-571 713.62,-526 580.12,-526"/>
+</g>
+<g id="s&#45;30" class="node">
+<title>n30</title>
+<polygon fill="#edf5f2" stroke="none" points="760.75,-501 760.75,-546 911.5,-546 911.5,-501 760.75,-501"/>
+<g id="a_s&#45;30_19"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/FinitePolynomial.lean#L54-L78" xlink:title="Lemma 30. Conjunction of polynomial relations" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="813.62" y="-532.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 30</text>
+<text xml:space="preserve" text-anchor="start" x="766.75" y="-520.6" font-family="Helvetica,sans-Serif" font-size="12.00">Conjunction of polynomial</text>
+<text xml:space="preserve" text-anchor="start" x="813.25" y="-508.6" font-family="Helvetica,sans-Serif" font-size="12.00">relations</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="760.75,-501 760.75,-546 911.5,-546 911.5,-501 760.75,-501"/>
+</g>
+<g id="e&#45;29&#45;30" class="edge">
+<title>n29&#45;&gt;n30</title>
+<path fill="none" stroke="#899c9b" d="M713.37,-539.76C726.36,-538.02 740.15,-536.18 753.6,-534.39"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="753.86,-536.47 759.53,-533.59 753.3,-532.31 753.86,-536.47"/>
+</g>
+<g id="s&#45;31" class="node">
+<title>n31</title>
+<polygon fill="#edf5f2" stroke="none" points="959.38,-554 959.38,-599 1101.88,-599 1101.88,-554 959.38,-554"/>
+<g id="a_s&#45;31_20"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/FinitePolynomial.lean#L82-L106" xlink:title="Lemma 31. Projection with one distinguished coordinate" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="1008.12" y="-585.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 31</text>
+<text xml:space="preserve" text-anchor="start" x="979.62" y="-573.6" font-family="Helvetica,sans-Serif" font-size="12.00">Projection with one</text>
+<text xml:space="preserve" text-anchor="start" x="965.38" y="-561.6" font-family="Helvetica,sans-Serif" font-size="12.00">distinguished coordinate</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="959.38,-554 959.38,-599 1101.88,-599 1101.88,-554 959.38,-554"/>
+</g>
+<g id="e&#45;29&#45;31" class="edge">
+<title>n29&#45;&gt;n31</title>
+<path fill="none" stroke="#899c9b" d="M713.5,-553.31C779.86,-558.18 882.4,-565.7 952.58,-570.85"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="952.05,-572.92 958.18,-571.26 952.35,-568.73 952.05,-572.92"/>
+</g>
+<g id="s&#45;32" class="node">
+<title>n32</title>
+<polygon fill="#edf5f2" stroke="none" points="957.12,-497 957.12,-542 1104.12,-542 1104.12,-497 957.12,-497"/>
+<g id="a_s&#45;32_21"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/IntegerPolynomial.lean#L48-L63" xlink:title="Lemma 32. A polynomial for the three simultaneous tests" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="1008.12" y="-528.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 32</text>
+<text xml:space="preserve" text-anchor="start" x="963.12" y="-516.6" font-family="Helvetica,sans-Serif" font-size="12.00">A polynomial for the three</text>
+<text xml:space="preserve" text-anchor="start" x="981.12" y="-504.6" font-family="Helvetica,sans-Serif" font-size="12.00">simultaneous tests</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="957.12,-497 957.12,-542 1104.12,-542 1104.12,-497 957.12,-497"/>
+</g>
+<g id="e&#45;30&#45;32" class="edge">
+<title>n30&#45;&gt;n32</title>
+<path fill="none" stroke="#899c9b" d="M911.28,-521.96C923.94,-521.7 937.14,-521.42 949.93,-521.16"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="949.95,-523.26 955.9,-521.03 949.86,-519.06 949.95,-523.26"/>
+</g>
+<g id="e&#45;31&#45;34" class="edge">
+<title>n31&#45;&gt;n34</title>
+<path fill="none" stroke="#899c9b" d="M1096.72,-554.03C1106.15,-550.78 1112.75,-548.5 1112.75,-548.5 1112.75,-548.5 1145.43,-524.33 1172.66,-504.19"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="1173.58,-506.12 1177.16,-500.86 1171.09,-502.74 1173.58,-506.12"/>
+</g>
+<g id="e&#45;32&#45;34" class="edge">
+<title>n32&#45;&gt;n34</title>
+<path fill="none" stroke="#899c9b" d="M1103.92,-502.36C1116.84,-499.29 1130.23,-496.12 1142.95,-493.1"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="1143.11,-495.22 1148.47,-491.79 1142.14,-491.14 1143.11,-495.22"/>
+</g>
+<g id="e&#45;33&#45;34" class="edge">
+<title>n33&#45;&gt;n34</title>
+<path fill="none" stroke="#899c9b" d="M1054.06,-323.79C1086.44,-355.97 1146.24,-415.38 1181.24,-450.17"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="1179.41,-451.31 1185.15,-454.05 1182.37,-448.33 1179.41,-451.31"/>
+</g>
+<g id="s&#45;35" class="node">
+<title>n35</title>
+<polygon fill="#d8eee7" stroke="none" points="1306.75,-461 1306.75,-494 1455.25,-494 1455.25,-461 1306.75,-461"/>
+<g id="a_s&#45;35_22"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/bounded/IntegerPolynomial.lean#L116-L119" xlink:title="Theorem 35. The arithmetic implication" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="1352.12" y="-480.45" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#1e6253">THEOREM 35</text>
+<text xml:space="preserve" text-anchor="start" x="1312.75" y="-468.6" font-family="Helvetica,sans-Serif" font-size="12.00">The arithmetic implication</text>
+</a>
+</g>
+<polygon fill="none" stroke="#1e6253" points="1306.75,-461 1306.75,-494 1455.25,-494 1455.25,-461 1306.75,-461"/>
+</g>
+<g id="e&#45;34&#45;35" class="edge">
+<title>n34&#45;&gt;n35</title>
+<path fill="none" stroke="#899c9b" d="M1269.47,-477.5C1279.15,-477.5 1289.33,-477.5 1299.44,-477.5"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="1299.26,-479.6 1305.26,-477.5 1299.26,-475.4 1299.26,-479.6"/>
+</g>
+</g>
+</svg>

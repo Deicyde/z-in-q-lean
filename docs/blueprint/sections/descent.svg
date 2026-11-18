@@ -1,0 +1,346 @@
+<svg width="1137pt" height="485pt"
+ viewBox="0.00 0.00 1137.00 485.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="proof" class="graph" transform="scale(1 1) rotate(0) translate(12.96 472.33)">
+<title>proof</title>
+<polygon fill="white" stroke="none" points="-12.96,12.96 -12.96,-472.33 1124.21,-472.33 1124.21,12.96 -12.96,12.96"/>
+<g id="s&#45;52" class="node">
+<title>n52</title>
+<polygon fill="#fff3dd" stroke="none" points="1.12,-346.12 1.12,-414.62 155.62,-414.62 155.62,-346.12 1.12,-346.12"/>
+<g id="a_s&#45;52_0"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/GuitartSurfaces.lean#L23-L26" xlink:title="Hypothesis 52. Multiplication by a nonzero integer" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="43.12" y="-401.07" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#9b601e">HYPOTHESIS 52</text>
+<text xml:space="preserve" text-anchor="start" x="7.12" y="-389.22" font-family="Helvetica,sans-Serif" font-size="12.00">Multiplication by a nonzero</text>
+<text xml:space="preserve" text-anchor="start" x="60" y="-377.22" font-family="Helvetica,sans-Serif" font-size="12.00">integer</text>
+</a>
+</g>
+<g id="a_s&#45;52_1"><a xlink:href="https://www.jmilne.org/math/xnotes/AVs.pdf#page=13" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="2.12,-347.12 2.12,-370.62 154.62,-370.62 154.62,-347.12 2.12,-347.12"/>
+<text xml:space="preserve" text-anchor="start" x="9.75" y="-360.07" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Milne, Abelian Varieties, Theorem</text>
+<text xml:space="preserve" text-anchor="start" x="72" y="-350.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">8.2</text>
+</a>
+</g>
+<polygon fill="none" stroke="#9b601e" points="1.12,-346.12 1.12,-414.62 155.62,-414.62 155.62,-346.12 1.12,-346.12"/>
+</g>
+<g id="s&#45;54" class="node">
+<title>n54</title>
+<polygon fill="#edf5f2" stroke="none" points="196.75,-407.88 196.75,-452.88 352.75,-452.88 352.75,-407.88 196.75,-407.88"/>
+<g id="a_s&#45;54_2"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardIntegralHom.lean#L66-L84" xlink:title="Lemma 54. Clearing denominators in a quasi&#45;isogeny" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="252.25" y="-439.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 54</text>
+<text xml:space="preserve" text-anchor="start" x="202.75" y="-427.47" font-family="Helvetica,sans-Serif" font-size="12.00">Clearing denominators in a</text>
+<text xml:space="preserve" text-anchor="start" x="237.25" y="-415.47" font-family="Helvetica,sans-Serif" font-size="12.00">quasi&#45;isogeny</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="196.75,-407.88 196.75,-452.88 352.75,-452.88 352.75,-407.88 196.75,-407.88"/>
+</g>
+<g id="e&#45;52&#45;54" class="edge">
+<title>n52&#45;&gt;n54</title>
+<path fill="none" stroke="#899c9b" d="M155.36,-399.92C166.65,-402.82 178.33,-405.83 189.77,-408.77"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="189.06,-410.76 195.39,-410.22 190.1,-406.69 189.06,-410.76"/>
+</g>
+<g id="s&#45;55" class="node">
+<title>n55</title>
+<polygon fill="#edf5f2" stroke="none" points="416,-379.88 416,-424.88 529.25,-424.88 529.25,-379.88 416,-379.88"/>
+<g id="a_s&#45;55_3"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/GuitartSurfaces.lean#L37-L49" xlink:title="Lemma 55. Integral compatible isogenies" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="450.12" y="-411.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 55</text>
+<text xml:space="preserve" text-anchor="start" x="422" y="-399.47" font-family="Helvetica,sans-Serif" font-size="12.00">Integral compatible</text>
+<text xml:space="preserve" text-anchor="start" x="446.75" y="-387.47" font-family="Helvetica,sans-Serif" font-size="12.00">isogenies</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="416,-379.88 416,-424.88 529.25,-424.88 529.25,-379.88 416,-379.88"/>
+</g>
+<g id="e&#45;52&#45;55" class="edge">
+<title>n52&#45;&gt;n55</title>
+<path fill="none" stroke="#899c9b" d="M128.88,-414.57C159.79,-435.92 193.75,-459.38 193.75,-459.38 193.75,-459.38 355.75,-459.38 355.75,-459.38 355.75,-459.38 388.83,-443.11 419.63,-427.95"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="420.35,-429.94 424.8,-425.41 418.49,-426.17 420.35,-429.94"/>
+</g>
+<g id="s&#45;61" class="node">
+<title>n61</title>
+<polygon fill="#edf5f2" stroke="none" points="590.62,-231.88 590.62,-276.88 741.38,-276.88 741.38,-231.88 590.62,-231.88"/>
+<g id="a_s&#45;61_4"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/GuitartSurfaces.lean#L100-L113" xlink:title="Proposition 61. A descent system on each quaternionic surface" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="628.88" y="-263.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 61</text>
+<text xml:space="preserve" text-anchor="start" x="596.62" y="-251.47" font-family="Helvetica,sans-Serif" font-size="12.00">A descent system on each</text>
+<text xml:space="preserve" text-anchor="start" x="612" y="-239.47" font-family="Helvetica,sans-Serif" font-size="12.00">quaternionic surface</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="590.62,-231.88 590.62,-276.88 741.38,-276.88 741.38,-231.88 590.62,-231.88"/>
+</g>
+<g id="e&#45;52&#45;61" class="edge">
+<title>n52&#45;&gt;n61</title>
+<path fill="none" stroke="#899c9b" d="M155.35,-357.13C176.47,-350.66 193.75,-345.38 193.75,-345.38 193.75,-345.38 552.5,-318.38 552.5,-318.38 552.5,-318.38 588.28,-298.02 619.49,-280.27"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="620.16,-282.3 624.34,-277.51 618.08,-278.65 620.16,-282.3"/>
+</g>
+<g id="s&#45;65" class="node">
+<title>n65</title>
+<polygon fill="#edf5f2" stroke="none" points="215.5,-191.88 215.5,-236.88 334,-236.88 334,-191.88 215.5,-191.88"/>
+<g id="a_s&#45;65_5"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/GuitartFormula.lean#L34-L46" xlink:title="Proposition 65. Descent of the finite surjective morphism" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="237.62" y="-223.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 65</text>
+<text xml:space="preserve" text-anchor="start" x="222.25" y="-211.47" font-family="Helvetica,sans-Serif" font-size="12.00">Descent of the finite</text>
+<text xml:space="preserve" text-anchor="start" x="221.5" y="-199.47" font-family="Helvetica,sans-Serif" font-size="12.00">surjective morphism</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="215.5,-191.88 215.5,-236.88 334,-236.88 334,-191.88 215.5,-191.88"/>
+</g>
+<g id="e&#45;52&#45;65" class="edge">
+<title>n52&#45;&gt;n65</title>
+<path fill="none" stroke="#899c9b" d="M109.13,-346.3C143.02,-307.48 193.75,-249.38 193.75,-249.38 193.75,-249.38 203.32,-245.19 215.85,-239.71"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="216.59,-241.67 221.25,-237.35 214.91,-237.83 216.59,-241.67"/>
+</g>
+<g id="s&#45;53" class="node">
+<title>n53</title>
+<polygon fill="#edf5f2" stroke="none" points="193.75,-350.88 193.75,-395.88 355.75,-395.88 355.75,-350.88 193.75,-350.88"/>
+<g id="a_s&#45;53_6"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardConjugateEnd.lean#L175-L207" xlink:title="Lemma 53. A quasi&#45;isogeny intertwining the endomorphisms" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="252.25" y="-382.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 53</text>
+<text xml:space="preserve" text-anchor="start" x="199.75" y="-370.47" font-family="Helvetica,sans-Serif" font-size="12.00">A quasi&#45;isogeny intertwining</text>
+<text xml:space="preserve" text-anchor="start" x="222.25" y="-358.47" font-family="Helvetica,sans-Serif" font-size="12.00">the endomorphisms</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="193.75,-350.88 193.75,-395.88 355.75,-395.88 355.75,-350.88 193.75,-350.88"/>
+</g>
+<g id="e&#45;53&#45;55" class="edge">
+<title>n53&#45;&gt;n55</title>
+<path fill="none" stroke="#899c9b" d="M355.7,-385.21C373.47,-387.84 392.06,-390.6 409.02,-393.11"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="408.44,-395.14 414.69,-393.94 409.06,-390.99 408.44,-395.14"/>
+</g>
+<g id="e&#45;54&#45;55" class="edge">
+<title>n54&#45;&gt;n55</title>
+<path fill="none" stroke="#899c9b" d="M352.6,-419.39C371.34,-416.71 391.15,-413.88 409.13,-411.31"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="409.04,-413.44 414.68,-410.51 408.45,-409.29 409.04,-413.44"/>
+</g>
+<g id="e&#45;55&#45;61" class="edge">
+<title>n55&#45;&gt;n61</title>
+<path fill="none" stroke="#899c9b" d="M502.69,-379.9C536.93,-353.42 593.77,-309.46 630.29,-281.21"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="631.32,-283.08 634.78,-277.75 628.75,-279.76 631.32,-283.08"/>
+</g>
+<g id="s&#45;56" class="node">
+<title>n56</title>
+<polygon fill="#eef2f3" stroke="none" points="197.5,-254.88 197.5,-299.88 352,-299.88 352,-254.88 197.5,-254.88"/>
+<g id="a_s&#45;56_7"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/GuitartCocycle.lean#L38-L42" xlink:title="Definition 56. The multiplication law on a finite Galois quotient" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="243.25" y="-286.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#596970">DEFINITION 56</text>
+<text xml:space="preserve" text-anchor="start" x="203.5" y="-274.47" font-family="Helvetica,sans-Serif" font-size="12.00">The multiplication law on a</text>
+<text xml:space="preserve" text-anchor="start" x="220.38" y="-262.47" font-family="Helvetica,sans-Serif" font-size="12.00">finite Galois quotient</text>
+</a>
+</g>
+<polygon fill="none" stroke="#596970" points="197.5,-254.88 197.5,-299.88 352,-299.88 352,-254.88 197.5,-254.88"/>
+</g>
+<g id="s&#45;57" class="node">
+<title>n57</title>
+<polygon fill="#fff3dd" stroke="none" points="393.5,-266 393.5,-312.75 551.75,-312.75 551.75,-266 393.5,-266"/>
+<g id="a_s&#45;57_8"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/GuitartSurfaces.lean#L60-L66" xlink:title="Hypothesis 57. The rational central cocycle" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="437.38" y="-299.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#9b601e">HYPOTHESIS 57</text>
+<text xml:space="preserve" text-anchor="start" x="399.5" y="-287.35" font-family="Helvetica,sans-Serif" font-size="12.00">The rational central cocycle</text>
+</a>
+</g>
+<g id="a_s&#45;57_9"><a xlink:href="https://ems.press/content/serial-article-files/38384?nt=1#page=4" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="394.5,-267 394.5,-280.75 550.75,-280.75 550.75,-267 394.5,-267"/>
+<text xml:space="preserve" text-anchor="start" x="407" y="-270.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Guitart, Definition 2.1 and p. 594</text>
+</a>
+</g>
+<polygon fill="none" stroke="#9b601e" points="393.5,-266 393.5,-312.75 551.75,-312.75 551.75,-266 393.5,-266"/>
+</g>
+<g id="e&#45;56&#45;57" class="edge">
+<title>n56&#45;&gt;n57</title>
+<path fill="none" stroke="#899c9b" d="M351.76,-282.03C363.05,-282.72 374.75,-283.44 386.22,-284.14"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="386.09,-286.24 392.21,-284.51 386.35,-282.05 386.09,-286.24"/>
+</g>
+<g id="s&#45;60" class="node">
+<title>n60</title>
+<polygon fill="#fff3dd" stroke="none" points="392.75,-185.12 392.75,-253.62 552.5,-253.62 552.5,-185.12 392.75,-185.12"/>
+<g id="a_s&#45;60_10"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/GuitartSurfaces.lean#L73-L82" xlink:title="Hypothesis 60. Guitart&#39;s descent theorem in the chosen models" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="437.38" y="-240.07" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#9b601e">HYPOTHESIS 60</text>
+<text xml:space="preserve" text-anchor="start" x="398.75" y="-228.22" font-family="Helvetica,sans-Serif" font-size="12.00">Guitart&#39;s descent theorem in</text>
+<text xml:space="preserve" text-anchor="start" x="422.38" y="-216.22" font-family="Helvetica,sans-Serif" font-size="12.00">the chosen models</text>
+</a>
+</g>
+<g id="a_s&#45;60_11"><a xlink:href="https://ems.press/content/serial-article-files/38384?nt=1#page=7" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="393.75,-186.12 393.75,-209.62 551.5,-209.62 551.5,-186.12 393.75,-186.12"/>
+<text xml:space="preserve" text-anchor="start" x="414.5" y="-199.07" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Guitart, Proposition 2.10 and</text>
+<text xml:space="preserve" text-anchor="start" x="443.75" y="-189.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Corollary 2.12</text>
+</a>
+</g>
+<polygon fill="none" stroke="#9b601e" points="392.75,-185.12 392.75,-253.62 552.5,-253.62 552.5,-185.12 392.75,-185.12"/>
+</g>
+<g id="e&#45;56&#45;60" class="edge">
+<title>n56&#45;&gt;n60</title>
+<path fill="none" stroke="#899c9b" d="M351.48,-254.95C362.71,-251.62 374.36,-248.18 385.78,-244.79"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="386.25,-246.85 391.41,-243.13 385.06,-242.82 386.25,-246.85"/>
+</g>
+<g id="e&#45;57&#45;61" class="edge">
+<title>n57&#45;&gt;n61</title>
+<path fill="none" stroke="#899c9b" d="M551.74,-275.09C562.24,-273.17 573.03,-271.2 583.58,-269.27"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="583.83,-271.36 589.35,-268.21 583.07,-267.22 583.83,-271.36"/>
+</g>
+<g id="s&#45;58" class="node">
+<title>n58</title>
+<polygon fill="#eef2f3" stroke="none" points="0,-163.88 0,-208.88 156.75,-208.88 156.75,-163.88 0,-163.88"/>
+<g id="a_s&#45;58_12"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/GuitartFormula.lean#L18-L23" xlink:title="Definition 58. The descent formula on the fixing subgroup" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="46.88" y="-195.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#596970">DEFINITION 58</text>
+<text xml:space="preserve" text-anchor="start" x="6" y="-183.47" font-family="Helvetica,sans-Serif" font-size="12.00">The descent formula on the</text>
+<text xml:space="preserve" text-anchor="start" x="37.5" y="-171.47" font-family="Helvetica,sans-Serif" font-size="12.00">fixing subgroup</text>
+</a>
+</g>
+<polygon fill="none" stroke="#596970" points="0,-163.88 0,-208.88 156.75,-208.88 156.75,-163.88 0,-163.88"/>
+</g>
+<g id="s&#45;59" class="node">
+<title>n59</title>
+<polygon fill="#eef2f3" stroke="none" points="205.75,-134.88 205.75,-179.88 343.75,-179.88 343.75,-134.88 205.75,-134.88"/>
+<g id="a_s&#45;59_13"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/GuitartApplication.lean#L55-L74" xlink:title="Definition 59. Data accompanying the geometric isogeny" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="243.25" y="-166.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#596970">DEFINITION 59</text>
+<text xml:space="preserve" text-anchor="start" x="211.75" y="-154.47" font-family="Helvetica,sans-Serif" font-size="12.00">Data accompanying the</text>
+<text xml:space="preserve" text-anchor="start" x="226" y="-142.47" font-family="Helvetica,sans-Serif" font-size="12.00">geometric isogeny</text>
+</a>
+</g>
+<polygon fill="none" stroke="#596970" points="205.75,-134.88 205.75,-179.88 343.75,-179.88 343.75,-134.88 205.75,-134.88"/>
+</g>
+<g id="e&#45;58&#45;59" class="edge">
+<title>n58&#45;&gt;n59</title>
+<path fill="none" stroke="#899c9b" d="M156.48,-174.87C170.38,-172.8 184.85,-170.64 198.69,-168.57"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="198.74,-170.69 204.37,-167.73 198.12,-166.54 198.74,-170.69"/>
+</g>
+<g id="e&#45;58&#45;65" class="edge">
+<title>n58&#45;&gt;n65</title>
+<path fill="none" stroke="#899c9b" d="M156.48,-197.48C173.73,-199.97 191.86,-202.58 208.57,-204.99"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="207.9,-207.01 214.14,-205.79 208.5,-202.85 207.9,-207.01"/>
+</g>
+<g id="e&#45;59&#45;60" class="edge">
+<title>n59&#45;&gt;n60</title>
+<path fill="none" stroke="#899c9b" d="M343.71,-178.89C357.38,-183.21 371.92,-187.81 386.1,-192.3"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="385.23,-194.23 391.59,-194.04 386.5,-190.23 385.23,-194.23"/>
+</g>
+<g id="s&#45;66" class="node">
+<title>n66</title>
+<polygon fill="#edf5f2" stroke="none" points="402.5,-127.88 402.5,-172.88 542.75,-172.88 542.75,-127.88 402.5,-127.88"/>
+<g id="a_s&#45;66_14"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/GuitartApplication.lean#L84-L97" xlink:title="Proposition 66. The rational variety for a single split cocycle" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="435.5" y="-159.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 66</text>
+<text xml:space="preserve" text-anchor="start" x="408.5" y="-147.47" font-family="Helvetica,sans-Serif" font-size="12.00">The rational variety for a</text>
+<text xml:space="preserve" text-anchor="start" x="422.38" y="-135.47" font-family="Helvetica,sans-Serif" font-size="12.00">single split cocycle</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="402.5,-127.88 402.5,-172.88 542.75,-172.88 542.75,-127.88 402.5,-127.88"/>
+</g>
+<g id="e&#45;59&#45;66" class="edge">
+<title>n59&#45;&gt;n66</title>
+<path fill="none" stroke="#899c9b" d="M343.71,-154.95C360.43,-154.35 378.45,-153.7 395.53,-153.09"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="395.36,-155.2 401.28,-152.89 395.21,-151 395.36,-155.2"/>
+</g>
+<g id="e&#45;60&#45;61" class="edge">
+<title>n60&#45;&gt;n61</title>
+<path fill="none" stroke="#899c9b" d="M552.29,-233.76C562.6,-235.65 573.17,-237.58 583.52,-239.47"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="582.87,-241.49 589.15,-240.5 583.63,-237.36 582.87,-241.49"/>
+</g>
+<g id="s&#45;67" class="node">
+<title>n67</title>
+<polygon fill="#edf5f2" stroke="none" points="785.5,-169.88 785.5,-214.88 937,-214.88 937,-169.88 785.5,-169.88"/>
+<g id="a_s&#45;67_15"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/GuitartApplication.lean#L125-L143" xlink:title="Proposition 67. Uniform marked isogenies from the systems" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="824.12" y="-201.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">PROPOSITION 67</text>
+<text xml:space="preserve" text-anchor="start" x="791.5" y="-189.47" font-family="Helvetica,sans-Serif" font-size="12.00">Uniform marked isogenies</text>
+<text xml:space="preserve" text-anchor="start" x="816.62" y="-177.47" font-family="Helvetica,sans-Serif" font-size="12.00">from the systems</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="785.5,-169.88 785.5,-214.88 937,-214.88 937,-169.88 785.5,-169.88"/>
+</g>
+<g id="e&#45;61&#45;67" class="edge">
+<title>n61&#45;&gt;n67</title>
+<path fill="none" stroke="#899c9b" d="M737.04,-231.9C752.03,-227.1 767.94,-221.99 783.18,-217.1"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="783.61,-219.17 788.68,-215.34 782.33,-215.17 783.61,-219.17"/>
+</g>
+<g id="s&#45;69" class="node">
+<title>n69</title>
+<polygon fill="#d8eee7" stroke="none" points="980,-169.88 980,-214.88 1111.25,-214.88 1111.25,-169.88 980,-169.88"/>
+<g id="a_s&#45;69_16"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardConclusion.lean#L30-L50" xlink:title="Theorem 69. Uniform descent of the Picard Jacobians" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="1016.75" y="-201.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#1e6253">THEOREM 69</text>
+<text xml:space="preserve" text-anchor="start" x="986" y="-189.47" font-family="Helvetica,sans-Serif" font-size="12.00">Uniform descent of the</text>
+<text xml:space="preserve" text-anchor="start" x="999.5" y="-177.47" font-family="Helvetica,sans-Serif" font-size="12.00">Picard Jacobians</text>
+</a>
+</g>
+<polygon fill="none" stroke="#1e6253" points="980,-169.88 980,-214.88 1111.25,-214.88 1111.25,-169.88 980,-169.88"/>
+</g>
+<g id="e&#45;61&#45;69" class="edge">
+<title>n61&#45;&gt;n69</title>
+<path fill="none" stroke="#899c9b" d="M741.33,-245.49C823.07,-235.71 943,-221.38 943,-221.38 943,-221.38 956.32,-217.57 973.32,-212.72"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="973.62,-214.82 978.81,-211.16 972.46,-210.78 973.62,-214.82"/>
+</g>
+<g id="s&#45;62" class="node">
+<title>n62</title>
+<polygon fill="#fff3dd" stroke="none" points="397.62,0 397.62,-58.75 547.62,-58.75 547.62,0 397.62,0"/>
+<g id="a_s&#45;62_17"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/GuitartApplication.lean#L104-L107" xlink:title="Hypothesis 62. Tate&#39;s splitting theorem for discrete coefficients" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="437.38" y="-45.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#9b601e">HYPOTHESIS 62</text>
+<text xml:space="preserve" text-anchor="start" x="403.62" y="-33.35" font-family="Helvetica,sans-Serif" font-size="12.00">Tate&#39;s splitting theorem for</text>
+<text xml:space="preserve" text-anchor="start" x="420.12" y="-21.35" font-family="Helvetica,sans-Serif" font-size="12.00">discrete coefficients</text>
+</a>
+</g>
+<g id="a_s&#45;62_18"><a xlink:href="https://math.berkeley.edu/~ribet/Articles/korea.pdf#page=13" xlink:title="&lt;TABLE&gt;" target="_blank">
+<polygon fill="#fffdf8" stroke="none" points="398.62,-1 398.62,-14.75 546.62,-14.75 546.62,-1 398.62,-1"/>
+<text xml:space="preserve" text-anchor="start" x="419" y="-4.2" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#72551e">Tate in Ribet, Theorem 6.3</text>
+</a>
+</g>
+<polygon fill="none" stroke="#9b601e" points="397.62,0 397.62,-58.75 547.62,-58.75 547.62,0 397.62,0"/>
+</g>
+<g id="s&#45;64" class="node">
+<title>n64</title>
+<polygon fill="#d8eee7" stroke="none" points="589.5,-70.88 589.5,-115.88 742.5,-115.88 742.5,-70.88 589.5,-70.88"/>
+<g id="a_s&#45;64_19"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/UniformDescent.lean#L301-L318" xlink:title="Theorem 64. A splitting field independent of the surface" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="637.12" y="-102.33" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#1e6253">THEOREM 64</text>
+<text xml:space="preserve" text-anchor="start" x="627.38" y="-90.48" font-family="Helvetica,sans-Serif" font-size="12.00">A splitting field</text>
+<text xml:space="preserve" text-anchor="start" x="595.5" y="-78.48" font-family="Helvetica,sans-Serif" font-size="12.00">independent of the surface</text>
+</a>
+</g>
+<polygon fill="none" stroke="#1e6253" points="589.5,-70.88 589.5,-115.88 742.5,-115.88 742.5,-70.88 589.5,-70.88"/>
+</g>
+<g id="e&#45;62&#45;64" class="edge">
+<title>n62&#45;&gt;n64</title>
+<path fill="none" stroke="#899c9b" d="M547.62,-54.12C561.81,-58.86 576.67,-63.84 590.87,-68.58"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="589.98,-70.5 596.34,-70.41 591.32,-66.52 589.98,-70.5"/>
+</g>
+<g id="s&#45;63" class="node">
+<title>n63</title>
+<polygon fill="#edf5f2" stroke="none" points="396.88,-70.88 396.88,-115.88 548.38,-115.88 548.38,-70.88 396.88,-70.88"/>
+<g id="a_s&#45;63_20"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/picard/UniformDescent.lean#L185-L205" xlink:title="Lemma 63. Finitely many cohomology classes on a finite group" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="450.12" y="-102.33" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#538074">LEMMA 63</text>
+<text xml:space="preserve" text-anchor="start" x="402.88" y="-90.48" font-family="Helvetica,sans-Serif" font-size="12.00">Finitely many cohomology</text>
+<text xml:space="preserve" text-anchor="start" x="408.12" y="-78.48" font-family="Helvetica,sans-Serif" font-size="12.00">classes on a finite group</text>
+</a>
+</g>
+<polygon fill="none" stroke="#538074" points="396.88,-70.88 396.88,-115.88 548.38,-115.88 548.38,-70.88 396.88,-70.88"/>
+</g>
+<g id="e&#45;63&#45;64" class="edge">
+<title>n63&#45;&gt;n64</title>
+<path fill="none" stroke="#899c9b" d="M548.16,-93.38C559.36,-93.38 570.95,-93.38 582.3,-93.38"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="582.21,-95.48 588.21,-93.38 582.21,-91.28 582.21,-95.48"/>
+</g>
+<g id="e&#45;64&#45;67" class="edge">
+<title>n64&#45;&gt;n67</title>
+<path fill="none" stroke="#899c9b" d="M702.6,-115.84C735.55,-136.64 779.5,-164.38 779.5,-164.38 779.5,-164.38 783.04,-165.6 788.64,-167.54"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="787.67,-169.43 794.02,-169.41 789.04,-165.46 787.67,-169.43"/>
+</g>
+<g id="e&#45;65&#45;66" class="edge">
+<title>n65&#45;&gt;n66</title>
+<path fill="none" stroke="#899c9b" d="M333.99,-195.35C353.44,-188.99 375.41,-181.81 395.99,-175.09"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="396.42,-177.16 401.47,-173.3 395.12,-173.16 396.42,-177.16"/>
+</g>
+<g id="e&#45;66&#45;67" class="edge">
+<title>n66&#45;&gt;n67</title>
+<path fill="none" stroke="#899c9b" d="M542.75,-157.88C608.89,-165.07 708.68,-175.91 778.69,-183.51"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="778.1,-185.56 784.29,-184.12 778.55,-181.39 778.1,-185.56"/>
+</g>
+<g id="e&#45;67&#45;69" class="edge">
+<title>n67&#45;&gt;n69</title>
+<path fill="none" stroke="#899c9b" d="M936.96,-192.38C948.85,-192.38 961.13,-192.38 972.95,-192.38"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="972.73,-194.48 978.73,-192.38 972.73,-190.28 972.73,-194.48"/>
+</g>
+<g id="s&#45;68" class="node">
+<title>n68</title>
+<polygon fill="#eef2f3" stroke="none" points="779.5,-112.88 779.5,-157.88 943,-157.88 943,-112.88 779.5,-112.88"/>
+<g id="a_s&#45;68_21"><a xlink:href="https://github.com/nasqret/z-in-q-lean/blob/95357929cf16cedd3dd1960c11060cb923f5bdca/Lean/Lemmas/picard-application/PicardPolynomial.lean#L167-L174" xlink:title="Definition 68. The precise marked&#45;isogeny conclusion" target="_blank">
+<text xml:space="preserve" text-anchor="start" x="829.75" y="-144.32" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#596970">DEFINITION 68</text>
+<text xml:space="preserve" text-anchor="start" x="785.5" y="-132.47" font-family="Helvetica,sans-Serif" font-size="12.00">The precise marked&#45;isogeny</text>
+<text xml:space="preserve" text-anchor="start" x="832.38" y="-120.47" font-family="Helvetica,sans-Serif" font-size="12.00">conclusion</text>
+</a>
+</g>
+<polygon fill="none" stroke="#596970" points="779.5,-112.88 779.5,-157.88 943,-157.88 943,-112.88 779.5,-112.88"/>
+</g>
+<g id="e&#45;68&#45;69" class="edge">
+<title>n68&#45;&gt;n69</title>
+<path fill="none" stroke="#899c9b" d="M934.07,-157.82C946.94,-161.84 960.34,-166.03 973.2,-170.05"/>
+<polygon fill="#899c9b" stroke="#899c9b" points="972.48,-172.03 978.83,-171.81 973.73,-168.02 972.48,-172.03"/>
+</g>
+</g>
+</svg>
