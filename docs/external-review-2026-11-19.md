@@ -35,6 +35,29 @@ Four remarks:
 - **Where the proof is weakest.** According to the same note, the proof of Theorem 3.5(2) treats the (7,3) bracket separately, but it relies on Proposition 3.4, whose proof is a sketch with the same ambiguity. Proposition N avoids Proposition 3.4. The trust base for hypothesis 5 is therefore Tian–Yuan–Zhang's paper, most safely the results that Proposition N uses.
 - The kernel's docstring for `Literature.TYZRow5b` (`ZInQKernel/Hypotheses/CR3Literature.lean`) calls this criterion "not a literal published sentence". Tian's survey prints it, so that note is out of date.
 
+### Suggestion: a second bounded theorem through Proposition N
+
+The kernel at `2358394` already has every piece for a variant of `bounded_from_height_tian_gross_zagier` that avoids Proposition 3.4:
+
+- `PropN.TYZInputs` (`ZInQKernel/Hypotheses/TYZInputs.lean`);
+- `PropN.tyzRow5b_of_tyzInputs` (`ZInQKernel/RouteK/PropN.lean:1476`);
+- the headline `exists_bounded_integer_polynomial_defining_integers_of_sixContactMin_tyzInputs_functionalEquation5_grossZagier` (`ZInQKernel/MainLiterature.lean:67`);
+- the proof `ZInQ.Contrib.functionalEquation5` of its functional-equation premise (`ZInQKernel/Contrib/GaussFE/FunctionalEquation5.lean:107`).
+
+So a theorem with the three premises `SixContactMin`, `TYZInputs` and `SimpleZeroRank` should need only a few lines. This snippet has not been compiled; it also needs `import ZInQKernel.MainLiterature`:
+
+```lean
+theorem bounded_from_height_tyz_inputs (height : ZInQ.SixContactMin)
+    (inputs : ZInQ.PropN.TYZInputs) (rank : SimpleZeroRank) : ZInQ.FrozenTarget :=
+  ZInQ.exists_bounded_integer_polynomial_defining_integers_of_sixContactMin_tyzInputs_functionalEquation5_grossZagier
+    height inputs ZInQ.Contrib.functionalEquation5 rank
+```
+
+It would sit beside the Tian theorem rather than replace it, because the trade-off goes both ways:
+
+- **`PublishedTian47`** is one printed sentence. Its proof is Tian–Yuan–Zhang's, including the sketched Proposition 3.4.
+- **`TYZInputs`** is larger and more technical. It bundles results I1–I5 and I7 of Tian–Yuan–Zhang (arXiv v1) and two standard facts, over an existential module of genus-point data. Proposition N derives the (7,3) row from it in Lean, and the proof avoids Proposition 3.4. Its encoding has not been reviewed against the paper the way Tian's statement has here, though its docstrings give the line references needed to do so.
+
 ## Findings and suggestions, most important first
 
 1. **Hypothesis 100, von Känel's constant.**
