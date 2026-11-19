@@ -2,7 +2,7 @@
 
 This review was made at the request of Jack McCarthy (Deicyde/diophantine-z-q), with AI assistance (Claude Code). It reads the source at commit `de33a32` and the kernel dependency at `2358394`. Nothing was built, and no mathematician has checked these findings. Corrections are welcome.
 
-**Summary.** The qualitative theorem is a sound conditional result. Its target is stated correctly, the deduction uses exactly the twelve listed hypotheses, and none of them was found false or vacuous. Hypothesis 5 now has a confirmed printed source (below). The main open points are the constant in hypothesis 100, the Jacobian supplied by NYLL, and the absence of an automated build of the final theorem.
+**Summary.** The qualitative theorem is a sound conditional result. Its target is stated correctly, the deduction uses exactly the twelve listed hypotheses, and none of them was found false or vacuous. Hypothesis 5 matches a printed statement (below), but that statement adds no independent proof: its truth rests on Tian–Yuan–Zhang's paper. The main open points are the constant in hypothesis 100, the Jacobian supplied by NYLL, and the absence of an automated build of the final theorem.
 
 ## What was checked and holds
 
@@ -18,20 +18,21 @@ This review was made at the request of Jack McCarthy (Deicyde/diophantine-z-q), 
   - Tate's vanishing of H²(G_ℚ, Q̄^×) for 62.
   - Guitart's Proposition 2.10 with Corollary 2.12 for 60. The combination is legitimate: both concern the same variety.
 
-## Hypothesis 5: Tian's Theorem 4.7 is printed as stated
+## Hypothesis 5: Tian's Theorem 4.7 is printed as stated, without an independent proof
 
 Ye Tian, *Congruent number problem*, Notices of the ICCM 5 (2017), Theorem 4.7, page 58 (attributed to Tian–Yuan–Zhang). For n ≡ 5, 7 (mod 8), it says that 2^(−ρ(n))·𝓛(n) is odd if either of two genus sums is odd. The second sum runs over unordered factorizations n = d₀d₁⋯ with every factor greater than 1, d₀ ≡ 5, 7, d₁ ≡ 2, 3 and all other factors ≡ 1 (mod 8), weighted by ∏ g(dᵢ), where g(d) = #2Cl(ℚ(√−d)).
 
 `TianSecond`, `rowSum`, `factorizations`, `genusNumber` and `Tian47` (`bounded/PublishedGenusRows.lean`, `bounded/TYZFactorizations.lean`, `bounded/TYZIntegerCoefficient.lean`) match this word for word, restricted to n ≡ 5 (mod 8). `PublishedTian47` keeps only the consequence that the order of vanishing is at most 1, so it is weaker than the printed theorem.
 
-Three remarks:
+Four remarks:
 
-- Theorem 4.7 is stated without proof in a survey. Its proof is Tian–Yuan–Zhang's.
+- **The survey is not independent evidence.** Theorem 4.7 is attributed to Tian–Yuan–Zhang and stated without proof. It shows that this form of the statement is printed, by one of the authors, and that the authors intend it. Whether it is true still rests on Tian–Yuan–Zhang's proof.
 - It is not the statement of Tian–Yuan–Zhang's Theorem 1.2 (arXiv:1411.4728; Theorem 1.4 in Asian J. Math. 21 (2017)), whose literal reading is false.
   - The kernel's note `docs/research/nt-tyz.md` explains why. That theorem's second sum allows d₁ ≡ 1, 2, 3 (mod 8) with every factor greater than 1, and it is odd at n = 26565 and n = 33117, where the rank is 3.
   - The survey's second sum allows only d₁ ≡ 2, 3. For n ≡ 5 (mod 8) it is the (7,3) row alone, so "first sum odd or (7,3) sum odd" is logically equivalent to the reading the kernel calls reading A, the one it judges true.
   - We recomputed both n: the survey's two sums are even, so Theorem 4.7 asserts nothing there, while Theorem 1.2's literal second sum is odd. Class numbers were computed by counting reduced binary quadratic forms. g(d) is odd exactly when the 2-adic valuation of the class number equals the number of prime discriminant factors minus one.
   - The kernel also derives `TYZRow5b`, the (7,3) row with the order of vanishing at most 1, from results of Tian–Yuan–Zhang that it treats as unambiguous (`PropN.tyzRow5b_of_tyzInputs`, `ZInQKernel/RouteK/PropN.lean` on elliotglazer/diophantine-z-q main). Those results remain hypotheses there.
+- **Where the proof is weakest.** According to the same note, the proof of Theorem 3.5(2) treats the (7,3) bracket separately, but it relies on Proposition 3.4, whose proof is a sketch with the same ambiguity. Proposition N avoids Proposition 3.4. The trust base for hypothesis 5 is therefore Tian–Yuan–Zhang's paper, most safely the results that Proposition N uses.
 - The kernel's docstring for `Literature.TYZRow5b` (`ZInQKernel/Hypotheses/CR3Literature.lean`) calls this criterion "not a literal published sentence". Tian's survey prints it, so that note is out of date.
 
 ## Findings and suggestions, most important first
